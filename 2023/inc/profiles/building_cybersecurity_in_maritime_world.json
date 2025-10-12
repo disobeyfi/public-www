@@ -1,0 +1,21 @@
+{
+	"guid": "1e8ebe9a-d6a4-534d-a3d6-992fbf03d282",
+	"title": "Building cybersecurity in maritime world, a story of SVAN",
+	"subtitle": "",
+	"synopsis": "During 2016-2018 a project SVAN was built in Finland, to become fully autonomous passenger ship demonstrator. This is a story of the cybersecurity perspective of the project, how we ended up building cybersecurity in an autonomous vessel and all the related stories around it",
+
+	"speakers": [
+		{
+			"id": 52,
+			"code": "EPSFHM",
+			"name": "Karo Vallittu",
+			"position": "Team Manager, Elisa Cyber Security Center",
+
+			"bio": "Karo is a Security generalist with interests in all big things that move, usually looking things from safety and security perspective. He has worked in field of safety and security for almost twenty years, experience include working in Nixu, PricewaterhouseCoopers and Rolls-Royce Maritime. Current dayjob is leading a team of security specialists in Elisa Cyber Security Center and outside working hours he is involved in cyber security section of National Defence Training Association of Finland as one of the lead instructors for blue teams",
+
+            "some": "Twitter: <a href='https://twitter.com/kvallittu'>@kvallittu</a>",
+
+			"img": "vallittu"
+		}
+	]
+}

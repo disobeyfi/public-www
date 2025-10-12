@@ -1,0 +1,10 @@
+{
+	"title":"Privilege Escalation in Mechanical Master-Key Systems",
+
+	"synopsis":"The mechanical pin and tumbler locks we use on our homes, schools, and businesses have not changed much in over 100 years. Sure, there have been some exotic new designs but most are just not fiscally feasible compared to their relatively minor improvements (if any) in security.\n\nA feature desired on large scale deployments is called Master Keying, which allows for many unique key/lock combinations while supporting multiple permission levels commonly referred to as \"janitor keys\" or \"security keys\" that can open multiple locks. While these systems are still in use around the globe in medium-to-large scale businesses, schools, and government buildings, they are also susceptible to what some consider to be the original privilege escalation attack.\n\nWe will talk about an optimization attack against the most common master keyed lock systems in use today, reducing the potential attack surface from 1,000,000 permutations for an SC4 keyway system down to 42 steps to find the highest privilege key.\n\nArden is a retired United States Air Force Senior Cyber Warfare Operator. He now heads up his local chapter of The Open Organisation Of Lockpickers (TOOOL) and regularly contributes to his local City Security organization (SecDSM) on IT security topics while working towards his PhD in Computer Engineering at Iowa State University.",
+	"speakers":
+	[
+			{ "name" : "Arden Meyer", 			"img" : "arden_meyer" }
+	]
+
+}

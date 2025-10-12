@@ -1,0 +1,19 @@
+{
+	"title": "Bad day of digital forensics analyst",
+	"subtitle": "Running semi-automatic malware analysis, incident response and forensic workflows with devops tools",
+	"synopsis": "Why? Because we want to make the world a better place.\n\nWhat?\nThis hands-on workshop is about digital forensics tools and how to create repeatable semi-automatic analysis workflows with devops tools. In this workshop we will be:\n* Introducing set of open source tools which are useful and easy to use for analysis work\n* Thinking together how to find better and easier ways to do analysis\n* Hands on exercises how to create and automatize analysis pipelines\n* How to create robust and repeatable analysis pipelines\n\nFor Whom?\nPeople who are doing digital threat analysis at their work, incident response teams, people who are interested about the subject.\n\nRequired tools\nTo attend, bring a laptop running a Ubuntu 18.04 (VM or native).\n\nBackground\nThis workshop leverages work done in the CinCan project (cincan.io), which is about building shareable, repeatable & history preserving analysis pipelines using your favourite tools + CI + git + containers. (INEA/CEF funded project worked on by NCSC-FI, Jyväskylä University of Applied Sciences & University of Oulu)",
+	"speakers": [
+		{
+			"name": "Karoliina Kemppainen",
+			"position": "Software developer at Traficom",
+			"bio": "Karoliina is a software developer of approximately 8 years now. And not just any software, Karo was thrown in the deep end of the pool early on by having to co-develop a mad machine for handling millions of threat intelligence events for incident response. Karo is currently working at Traficom Finnish National Cyber Security Center and is very enthusiastic about her job.",
+			"img": "karoliina_kemppainen"
+		},
+		{
+			"name": "Kimmo Linnavuo, Erno Kuusela, Niklas Saari",
+			"position": "",
+			"bio": "",
+			"img": "default"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"guid": "13e930a2-ecdc-50c1-9a12-f496e1132f35",
+	"title": "Keynote, Friday 17th",
+	"subtitle": "",
+	"synopsis": "In October of 2020 Vastaamo, a chain of psychotherapy clinics with over 30.000 patients, disclosed that their database had been stolen. The database contained the therapist’s notes and personally identifying information for tens of thousands of Finnish citizens. The criminal, known as ransom_man, was trying to exert pressure on the company by taking their demands public. The series of events that unfolded would eventually cause Vastaamo to go bankrupt and see the CEO and founder of the company lose his fortune. This story is gathered from public sources and tells what happened from the beginning to today.",
+	"speakers": [
+		{
+			"id": 45,
+			"code": "BWHKSV",
+			"name": "Antti Kurittu",
+			"position": "Security Operations Manager, EU area, Aiven Oy",
+			"bio": "Antti is an experienced investigator and a team leader, whose work experience include working in Nixu Cyber Defence Center, the Finnish National Cyber Security Center (NCSC-FI) and the Helsinki Police Department. He has extended experience from working with cyber incident investigations in several different roles for the last decade - in law enforcement, private-sector DFIR services and as a part of the national CERT of Finland. \n\n Antti is one of the hosts of the award-winning Turvakäräjät podcast (currently on a break), and has spoken and written about cyber security issues and case investigations internationally for several years.",
+			"img": "antti_kurittu_disobey_2023"
+		}
+	]
+}

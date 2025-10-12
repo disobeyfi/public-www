@@ -1,0 +1,22 @@
+{
+	"guid": "98cbc992-03c9-5e06-8b5e-99e5dcc236c5",
+	"title": "Locked Sky Boats (simplified)",
+	"subtitle": "",
+	"synopsis": "Avoiding boring standards and regulations, at least I will try, this talk will provide insights on how an aircraft engineering programs usually would run nowadays. We will start with some legacy aspects that need to be considered, and that are still highly relevant. Mainly, it will provide insights from security engineering but also provide the insights on classic aerospace system engineering, including the safety aspects. We will  close the gap between engineering domains that is omnipresent within the industry. Challenges and opportunities within the development life-cycle of the aircraft will be presented and put into context. Eventually, everything will be linked to other stakeholders within the industry and how they should and can collaborate together. A roundhouse kick into aviation, pure insights.",
+
+	"speakers": [
+		{
+			"id": 15,
+			"code": "XBTBT8",
+			"name": "Ben Nagel",
+			"position": "",
+
+			"bio": " CyberBen has grown up with aviation in his blood, and at one point a random event added some information security to it. A mix of avionic systems and embedded security engineer was born. Over the years he traveled the world to help aviation stakeholders to evaluate and increase their cyber-resilience. Before most travels was forbidden he decided to take a peak into new technologies and joined a small aerospace company that is developing a next-generation aircraft. Recently. he settled in Tallinn and now runs a small one-man show on CyberSafety for the aerospace industry.",
+
+            "nick"  : "CyberBen",
+			"img": "nagel"
+		}
+	]
+}
+
+

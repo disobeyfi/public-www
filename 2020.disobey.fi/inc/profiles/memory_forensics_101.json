@@ -1,0 +1,25 @@
+{
+	"title": "Memory Forensics 101",
+	"subtitle": "",
+	"synopsis": "In this workshop we learn basics of memory forensics. We focus on Windows memory forensics but also cover some basics for Linux forensics. The syllabus involves (but is not limited to) Windows memory structure, what can be found from memory, what are the best practices for collecting memory dumps, how to analyze memory dumps with opensource tools. We have prepared multiple memory dumps for analyze and host a little competition at the end of the workshop. Let's make blue team great again!\n\nPre-requirements:\n* Laptop\n* Internet connectivity (f.e. sharing network from your mobile phone to your laptop)\n* Volatility and Regripper installed and tested to work. Easiest way to do this is to download SIFT Workstation VM and run it on VMWare / VirtualBox.\n* Linux command line experience is recommended but not mandatory\n\nResources:\n* (Recommended) SIFT Workstation: <a href=\"https://digital-forensics.sans.org/community/downloads\">https://digital-forensics.sans.org/community/downloads</a> (requires registration)\n* Volatility: <a href=\"https://github.com/volatilityfoundation/volatility\">https://github.com/volatilityfoundation/volatility</a>\n* Regripper: <a href=\"https://github.com/keydet89/RegRipper2.8\">https://github.com/keydet89/RegRipper2.8</a>\n* We will also have few USB sticks with SIFT Workstation OVA\n\nMaterial:\n* Download link will be released on Friday 14.2.\n* We will also have few USB sticks with the material\n\nWe will host a short CTF competition [with prizes] at the end of our workshop.\n\nMaterial: <a href=\"https://files.dfir.fi/mf101/\">https://files.dfir.fi/mf101/</a>",
+	"speakers": [
+		{
+			"name": "Juho 'whois' Jauhiainen",
+			"position": "Senior Security Consultant at Nixu",
+			"bio": "Juho started at Nixu in July 2019. Before Nixu, he has worked in various positions doing security operations, digital forensics and incident response since 2014. His current role involves digital forensics and incident response. In his freetime, Juho runs HelSec Ry and teaches forensics at National Defence Training Association of Finland. Juho is CISSP, GCFA, GMON, GREM and OSCP certified. Twitter: @JuhoJauhiainen",
+			"img": "whois"
+		},
+		{
+			"name": "Mika",
+			"position": "Security Consultant at Nixu",
+			"bio": "Mika has been working the past 3 years for Nixu. Before Nixu, he was working as a system administrator. His current role involves digital forensics, incident response and other technical assignments. Mika is OSCP, GCFA and GCIH certified.",
+			"img": "mika"
+		},
+		{
+			"name": "Timo Miettinen",
+			"position": "Senior Security Consultant at Nixu",
+			"bio": "Timo is working as a Senior DFIR consultant at Nixu. 10 years of experience in cyber domain, both public and private sectors. Certifications: GCIH, CHFI, CEH.",
+			"img": "default"
+		}
+	]
+}

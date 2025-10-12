@@ -1,0 +1,13 @@
+{
+	"title": "Fun With Logs",
+	"subtitle": "",
+	"synopsis": "This workshop gives participants hands-on experience of analysing large amounts of diverse and challenging log files to investigate an incident. Some of the logs are broken, some of them are pretty but still a pain to parse. Using the (free) desktop version of Spectx, we'll first look at parsing challenges such as multiple timestamp formats, missing fields, extra fields, volatile separators and maliciously weird data. Next, the task is to figure out if an incident has happened. If yes (doh), then how, why, when? What else can we learn about the attacker? And there's more. We suspect that one of our (imaginary) users might be involved in something fishy. To investigate, we'll zoom into the curious case of Mähönen across different application, system and network logs. Bring your laptop; we'll give you the data, the tool and the earworm (all you need is logs).",
+	"speakers": [
+		{
+			"name": "Liisa Tallinn",
+			"position": "SpectX",
+			"bio": "Liisa is daily playing with logs and parsing anything parsable to figure out what happened and if things work as the 3rd parties promised. Her background is from the government sector full of fond memories of the Estonian eID ecosystem, Anonymous, 'cyber' and 'war' used in the same sentence. As a side project, she is currently building up the pretend-media game for the Locked Shields.",
+			"img": "liisa"
+		}
+	]
+}

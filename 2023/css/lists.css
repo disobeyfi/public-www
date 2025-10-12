@@ -1,0 +1,59 @@
+ul{
+	list-style:none;
+}
+ul li{
+	text-align:left;
+}
+
+/*-------------------------
+ undecorated list
+ -----------------------*/
+ul.undecorated{
+	padding:0px;
+	margin:0px;
+}
+ul.undecorated li{
+ padding:0px;
+ margin:0px 0px 10px 0px;
+}
+
+/*-------------------------
+ sideline list
+ -----------------------*/
+ul.sideline{
+	padding:0px;
+	margin:30px 0px;
+	border-left: 4px solid #26c041;
+  padding-left: 25px;
+}
+ul.sideline li{
+ padding:0px;
+ margin:0px 0px 15px 0px;
+ font-size:19px;
+}
+/*-------------------------
+ Schedule table
+ -----------------------*/
+.schedule-list-container{
+	margin-top:10px;
+}
+.schedule-list-container h4{
+	font-size:40px;
+}
+.schedule-list-container ul{
+	max-width: 240px;
+  margin: 40px auto 0px auto;
+  transform: translateX(70px);
+}
+.schedule-list-container ul li{
+	position: relative;
+	font-size: 21px;
+	margin-bottom:15px;
+}
+.schedule-list-container ul li .time{
+	position: absolute;
+	top: 0px;
+	left: -70px;
+	z-index: 10;
+	color: #ff87fb;
+}

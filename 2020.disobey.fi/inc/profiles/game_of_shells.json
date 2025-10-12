@@ -1,0 +1,19 @@
+{
+	"title": "Game of #shells",
+	"subtitle": "",
+	"synopsis": "\"Game of #shells\" is a talk about battles between Red and Blue team. As stories always have more than one perspective, then for the first time ever on Disobey stage we will unveil some epic ****ups that either side had to confront throughout several months. Come on down, ask all the questions you haven't had the guts to ask from either side: Red or The bluez",
+	"speakers": [
+		{
+			"name": "Rasmus 'razu' Männa",
+			"position": "Transferwise",
+			"bio": "Dedicated Blue Teamer. I deal with Blue Teaming stuff and clean up after Red Teamers.",
+			"img": "rasmus"
+		},
+		{
+			"name": "Taavi Sonets - \"The expert.\"",
+			"position": "Clarified Security",
+			"bio": "Red Teamer, pentester, trainer. My work involves getting into places where I am not supposed to be and then sharing the tales. For everything else, there is Linkedin.",
+			"img": "taavi"
+		}
+	]
+}

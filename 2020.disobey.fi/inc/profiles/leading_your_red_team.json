@@ -1,0 +1,19 @@
+{
+	"title": "Leading your remediative Red Team",
+	"subtitle": "",
+	"synopsis": "This workshop is an introduction to the red teaming process and leading of a red team engagement according to our research which can be downloaded from <a href=\"https://jyx.jyu.fi/handle/123456789/65230\">here</a>. We created a comprehensive model for leading a red team engagement which emphasizes the collaboration between pentesters, developers and the client, capitalizing on communication and agile working methods.\n\nThe workshop covers the full scope of a red team engagement. Focus will be on planning the engagement and remediations:\n- Plan – Are we doing the right things?\n- Engage – Are we doing the things right?\n- Provide – What should we do next?\n\nThe workshop consists of lecture and short exercises in intelligence, targeting and planning of a red teaming engagement. No computers will be used, just pen, paper and a creative mind.",
+	"speakers": [
+		{
+			"name": "Jussi 'TuoJussi' Tuovinen",
+			"position": "Principal research scientist",
+			"bio": "Jussi is a MSc in cybersecurity and a PhD student in University of Jyväskylä specializing in offensive security. He is also below the average hacker but a decent chef.",
+			"img": "tuovinen"
+		},
+		{
+			"name": "Kimmo Frilander",
+			"position": "Planning officer",
+			"bio": "Kimmo is a MSc in cybersecurity and interested in combining the realms of physical and digital security. He can also fix cars and stuff.",
+			"img": "frilander"
+		}
+	]
+}

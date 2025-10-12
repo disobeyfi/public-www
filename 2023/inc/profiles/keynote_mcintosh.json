@@ -1,0 +1,21 @@
+{
+	"guid": "4cf9db2b-8579-5ae9-b2ce-5ef4350f193e",
+	"title": "Keynote, Saturday 18th",
+	"subtitle": "",
+	"synopsis": "Hackers, Humans, ChatAPI's and Quantum. Hacks of the future and the role of Humans and Hackers. Looking at the use of AI in hacks, how hackers will leverage ChatGPT and other similar tools to hack systems, humans and how Quantum computing will power these new threats.",
+	"speakers": [
+		{
+			"id": 118,
+			"code": "D3NU8Q",
+			"name": "Connie McIntosh",
+
+			"position": "Head of Security, Market Area - Ericsson",
+
+			"bio": "Named top 100 Women in Cybersecurity by US Cyber Defense Magazine. Connie is an International speaker, presenter, conference host and moderator, CTF judge and mentor in cybersecurity. She is Head of Security for 40 Countries in Ericsson, responsible for Cyber Security, Information Security, Operational Security, Product Security and Privacy. \n\n She has over 20 years experience in Network and Cyber Security previously working for the Australian Government's CERT, Department of Defence in Government classified networks, managing Cyber Operations and writing a Masters Cyber Program at the University of Sunshine Coast. Connie is passionate about cybersecurity, holds Masters and Bachelors Degrees and a long list of specialist training in Cybersecurity. Connie's motto is “alone, we can do so little; together, we can do so much”.",
+
+			"some" : "LinkedIn: <a href='https://www.linkedin.com/in/cyberconnie'>cyberconnie</a>",
+
+			"img": "connie_mcintosh_disobey_2023"
+		}
+	]
+}

@@ -1,0 +1,216 @@
+/*-------------------------
+ IDENT
+ -----------------------*/
+ .dimmer{
+	 position: absolute;
+	 z-index: 10;
+	 top: 0%;
+	 left: 0%;
+	 width:100%;
+	 height:100%;
+	 background-color:black;
+ }
+
+.puzzle-link{
+	position: absolute;
+	z-index: 10;
+	top: 10px;
+	right: 10px;
+}
+ .header-row{
+	 /*background-image:url( ../img/header_background.jpg );*/
+	 background-size:cover;
+	 background-position: center top;
+	 height: 100vh;
+	 position: relative;
+	 padding-bottom: 8vw;
+ }
+
+body.subpage .header-row{ height: 40vh; }
+
+ @media only screen and (max-width: 1023px) {
+	  .header-row{
+			height: 100vh;
+		}
+		.header-content{
+				width:90%;
+				position: absolute;
+			  top: 50%;
+		}
+}
+
+@media only screen and (max-width: 640px) {
+	body.subpage .header-row{
+		 height: 75vh;
+	}
+
+	body.subpage.profile .header-row{
+		height: 52vh;
+   }
+}
+
+
+.header-content{
+		width:85%;
+		position: absolute;
+	  top: 45%;
+	  left: 50%;
+	  transform: translate( -50%, -50% );
+	  margin: 0px;
+}
+body.subpage .header-content{
+	 top: 51%;
+}
+
+
+.ident{
+	width: 58vw;
+	display: block;
+	margin: 0 auto 0 auto;
+}
+body.subpage .ident{
+	width: 40vw;
+}
+
+
+
+
+
+.logo{
+	width:100%;
+	height:auto;
+}
+
+
+
+
+@media only screen and (orientation: landscape) {
+	.logo{
+		height: auto;
+  	max-height: 25vh;
+		width:auto;
+	}
+}
+
+#animation_container, #canvas, #dom_overlay_container{
+	width:58vw;
+	width:58vw !important;
+	height:17.4vw !important;
+	position: relative;
+
+}
+
+@media only screen and (max-width: 1024px) {
+	#animation_container, #canvas{
+		width:78vw !important;
+		height:23.4vw !important; /* 0.3*/
+	}
+	.ident{
+		width: 78vw !important;
+	}
+	body.subpage .ident{
+		width: 65vw;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.ident{
+		width: 90vw;
+	}
+	body.subpage .ident{
+		width: 85vw !important;
+	}
+	#animation_container{
+		display:none;
+	}
+}
+
+/*----------------------------------
+ LOGO ( mobile front vs. subpage)
+ -----------------------------------*/
+#logo-subpage-mobile, #logo-mobile{
+		display:none;
+}
+
+@media only screen and (max-width: 640px) {
+
+	body.subpage #logo-subpage-mobile{
+			display:block;
+			width: 90%; 
+    		height: auto;
+    		margin: 0px auto 0px auto;
+	}
+
+	#logo-mobile{
+			display:block;
+			position: absolute;
+			top: 50%;
+			left:50%;
+			transform: translate( -50%, -50% );
+	}
+	body.subpage #logo-mobile{
+			display:none;
+	}
+}
+
+.ident h1{
+	letter-spacing: 2px;
+	margin-top: 50px;
+	font-size: 30px;
+}
+
+@media only screen and (max-width: 1023px) {
+	.ident h1{
+		margin-top: 4vw;
+		font-size: 4vw;
+	}
+}
+/*-------------------------
+ DAte and time
+ -----------------------*/
+.datetime{
+	 	margin-top:0px;
+}
+body.subpage .datetime{
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+body.subpage .header-row .datetime{
+		display:none;
+}
+
+
+.datetime h3{
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	font-weight: 700;
+	color:white;
+}
+.datetime svg{
+	font-size: 24px;
+	margin-right: 10px;
+	color:#c2f2ff;
+}
+@media only screen and (max-width: 1023px) {
+	.datetime h3{
+		font-size: 28px;
+	}
+	/*.datetime h3:first-of-type{
+		margin-bottom: 30px;
+	}*/
+}
+@media only screen and (max-width: 640px) {
+
+	.datetime{
+		margin-top: 40px;
+	}
+	.datetime h3{
+		font-size: 17px;
+		margin-bottom: 15px;
+	}
+	.datetime svg{
+		font-size: 20px;
+		margin-right: 5px;
+		display:none;
+	}
+}

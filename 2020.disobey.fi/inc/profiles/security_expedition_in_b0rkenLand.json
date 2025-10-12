@@ -1,0 +1,13 @@
+{
+	"title": "Security Expedition in b0rkenLand",
+	"subtitle": "IT is still burning hard",
+	"synopsis": "A short travel from broken metal chunks to \"undocumented user accounts\" and other IT Security disasters. There will be a recap of IT Security problems from well known and also lesser known products presented. IT resp. computer security is an interesting area. Not only for criminals but also for scientists, programmers and users. We all should know that 100% security does not exist. Therefore I would like to underpin this statement with this lecture. 2018 & 2019 were a blast in case of security disasters. B0rken processors, authentication bypasses all around, behind every corner a Remote Code Execution waiting for you and sometimes even some 0days jumps out of nowhere. Surprisingly 2020 offering already after a single month content for multiple talks. I want to review together with the audience the best security disasters from 2019 and 2020. Maybe we can reveal some trends that are happening in the disaster industry. Besides having an entertaining lecture I want also reflect on consequences of such security failures and what we can hopefully learn about it. If the demo gods are not on holiday, I will present a live demo. You will probably see your software and hardware differently after this lecture.",
+	"speakers": [
+		{
+			"name": "Petar 'Hetti' Kosic",
+			"position": "",
+			"bio": "Technical Computer Science student from Vienna with a passion for IT Security and geeky stuff. He is one of the board members of the finest Viennese Hackspace <a href=\"https://metalab.at/\">Metalab</a>. In his free time he enjoys traveling to community based IT Security Conferences. The <a href=\"https://cryptoparty.at/\">Viennese Cryptoparty</a> is organized by him, where he also holds lectures and workshops about a broad range of IT Security & Privacy topics. You can also find him at the  <a href=\"https://c3w.at/\">Chaos Computer Club Vienna (C3W)</a>. On some weekends he is hunting flags with the successful academic CTF Team <a href=\"https://w0y.at/\">We_0wn_Y0u</a>.",
+			"img": "hetti"
+		}
+	]
+}

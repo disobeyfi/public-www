@@ -1,0 +1,11 @@
+{
+	"title":"Let's pwn a Chinese web browser!",
+
+	"synopsis":"Web browsers are technologically some of the most interesting pieces of software out there. Because of their complexity and the inherent problem of acting as a platform for untrusted scripting, web browsers are also a security nightmare. Unfortunately for the hackers, all the big names in web browsing are backed by huge orgs, massively popular bug bounty programs, and yearly competitions like Pwn2Own, which make it sure there are no low-hanging fruit to get started with.\n\nLuckily Chrome, Firefox, and Edge aren't the only browsers out there. Have you ever heard of UC Browser of Maxthon? What about 360 Security Browser, QQ Browser, or Sogou? Did you know Baidu makes their own web browser? Google any of them, and the top hits are news of privacy and security issues—yet Maxthon, for example, claims to be \"670,000,000 Users’\nDefault Browser\". Perfect!\n\nIn this hands-on workshop you'll dive head-first into a pool of Sogou and see if you can swim in it. You might find a steaming pile of RCEs go home empty-handed, but you'll definitely learn a whole lot about browser security and get to see software you probably didn't know even existed.",
+
+	"speakers":
+	[
+			{ "name" : "Juho Nurminen", "img" : "juho_nurminen" }
+	]
+
+}

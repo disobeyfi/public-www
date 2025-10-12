@@ -1,0 +1,23 @@
+{
+	"guid": "cf920e1b-1e29-5287-a92e-fac00e19dbe7",
+	"title": "Hacking a magnetic lock: successes and failures",
+	"subtitle": "",
+	"synopsis": "When a hacker gets hold of magnetic locks, how does he go about learning about it and how does he defeat it? Successes but also failures will be shared. Expect lockpicking, impressioning, arduino programming, soldering, CAD modelling, 3D printing and metal working.",
+
+	"speakers": [
+		{
+			"id": 66,
+			"code": "FUHEWA",
+			"name": "Walter Belgers",
+			"position": "",
+
+            "nick" : "gigawalt",
+
+			"bio": "Walter Belgers is a hacker, having worked in IT security for all his life, the majority as a penetration tester and currently as a security officer at Philips. He has written a book on competitive lockpicking and in his spare time he likes to learn by hacking things. He also likes to drift in a car and he collects old computers.",
+
+            "some": "LinkedIn: <a href='https://linkedin.com/in/walter'>walter</a>",
+
+			"img": "belgers"
+		}
+	]
+}

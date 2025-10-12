@@ -1,0 +1,19 @@
+{
+	"title": "Let’s get physical",
+	"subtitle": "",
+	"synopsis": "Offensive security professionals need to increase the sophistication of their tactics, techniques and procedures (TTPs) in order to accomplish their goals due to the improvements in security culture and the sophistication of security products. Timo and Robert have been on a quest to find a way around modern EDR with regard to credential theft.\n\nAs part of this presentation, the team will:\n* Discuss the evolution of credential theft and the reasons why alternative approaches are required\n* Introduce and opensource ‘physmem2profit’, a tool that can be used to retrieve credentials and secrets without alerting the blue team\n* Recommend approaches that can be used to detect and mitigate this technique",
+	"speakers": [
+		{
+			"name": "Timo Hirvonen",
+			"position": "Senior Security Consultant, F-Secure Consulting",
+			"bio": "Timo has been with F-Secure since 2010. Whilst working in F-Secure’s Tactical Defense Unit (TDU), Timo specialized in exploit analysis and studied the latest tricks used by advanced threat actors. Timo joined F-Secure Consulting in 2016, and now enjoys protecting enterprises with his offensive security research and through the delivery of Red Team engagements. Timo's previous research includes cold boot (Disobey 2018) and Ghost in the Locks (INFILTRATE 2018, HITB 2018, 44con 20178). He has also presented in multiple other conferences, including Black Hat USA 2014.",
+			"img": "hirvonen"
+		},
+		{
+			"name": "Robert Bearsby",
+			"position": "Senior Security Consultant, F-Secure Consulting",
+			"bio": "Robert began his infosec career at MWR InfoSecurity in London. Following F-Secure’s acquisition of MWR in July 2018, Robert moved to Helsinki to work as part of the consulting team in the Nordics. Robert is mainly focused on understanding the Tactics, Techniques and Procedures (TTPs) used by advanced threat actors and predominantly works on attack simulations as part of F-Secure’s Red Team.",
+			"img": "bearsby"
+		}
+	]
+}

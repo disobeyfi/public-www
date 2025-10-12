@@ -1,0 +1,30 @@
+{
+	"guid": "acdaf809-d4ef-5550-b8e7-fc94c77183c4",
+	"title": "Turn and Face the Strange: Ch-Ch-Changes in Ransomware Techniques",
+	"subtitle": "",
+	"synopsis": "Ransomware actors continue to evolve their tools and TTPs; innovation by cybercriminals in response to global and local events is nothing new. However, recently we have observed several interesting innovations - some very successful for the threat actors, some not so much. We will present case studies, including technical deep-dives on a few of these, including: ALPHV’s Morph AV-evasion tool, usage of an access token to prevent chat hijacking, ARM locker and blog of indexed victim files, LockBit’s adoption of the BlackMatter code, PLAY ransomware’s evolution to use ROP, and multiple actors’ implementations of intermittent file encryption. We will also discuss what made some of these new TTPs effective for the threat actors’ business, and what made them less successful, both at the technical and human intelligence levels. During the talk, we will highlight particular areas that created the most trouble for threat actors, and often made them easier to track.  Finally, we will discuss how defenders can adapt to these changing TTPs, and how we expect the ransomware landscape to continue to evolve in the future.",
+	"speakers": [
+		{
+			"id": 19,
+			"code": "CRQR3W",
+			"name": "Lindsay Kaye",
+			"position": "Senior Director of Advanced Reversing, Malware, Operations and Reconnaissance (ARMOR) at Recorded Future",
+			"bio": "Lindsay Kaye is Senior Director of Advanced Reversing, Malware, Operations and Reconnaissance (ARMOR) at Recorded Future. Her primary focus is the creation of actionable intelligence - providing endpoint, and network detections that can be used to detect threats. Lindsay’s passion is malware analysis and reverse engineering. She received a BS in Engineering with a Concentration in Computing from Olin College of Engineering and an MBA from Babson College.",
+
+			"some": "Twitter: <a href='https://twitter.com/TheQueenofELF'>@TheQueenofELF</a>",
+
+			"img": "kaye"
+		},
+        {
+			"id": 25,
+			"code": "PB7MTQ",
+			"name": "James Niven",
+			"position": "Principal Threat Researcher at Recorded Future",
+			"bio": "James Niven is a Principal Threat Researcher at Recorded Future. Previously, James was a Red Teamer and now uses his knowledge to develop defensive approaches to detecting malicious behavior employed by threat actors.",
+
+			"some": "Twitter: <a href='https://twitter.com/stuffedinlocker'>@stuffedinlocker</a>",
+
+			"img": "niven"
+		}
+	]
+}

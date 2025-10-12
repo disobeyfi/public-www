@@ -1,0 +1,13 @@
+{
+	"title": "Shooting ourselves in the foot with 15Gbps traffic - a DDoS primer",
+	"subtitle": "",
+	"synopsis": "Do you know what happens when your systems are hit with traffic exceeding the available bandwidth? I know. Now. In this presentation I'm telling a story how we were able to organize a (legal) DDoS exercise against ourselves and what we learned from it. Asymmetric or application level DoS attacks respecting the organization's bandwith are easy, anyone can do it. We took the hard way - attacking the real, live, production environment with no training wheels or safety net.",
+	"speakers": [
+		{
+			"name": "Markus Forsström",
+			"position": "Security Fellow at LähiTapiola",
+			"bio": "Despite nearly 20 years in an insurance company, Markus has yet to sell an actual insurance policy. Scener and community builder, with half a decade as a head judge for LähiTapiola Hackday under the belt. Mr Forsström has used all the ancient programming languages that only Mr Esa Etelävuori knows how to exploit. Proud of the fact that at a certain time, he was faster around the Island of Mallorca than Ivan Basso. In his day job, Markus runs the 2nd most competitive BugBounty program according to <a href=\"https://www.zdnet.com/article/a-look-at-the-top-hackerone-bug-bounties-of-2016/\">Hackerone in 2016.</a>",
+			"img": "forstrom"
+		}
+	]
+}

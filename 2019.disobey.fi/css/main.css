@@ -1,0 +1,354 @@
+body{
+	font-family: "proxima-nova";
+	background-color: black;
+	color:white;
+	padding: 0px 0px 250px 0px;
+	background-image:url( ../img/header_background.jpg );
+	background-position: center top;
+	 background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+body:after{
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      background: url(../img/header_background.jpg) center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family		: "proxima-nova","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+		font-weight: 800;
+		text-transform:uppercase;
+		color:white;
+}
+h1{
+	margin-bottom:45px;
+	color:#ac2aa3;
+	font-size: 45px;
+}
+h4{
+	font-size:30px;
+}
+h4, h5{
+	letter-spacing: 0.7px;
+}
+p{
+	font-size: 17px;
+	letter-spacing: 0.5px;
+}
+
+a, a:active,a:visited{
+		color:#ac2aa3;
+		border-bottom: 1px solid transparent;
+		font-weight: 700;
+}
+a:hover{
+		color:#e390dd;
+		border-bottom: 1px solid #e390dd;
+}
+#contact a:hover{
+		border-bottom: 0px solid #e390dd;
+}
+
+a.get-ticket{
+	color:white;
+}
+
+/*-------------------------
+ Loader
+ -----------------------*/
+
+ .loader{
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 transform: translate( -50%, -50% );
+	 width:160px;
+	 height:160px;
+	 display: block;
+ }
+
+ body.hide-background,body.hide-background:after {
+	  background-size:0,0;
+ }
+/*-------------------------
+ IDENT
+ -----------------------*/
+ .dimmer{
+	 position: absolute;
+	 z-index: 10;
+	 top: 0%;
+	 left: 0%;
+	 width:100%;
+	 height:100%;
+	 background-color:black;
+ }
+
+.puzzle-link{
+	position: absolute;
+	z-index: 10;
+	top: 10px;
+	right: 10px;
+}
+ .header-row{
+	 /*background-image:url( ../img/header_background.jpg );*/
+	 background-size:cover;
+	 background-position: center top;
+	 height: 75vh;
+	 position: relative;
+	 	padding-bottom: 8vw;
+ }
+
+ @media only screen and (max-width: 1023px) {
+	  .header-row{
+			height: 100vh;
+		}
+		.header-content{
+				width:90%;
+				position: absolute;
+			  top: 50%;
+		}
+}
+
+.header-content{
+		width:90%;
+		position: absolute;
+	  top: 48%;
+	  left: 50%;
+	  transform: translate( -50%, -50% );
+	  margin: 0px;
+}
+
+.ident{
+	width: 60vw;
+	display: block;
+	margin: 0 auto 0 auto;
+}
+@media only screen and (max-width: 641px) {
+	.ident{
+		width: 90vw;
+	}
+}
+.logo{
+	width:100%;
+	height:auto;
+
+}
+.ident h1{
+	letter-spacing: 2px;
+	margin-top: 50px;
+	font-size: 30px;
+}
+
+@media only screen and (max-width: 1023px) {
+	.ident h1{
+		margin-top: 4vw;
+		font-size: 4vw;
+	}
+}
+/*-------------------------
+ DAte and time
+ -----------------------*/
+.datetime{
+	 	margin-top:60px;
+}
+.datetime h3{
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	font-weight: 700;
+	color:white;
+}
+.datetime svg{
+	font-size: 24px;
+	margin-right: 10px;
+	color:#c2f2ff;
+}
+@media only screen and (max-width: 1023px) {
+	.datetime h3{
+		font-size: 28px;
+	}
+	/*.datetime h3:first-of-type{
+		margin-bottom: 30px;
+	}*/
+}
+@media only screen and (max-width: 640px) {
+	.datetime h3{
+		font-size: 17px;
+		margin-bottom: 20px;
+	}
+	.datetime svg{
+		font-size: 20px;
+		margin-right: 5px;
+		display:none;
+	}
+}
+
+
+section.grid-container{
+	margin-top:70px;
+}
+.full-row{
+  padding-bottom: 80px;
+  background-size: cover;
+	background-color: rgba(0,0,0,0.80);
+}
+
+@media only screen and (max-width: 640px) {
+	.full-row, .full-row.info{
+		padding-top: 10px !important;
+		padding-bottom: 130px;
+		padding-right: 15px;
+		padding-left: 15px;
+		background-color: rgba(0,0,0,0.50);
+	}
+	.full-row.top-bar{
+		padding-top:0px !important;
+	}
+}
+.full-row.top-bar{
+	background-color:black;
+	padding-top:0px !important;
+	padding-bottom: 0px;
+}
+.full-row.transparent-bg{
+	background-color: rgba(0,0,0,0);
+}
+.full-row.info{
+	padding-top:40px;
+	padding-bottom:130px;
+}
+
+.full-row.divider{
+	padding:0px;
+	margin:0px;
+	height:20px;
+}
+
+/*-------------------------
+ cta
+ -----------------------*/
+ .container .cell.cta{
+   margin-bottom: 0px;
+	 margin-top: 6vh;
+ }
+.cta svg{
+	margin-left:10px;
+}
+
+/*-------------------------
+ Program items
+ -----------------------*/
+@media only screen and (max-width: 640px) {
+	 .event-items .cell{
+		 margin-top:20px;
+	 }
+}
+/*-------------------------
+ Illustrations
+ -----------------------*/
+.illustrations{
+	margin-top: 20px;
+}
+.illustration{
+	 width:70%;
+	 /*height:200px;*/
+	 display: block;
+	 margin: 0px auto 0px auto;
+	 border-radius: 50%;
+	 overflow: hidden;
+	 background-position: center center;
+	 background-size: cover;
+	 box-shadow: 0px 0px 100px rgba(97, 219, 255, 0.10);
+ }
+
+@media only screen and (max-width: 640px) {
+	.illustrations{
+		margin-top:0px;
+	}
+	.illustration{
+		margin-top:55px;
+	}
+ }
+/*-------------------------
+ some
+ -----------------------*/
+ .cell .some{
+	 margin-top:10px;
+ }
+.some svg{
+		color: white;
+		font-size: 40px;
+		margin:0px 40px 20px 40px ;
+}
+
+.contact-email{
+		margin-top:50px;
+}
+
+
+.button{
+	background-color: #ac2aa3;
+    padding: 20px 70px 20px 90px;
+    font-size: 27px;
+    font-weight: 800;
+    cursor: pointer;
+    color: white;
+    border-radius: 2px;
+}
+
+
+.button:hover{
+		background-color:#d035c5;
+		transition: none;
+}
+.button svg{
+		font-size:24px;
+		margin-left:10px;
+		transform: translateY( 2px);
+}
+
+.get-ticket{
+	position: absolute;
+	z-index: 100;
+	bottom: 0px;
+	left: 50%;
+	transform: translate( -50%, 50% );
+	margin:0px;
+}
+
+
+@media only screen and (max-width: 640px) {
+	.button{
+		padding: 20px 20px 20px 20px;
+		 font-size: 24px;
+		 width:80%;
+	}
+
+	.get-ticket{
+		position: absolute;
+		bottom: 50px;
+		bottom: 14vh;
+		left: 50%;
+		transform: translate( -50%, 50% );
+		margin:0px;
+	}
+
+}
+
+.hidden{
+	visibility:hidden;
+}
+
+strong{
+	text-transform: uppercase;
+}

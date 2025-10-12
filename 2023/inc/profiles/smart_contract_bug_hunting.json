@@ -1,0 +1,23 @@
+{
+	"guid": "122d16a9-c056-582f-931d-ab20f9dee324",
+	"title": "Smart Contract Bug Hunting 101 - Ethereum Edition",
+	"subtitle": "",
+	"synopsis": "Smart contracts are programs that run on blockchain platforms and are at the core of many Web3 applications. However, like any other code, smart contracts can have vulnerabilities that can introduce technical challenges and risks. \n\n In this workshop, we will cover the basics of smart contracts and the participants will learn how to identify and exploit common vulnerabilities in solidity smart contracts through hands-on exercises. \n\n This workshop is suitable for those who are already in information security and looking to transition to smart contract/blockchain security, or those who want to add this skillset to their existing toolkit.\n\nPre-requisites:<ul><li>A laptop with decent RAM and a virtualization software (Virtualbox/VMware)</li><li>Pre-installed Ziion OS (https://www.ziion.org/download)</li><li>Basic understanding of any programming language</li><li>Basic understanding of using Blockchain Wallets</li>",
+	"track": "Workshop",
+	"type": "Workshop - 2 hours",
+
+	"speakers": [
+		{
+			"id": 75,
+			"code": "WRM3UQ",
+			"name": "Samandeep Singh",
+			"position": "",
+            "nick" : "SaMaN",
+			"bio": "Samandeep Singh is an Information Security professional with 9+ years of experience working in various security roles. His areas of interests include application security and low-level security research (fuzzing, RE etc.). He started with Smart Contract security in 2021 and since then he has spent a lot of his time exploring various bug classes in solidity smart contracts as well as hunting for these bugs. In addition to the technical research, he spends time developing content for security learning. He has delivered workshops in conferences like Standcon 2022 (x86_64Reverse Engineering) and DevSecCon Singapore 2019(BurpSuite Plugin development) . He is also one of the co-organizers for BSides Singapore.",
+
+            "some": "Twitter: <a href='https://twitter.com/samanL33T'>@samanL33T</a>",
+
+			"img": "saman"
+		}
+	]
+}

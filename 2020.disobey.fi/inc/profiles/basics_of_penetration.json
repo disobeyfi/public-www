@@ -1,0 +1,13 @@
+{
+	"title": "Basics of penetration",
+	"subtitle": "",
+	"synopsis": "The workshop is a short introduction to the very basics of penetration. It covers the anatomy of an attack:\n* Basic lifecycle (reconnaissance / enumeration, planning the attack, selecting or preparing tools, execution, persistence, post exploitation)\n* Terms and concepts (what vulnerabilities are and their categories, enumeration methods and tools, exploits and tools).\n\nThe workshop consists of a short lecture, followed by lab exercises led and assisted by the instructor. Lab materials include a virtual Kali Linux used as an attack machine, and a target VM prepared by the instructor, containing multiple vulnerable services. The lab exercises revolve around practicing enumeration, use of enumeration and attack tools, and post exploitation with an easy target. This will be a shorter version of the \"Introduction to pwning\" workshop i've done in Turkusec, Helsec, TreSec, and internally at my work.",
+	"speakers": [
+		{
+			"name": "Osku",
+			"position": "Chief Security Engineer at Sanoma",
+			"bio": "At work, Osku creates software and helps keeping everything secure. Outside of work, he hacks all the things and sits by a fire in the woods.",
+			"img": "osku"
+		}
+	]
+}

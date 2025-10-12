@@ -1,0 +1,21 @@
+{
+	"guid": "3afc945b-2b2a-52a9-9eb7-22879b09d7ea",
+	"title": "Harvest attackers won't wait for post-quantum standards - neither should you",
+	"subtitle": "",
+	"synopsis": "Cryptographically relevant quantum computers do not exist yet as far as we know, but your secrets do. Final NIST PQC algorithms are expected in 2024. How to protect long-term secrets from harvesting attacks while standardization is in progress in NIST and IETF. Learn how the quantum-threat can be tackled using quantum-safe Secure Shell or IPsec tunnel to embrace the quantum-safe world ahead of the curve.",
+
+	"speakers": [
+		{
+			"id": 76,
+			"code": "RL8ZWF",
+			"name": "Suvi Lampila",
+			"position": "SSH Fellow, SSH Communications Security Corp",
+
+			"bio": "Suvi has 20+ years of experience with cryptographic solutions in various positions at SSH Communications Security, ranging from technical support and quality assurance to professional services, in Finland and Hong Kong. As a Fellow, she provides guidance to engineers across product teams in Post-Quantum Cryptography and PKI, mentors other professionals at SSH, and is actively involved in developing SSH’s products for a quantum-safe future. She has worked on large enterprise and government implementations, both on cloud and on-premis environments, involving technologies such as Secure Shell, TLS, PKI, and encrypted network traffic auditing. Her current focus is guiding organisations on their quantum-safe journey to migrate their security infrastructures from traditional cryptography to PQC.",
+
+            "some": "LinkedIn: <a href='https://linkedin.com/in/suvi-lampila'>suvi-lampila</a>",
+
+			"img": "lampila"
+		}
+	]
+}

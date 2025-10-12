@@ -1,0 +1,11 @@
+{
+	"title":"Quantum Computing for Developers - The Workshop",
+
+	"synopsis":"Regular presenter at Disobey, independent knowledge security researcher and a keen student of one of the most amazing future technologies: Quantum Computing.\n\nWrite and run a program on a real quantum computer.\n\nBy starting from effectively zero knowledge of quantum computing, we achieve this together in three hours and you'll also understand the principles underlying and not just copy a ready made example.\n\nThe workshop builds on minimal development experience, understanding of core computer science concepts like logic gates and a small part of university level math like matrices.",
+
+	"speakers":
+	[
+			{ "name" : "Topias Uotila, Nordcloud", 			"img" : "topias_uotila" }
+	]
+
+}

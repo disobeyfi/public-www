@@ -1,0 +1,13 @@
+{
+	"title": "Live Memory Attacks and Forensics",
+	"subtitle": "",
+	"synopsis": "The PCILeech direct memory access attack toolkit has become the defacto standard for PCIe DMA attacks amongst researchers, red teamers, governments and game cheaters alike. We will demo how to take total control of still vulnerable systems with PCIe DMA code injection using affordable FPGA hardware.\n\nMemProcFS - The Memory Process File System is memory forensics made super easy! Analyze memory dumps or live memory by clicking on files in a virtual file system using your favorite tools. Analyze and modify live memory using PCILeech PCIe hardware devices or even memory acquired from remote hosts - live over the network. MemProcFS is 100% open source memory forensics, blazingly fast and super easy to use!",
+	"speakers": [
+		{
+			"name": "Ulf Frisk",
+			"position": "",
+			"bio": "Ulf is a pentester by day, and a Security Researcher by night. He is the author of the PCILeech direct memory access attack toolkit and the Memory Process File System. He is interested in things low-level and primarily focuses on Memory Analysis and Direct Memory Access (DMA). Twitter: @UlfFrisk",
+			"img": "frisk"
+		}
+	]
+}

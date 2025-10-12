@@ -1,0 +1,11 @@
+{
+	"title":"Super Smash Ports. Ultimate!",
+
+	"synopsis":"Simultaneous Multithreading (SMT) architectures are attractive targets for attackers with side-channel expertise. SMT inherently offers a broader attack surface, exposing more microarchitecture components per physical core for fine-grain attacks. PortSmash (CVE-2018-5407) is a technique that abuses the execution units to exploit port contention, and creates a high-resolution timing side-channel capable of leaking confidential information. PortSmash affects both Intel and AMD architectures featuring SMT technology and due to its nature, it is capable of targetting shared libraries, static builds and even SGX enclaves.\n\n<b>Cesar Pereida</b>\n\nCesar Pereida García is currently pursuing doctoral studies at Tampere University of Technology (Finland) and holds a double M.Sc. Aalto University (Finland) and University of Tartu (Estonia). His main area of research and interest is microarchitecture attacks, cache-timing attacks and public-key crypto. During the day he looks for bugs in crypto libraries (co-discoverer of CVE-2016-2178, CVE-2016-7056, CVE-2018-0737, and CVE-2018-5407), and during the night he likes listening to good old swing music and sometimes dancing to it.\n\n<b>Nicola Tuveri</b>\n\nNicola Tuveri is a doctoral student at the Laboratory of Pervasive Computing at Tampere University of Technology (Finland). His research interests include the broad spectrum of software side-channel attacks --and mitigations-- (co-discoverer of CVE-2011-1945 & CVE-2018-5407) and the implementations of public-key cryptosystems. He is an active contributor to different FLOSS projects, and since 2018 he is also an OpenSSL Committer. When he is not at work he dabbles into playing with embedded systems and maker culture.",
+	"speakers":
+	[
+			{ "name" : "Cesar Pereida", "img" : "cesar_pereida" },
+			{ "name" : "Nicola Tuveri", "img" : "nicola_tuveri" }
+	]
+
+}

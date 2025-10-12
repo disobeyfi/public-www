@@ -1,0 +1,9 @@
+{
+	"title":"DNSSEC local validation: using the getdns library to verify DNS results in an application",
+
+	"synopsis":"<b>Bio:</b>\n\nPhilip Homburg received a Ph.D. from the Vrije Universiteit in the field of wide-area distributed systems.  He experimented with virtual memory, networking, and X in Minix-vmd and worked on advanced file systems in the Logical Disk project.  Currently he works for the RIPE NCC on the RIPE Atlas project.\n\nHe is interested in practical, easy to use, easy to understand security. Is it possible to have secure communication or secure storage that is modular and easy to understand? In his day job, the question is how to keep a collection of 10000 measuring devices secure and up-to-date.\n\n<b>Abstract:</b>\n\nDNSSEC is the extension to the Domain Name System (DNS) that makes it possible to verify that answers are authentic and have not been tampered with.\n\nThe most common setup is where a recursive DNS resolver does the DNSSEC validation. The nice thing about this approach in that existing applications do not require modifications.\n\nHowever, an application cannot easily tell if the resolver is doing DNSSEC validation, and the path between the application and the resolver is unprotected.\n\nThe solution to this, is for applications to do local DNSSEC validation. This can be done using the getdns library. The getdns library provides other advantages as well, such as a modern interface to DNS resolution, support for event libraries (such as libevent).\n\nIn this presentation I will describe getdns and show two examples of how it can be used in practice.",
+	"speakers":
+	[
+			{ "name" : "Philip Homburg", "img" : "philip_homburg" }
+	]
+}

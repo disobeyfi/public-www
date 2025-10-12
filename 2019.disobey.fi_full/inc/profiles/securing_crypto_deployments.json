@@ -1,0 +1,11 @@
+{
+	"title":"Securing crypto deployments",
+
+	"synopsis":"Sini likes to hack people and organizations and then change their default access interface so other bad people can't have them for their\nbotnetz. ;) Formerly academic, currently happily securing critical communication infrastructure and going around gushing to everyone about how important it is. Inexplicably drawn to all things overly complicated.\n\nCryptography provides tools for managing otherwise unwieldy confidentiality and integrity issues, and they spread everywhere with the power of shown great promise. Complexity-wise, these technology\nsolutions are occasionally only barely indistinguishable from magic, and yet increasing in importance. As a result, when we push out solutions into the real world, quite a few attention-worthy things other than the crypto algorithm itself failing can and will go wrong.\n\nThis talk is directed at security professionals aiming to secure complex solutions including cryptographic components, for real and not just on paper. It builds on MSc thesis work by Tero Hannula on how to secure technology infrastructure, with a focus on empowering teams who actually work with the systems to understand their needs and security gaps, and find the right tools and methods for the job. No obsessive interest in the wondrous wonders of cryptography itself is assumed.",
+
+	"speakers":
+	[
+			{ "name" : "Sini Ruohomaa, PhD, Senior Specialist for Cryptography and Key Management, Ericsson", "img" : "sini_ruohomaa" }
+	]
+
+}

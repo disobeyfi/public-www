@@ -1,0 +1,25 @@
+{
+	"title": "We Pwn VPN",
+	"subtitle": "Exploiting client-side vulnerabilities in commercial VPNs",
+	"synopsis": "Subscription-based commercial VPN services have become very popular among Internet users. They are used for various purposes, such as protecting Internet traffic when using a shared WLAN, hiding online activities, and accessing geo-blocked media content.\n\nIn this talk, we discuss the security of commercial VPN services from the client-side perspective. More specifically, we focus on how their desktop client applications set up VPN tunnels and how end-users are instructed to configure generic VPN client software for common VPN protocols. We show various vulnerabilities that we found in 30 popular commercial VPN services. These vulnerabilities break the security of the VPN tunnel by, for example, allowing attackers to strip off the traffic encryption or to bypass server authentication. Some of them also allow the attacker to steal user credentials that are used for authenticating a client to the VPN gateway.\n\nOur findings indicate a serious lack of security-awareness across the commercial VPN industry. While most of the studied VPN protocols are secure if used properly, vulnerabilities can be introduced to them with misconfigurations. Using such badly configured VPN client will give wrong perception of security and privacy to end-users.",
+	"speakers": [
+		{
+			"name": "Thanh Bui",
+			"position": "Security Consultant at Nixu",
+			"bio": "Thanh Bui started at Nixu in December 2019. He is also a doctoral candidate in the \"Secure systems\" group of Aalto University, Finland. His research focuses on analyzing and designing secure network protocols and distributed systems.",
+			"img": "bui"
+		},
+		{
+			"name": "Sid Rao",
+			"position": "Security researcher at Aalto University",
+			"bio": "Siddharth (Sid) Rao is a doctoral candidate in the Secure Systems group of Aalto University, Finland and Nokia-Bell Labs. He specializes in the security analysis of communication protocols, and his current interest lies in pedagogical study of the \"lack of authentication\" in different systems. He is a past Erasmus Mundus fellow and holds double master's degrees from Aalto University, Finland and University of Tartu, Estonia. He has been Ford-Mozilla Open Web Fellow at European Digital Rights (EDRi), where helped to define policies related to data protection, surveillance, copyright, and network neutrality. He has previous spoken at security conferences such as Def Con, Blackhat, hack.lu and Troopers.",
+			"img": "rao"
+		},
+		{
+			"name": "Markku Antikainen",
+			"position": "Security researcher at Aalto University",
+			"bio": "Markku Antikainen is a post-doctoral security researcher at Aalto University, Finland.",
+			"img": "antikainen"
+		}
+	]
+}

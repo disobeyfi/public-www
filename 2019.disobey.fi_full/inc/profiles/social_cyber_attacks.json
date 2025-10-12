@@ -1,0 +1,9 @@
+{
+	"title":"Social Cyberattacks",
+
+	"synopsis":"Antti Kurittu is a Senior Specialist at the National Cyber Security Center of Finland. The NCSC-FI is a part of the Finnish Communications Regulatory Authority. Antti has a background in cyber crime investigations and has worked as a team leader, digital forensics specialist and a criminal investigator at the Helsinki Police Department. Currently he is a part of the national CERT team of Finland, leading the cyber exercise support team for critical infrastructure providers.\n\nWhat strings do scammers pull when they make their victims do things that nobody in their right would do - like send thousands of euros to a Nigerian prince or invest in a get-rich-quick scheme in Hong Kong? This presentation goes through some of the emotional and psychological tricks that scammers use to socially manipulate victims into their traps.",	"speakers":
+	[
+			{ "name" : "Antti Kurittu, Senior specialist, National Cyber Security Center / FICORA", "img" : "antti_kurittu" }
+	]
+
+}

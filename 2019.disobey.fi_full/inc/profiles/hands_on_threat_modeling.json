@@ -1,0 +1,12 @@
+{
+	"title":"Hands-on Threat Modeling - Securing Your Software Design",
+
+	"synopsis":"<b>Bringing a laptop is recommended</b>.\n\nThreat modeling is about thinking what bad can happen to our systems and what can we do about it. It can identify logical flaws and reveal problems in the architecture or software development practices. These vulnerabilities cannot usually be found by technical testing.\n\nAs a result, threat modeling helps you deliver high quality software, prioritize your preventive security measures, and focus your penetration testing on the most risky parts of the system. The beauty of threat modeling is that you can assess security already in the design phase. In addition, it is something every team member can participate in because it doesn't require any source code, special skills, or tools. Threat modeling is for everyone: developers, testers, product owners, and project managers.\n\nIn this workshop, you will learn practical methods, such as the STRIDE model, for finding security and privacy threats in a realistic target system. You will also learn to analyze use stories and features for finding business level threats.\n\nAnne Oikarinen is a Senior Security Consultant who works with security and software development teams to help them design and develop secure software. She will find the weak points of your architecture and security concerns that threaten your business also from the things that cannot be tested. Nadin Vazquez Torralba is a Security Consultant with experience in risk management, IAM and pentesting who helps architects, developers and system owners assessing and securing their systems. Anne and Nadin work at Nixu Corporation, a cybersecurity specialized company whose mission is to keep the digital society running.\n\n<b>Capacity</b>: max 30 people",
+
+	"speakers":
+	[
+			{ "name" : "Anne Oikarinen", "img" : "anne_oikarinen", "bio":"" },
+			{ "name" : "Nadin Torralba ", "img" : "nadine_torralba", "bio":"" }
+	]
+
+}

@@ -1,0 +1,13 @@
+{
+	"title": "I'm in your office",
+	"subtitle": "Bypassing access control without social engineering",
+	"synopsis": "The Finnish buildings are not as safe as you might think or want them to be. Social engineering is the standard red teaming maneuver, but there are many tricks you can use to get past the locked door without talking to anyone. I will present case examples of weaknesses and attacks I have personally encountered over the years and also offer some background why these weaknesses exist. Your office can even pass security audits with flying colors because these questions are not asked :)",
+	"speakers": [
+		{
+			"name": "Antti Virtanen",
+			"position": "CISO at Solita Oy",
+			"bio": "A white hat hacker @ Team ROT at night, CISO of Solita Oy during the office hours. Bypassing locks and access control every now and then just because it's fascinating.",
+			"img": "antti_virtanen"
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"title": "Shatter reloaded",
+	"subtitle": "Reviving shatter attacks to escape sandboxes and evade endpoint security products",
+	"synopsis": "Shatter attacks were all the rage in 2003 but were quickly neutralized by DEP, UIPI and Session 0 isolation. 15 years later, confronted with a commercial sandbox product on the one hand, and with state-of-the-art security endpoint products on the other – we brought Shatter attacks back to life, extending and weaponizing them to be useful once more. We’ll start this talk with a quick intro to the classical Shatter attacks and continue to share the full, low-level, details on our reincarnation of them, including a live demo.",
+	"speakers": [
+		{
+			"name": "Eran Zimmerman Gonen",
+			"position": "Engineering Lead of Accenture Security Israel",
+			"bio": "Eran Zimmerman Gonen is the Engineering Lead of Accenture Security Israel. Prior to that, he was part of an elite IDF cyber unit. He has 16 years of software development and engineering experience, 11 of which in the field of cyber security. He has a B.Sc. (summa cum laude) in Software Engineering and M.E. in Systems Engineering.",
+			"img": "default"
+		}
+	]
+}

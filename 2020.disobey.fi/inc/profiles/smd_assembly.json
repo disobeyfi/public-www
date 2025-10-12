@@ -1,0 +1,13 @@
+{
+	"title": "Surface Mount Electronics Assembly for Terrified Beginners",
+	"subtitle": "",
+	"synopsis": "This is a workshop for everyone who wants to learn to work with modern miniaturized electronics components but doesn't know where to start. I will remove your fear of SMD work. You will learn how to use your hands and how to handle tiny parts by assembling a touch-activated purring kitten. No prior knowledge or experience needed. Everyone can do this. Yes, even you who never touched electronics before. Costs 20€, avoid caffeine use immediately before workshop.",
+	"speakers": [
+		{
+			"name": "Kliment",
+			"position": "",
+			"bio": "Hey, I'm Kliment! I'm a hardware hacker. I take electronic projects from idea to prototype to production. I'm here to teach surface mount electronics to terrified beginners, and to fix your badges.",
+			"img": "kliment"
+		}
+	]
+}

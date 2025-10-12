@@ -1,0 +1,19 @@
+{
+	"guid": "7dcf6207-8f2a-5147-b64b-ecb43934b1bb",
+	"title": "Popopizza - How to break the Dutch police bodycams for fun and pizza",
+	"subtitle": "",
+	"synopsis": "The Dutch police has been trying to collaborate with 'private partners', including the Dutch hacker community in the Netherlands, for years now (the great Public Private Partnership or PPP), with mild succes. So when they asked us what they could organise to get to know us, we replied with \"invite us to hack police shit and eat pizza's\". We thought we would never hear of them again. Surprise surprise, they eventually invited us in.",
+	"speakers": [
+		{
+			"id": 72,
+			"code": "7GX9FA",
+			"name": "Edwin van Andel",
+			"position": "CTO Zerocopter",
+			"bio": "Edwin van Andel is CTO of Zerocopter, his relationship with the hacker community is the main driving force in his life. His dream to bring the brilliant minds of all hackers he knows together in one room and to hack everything that is brought in is something that he is getting closer to.",
+
+            "some": "Twitter: <a href='https://twitter.com/yafsec'>@yafsec</a> \nLinkedIn: <a href='https://linkedin.com/in/yafsec'>yafsec</a>",
+
+			"img": "andel"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"guid": "f8f78208-1d70-5eeb-ab91-06808588fd1a",
+	"title": "Beginner experiences in reverse engineering a (simple) BLE protocol",
+	"subtitle": "",
+	"synopsis": "Got a gadget that is controlled by crappy phone app, wanted to make ESP32 based controller but company refused to publish protocol documentation. Here is how I reverse engineered it.",
+	"speakers": [
+		{
+			"id": 38,
+			"code": "JD8R37",
+			"name": "Eero 'rambo' af Heurlin",
+			"position": "Maker, Hacker",
+			"bio": "Played with electronic gadgets since childhood taking them apart and sometimes managing to put them back together again. Can deal with a bunch of common/popular programming languages but prefers Python if other design considerations are not forcing their hand. Often seen representing hacklab.fi at various events.",
+
+            "some": "Github: <a href='https://github.com/rambo'>rambo</a> \nLinkedIn: <a href='https://linkedin.com/in/eeroafheurlin'>eeroafheurlin</a>",
+
+			"img": "heurlin"
+		}
+	]
+}

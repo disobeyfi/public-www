@@ -1,0 +1,13 @@
+{
+	"title": "Cybersecurity for business trips",
+	"subtitle": "Tips and tricks from a paranoid traveller",
+	"synopsis": "Security wise people are most vulnerable when they are travelling, and attackers are exploiting that. This presentation covers various attack scenarios that espionage operators are using against business travelers, and countermeasures that you can take to make yourself as a difficult target.",
+	"speakers": [
+		{
+			"name": "Jarno Niemelä",
+			"position": "Principal Researcher at F-Secure",
+			"bio": "Jarno Niemelä has spent the past 19 years at F-Secure security lab working on analyzing and identifying malicious behavior and planning automatic malware handling systems. His current duties focus on automating cyber-attack detection and planning new cyber-defense systems for F-Secure products and services. Keen on data science and on analyzing APT and malware behavioral patterns, he teaches cyber defense at Metropolia University of Applied Sciences. He also speaks often at cybersecurity events.",
+			"img": "jarno_niemela"
+		}
+	]
+}

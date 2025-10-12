@@ -1,0 +1,21 @@
+{
+	"guid": "d25b90cf-419f-5c00-8a0d-05f53703db44",
+	"title": "Don't mind the air gap - Maximizing exfiltration speeds via HDMI TEMPEST",
+	"subtitle": "",
+	"synopsis": "In this talk, a method is presented to wirelessly exfiltrate files out of an airgapped computer by displaying specially crafted video frames on its HDMI monitor.",
+
+	"speakers": [
+		{
+			"id": 106,
+			"code": "Z8KREP",
+			"name": "Oona Räisänen",
+			"position": "Independent researcher",
+            "nick" : "windytan",
+			"bio": "A software developer by day, Oona enjoys investigating all kinds of mystery signals from radio transmissions to sound waves and music. She's been writing a blog detailing and illustrating her findings for 10 years.",
+
+            "some": "Twitter: <a href='https://twitter.com/windyoona'>@windyoona</a> \n Blog: <a href='https://www.windytan.com/'>windytan.com</a>",
+
+			"img": "windytan"
+		}
+	]
+}

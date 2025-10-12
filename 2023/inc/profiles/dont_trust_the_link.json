@@ -1,0 +1,16 @@
+{
+	"guid": "b379b57a-963e-5ec1-9e70-b0cfc8b907e0",
+	"title": "Don't trust the link",
+	"subtitle": "",
+	"synopsis": "A popular URL scanning tool was found to contain a trove of data from various sources leaking the metadata and contents of a link sent privately to users via email.  This talk will focus on the implications of using a simple link to authenticate users or authorize them to even access sensitive information. \n\n This talk is useful for: \n\n* Defenders who use these kinds of tools to understand the possibility for an OPSEC fail. \n* Developers who implement authentication mechanism that include communication via email \n* Security community in general for good anecdotes",
+	"speakers": [
+		{
+			"id": 65,
+			"code": "BFKNHG",
+			"name": "Markus Lehtonen",
+			"position": "CGI",
+			"bio": "For the past six years, Markus has worked in running SOC services with a focus on cloud security and security tooling. He previously ran CGI's SOC service in Finland and is now using his interests in cloud security in consulting assignments",
+			"img": "lehtonen"
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"title": "DarkRATv2: hunting down malicious rodents",
+	"subtitle": "",
+	"synopsis": "Recently a new malware family started to appear in the wild, identifying itself as the new version of the old DarkRAT. This malware is now being distributed via RigEK. In a short period of time, the developer of DarkRATv2 made a significant number of improvements and updates to his creation. In this talk I would like to give you a demonstration how developer mistakes can lead to more discoveries, how to leverage THREATINT means and techniques to learn more about the malware and its operations: and ultimately picking it apart from a reverse engineering perspective. Also I'm planning to give you an end-to-end approach on malware hunting, so you can use these techniques and apply it to your daily malware work. The talk will also introduce concepts from reverse engineering, malware analysis, threat hunting, signature development and use of THREATINT and OSINT techniques.",
+	"speakers": [
+		{
+			"name": "Albert Zsigovits",
+			"position": "",
+			"bio": "Albert works as a Threat Researcher at Sophos. He joins us from a traditional blue team background, kickstarting his cyber career analyzing security events as an IDS analyst, and later investigating breaches as an incident responder for a Fortune 50 company. His specialties include threat hunting, memory forensics and signature development. In his spare-time he enjoys reverse engineering malware and diving deep into deep-web territories, connecting the dots between criminals leveraging threat intelligence and open source intelligence techniques.",
+			"img": "albert"
+		}
+	]
+}

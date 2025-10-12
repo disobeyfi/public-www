@@ -1,0 +1,17 @@
+{
+	"title": "Deceive yourself",
+	"subtitle": "Become an expert in anything!",
+	"synopsis": "In this workshop, you will learn some tools to influence your perceived competence. We've got you covered with: personal strategies to hack yourself, body language, as well as the proper mindset. Have you ever been presented a challenge that you were not feeling competent enough for? Then this workshop is for you. Are you aware of your external perception, but struggle to get it on point in front of a client? Then this workshop might be for you. If you're negotiating day in day out, this workshop is probably not for you. This workshop will attempt to give you confidence in your abilities or at least show you how to be perceived as competent. Learn to acknowledge, accept and embrace your anxieties/insecurities and get rid of them by self-deception. By the end of the workshop, despite your doubts, you will be able to present yourself to others in a competent way. #blockchain #consultant #wokeUpLikeThis",
+	"speakers": [
+		{
+			"name": "Ilias 'A2nkF' Morad",
+			"bio": "Ilias (A2nkF) is a young security researcher and exploit developer from Düsseldorf, Germany. Whenever he finds spare time between CTFs and exploiting Kernels, he empowers other people to work on security and exploit related topics through workshops. Hopelessly incompetent without anyone noticing ;)",
+			"img": "a2nkf"
+		},
+		{
+			"name": "Simon 'Plantprogrammer' Schliesky",
+			"bio": "Simon 'Plantprogrammer' Schliesky is a hacker by heart and a biologist by training. He believes that enabling others to get more efficient in communication and tech skills is the best possible use of his time. Thus, he became a self-employed IT trainer and coach located in Düsseldorf, Germany. Hopelessly incompetent without anyone noticing ;)",
+			"img": "plant"
+		}
+	]
+}

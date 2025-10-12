@@ -1,0 +1,10 @@
+{
+	"title":"Black Hat Programming ",
+
+	"synopsis":"A workshop where people learn how to use Python to attack systems. The attendees will get their hands dirty with these things:\n\n* Very very quick Python primer, covering just few basic things.\n* Writing small custom tools to attack a web application. (requests library)\n* Some bit manipulation - attacking simple binaries with Python.\n* Interfacing with Radamsa from Python to fuzz something.\n\nThis workshop is aimed at beginner hackers and after the attendee should be able to apply Python for his/her own purposes. No previous experience with Python is required, but some basic understanding of programming in some language is helpful. This is not about programming professionally in Python, this is about hacking with Python as our Swiss Army knife.\n\nTo attend, bring your own computer. Install Python and some editor (PyCharm is cool, but Emacs or any text editor will be fine). We might install some Python libraries with pip, so either accept that or setup pyenv or some virtual machine if that's not okay. Setup instructions can be given later if necessary.\n\n(There is a book \"Black Hat Python\" which contains the kind of programming I have in mind, but I'm not going to use the book's examples as such.)",
+	"speakers":
+	[
+			{ "name" : "Antti Virtanen", "img" : "default" }
+	]
+
+}

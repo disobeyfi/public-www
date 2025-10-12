@@ -1,0 +1,19 @@
+{
+	"guid": "d6402ad4-af8b-5043-b38b-b07dd083809a",
+	"title": "Yleisimpiä kompastuskiviä Katakri auditoinneissa",
+	"subtitle": "",
+	"synopsis": "Kerron omaan kokemukseeni perustuen yleisimmistä puutteista Katakri auditoinneissa.",
+
+	"speakers": [
+		{
+			"id": 83,
+			"code": "MNZCJB",
+			"name": "Leevi Hietala",
+			"position": "Tietojärjestelmätarkastaja, NCSC-FI",
+
+			"bio": "",
+
+			"img": "hietala"
+		}
+	]
+}

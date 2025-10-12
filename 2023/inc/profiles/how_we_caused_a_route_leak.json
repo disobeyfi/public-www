@@ -1,0 +1,20 @@
+{
+	"guid": "a4707fdc-4dbd-5975-9ba1-30d69ce0048b",
+	"title": "How we caused a route leak - anatomy of a routing incident",
+	"subtitle": "",
+	"synopsis": "a talk about how an ISP can accidentially break the internet.",
+	"speakers": [
+		{
+			"id": 67,
+			"code": "CUPKZM",
+			"name": "Silvan Michael Gebhardt",
+			"position": "",
+            "nick": "pcdog",
+			"bio": "System and Network Engineer from Central Europe, recently migrated to the cold north. Networking since more than a decate, and more than 25 years on Linux. Interests are with Security, Networking, Business Networking, as well as getting out to nature and walking my finnish lapphund-pup. ",
+
+            "some" : "Mastodon: @pcdog@chaos.social",
+
+			"img": "gebhardt"
+		}
+	]
+}

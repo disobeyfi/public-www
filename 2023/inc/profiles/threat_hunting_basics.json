@@ -1,0 +1,36 @@
+{
+	"guid": "36caf54d-9477-593c-9cec-b7de70c2c5bb",
+	"title": "Threat hunting basics by Jouni Mikkola, Juuso Myllylä",
+	"subtitle": "",
+	"synopsis": "The workshop will be focusing on threat hunting from a technical perspective. The basics will be covered first after which we will be having a hands-on exercise to train your newly acquired hunting skills. \n\n The Goal: Understand the term threat hunting, be able to create hypotheses and to think what are the requirements for reaching the target of the hypothesis..",
+
+	"track": "Workshop",
+	"type": "Workshop - 2 hours",
+
+	"speakers": [
+		{
+			"id": 64,
+			"code": "Z3NTUN",
+			"name": "Jouni Mikkola",
+			"position": "",
+
+			"bio": "Jouni is currently working as a manager at Nixu, being responsible for SOC solutions and the DFIR function. Before being promoted to the current role Jouni was leading the DFIR team of which he was part of for five years. Jouni started on the team as a technical Incident Response investigator and moved to lead the team some years later. Jouni has been included in incident response for years and has also been doing threat hunting assignments for a long time now. \n\n Before joining Nixu Jouni has been doing technical consulting with the focus in Microsoft server technologies, mostly with the messaging products but with a fair bit with technologies like Active Directory. In total, Jouni has worked in IT for 15 years. \n\n Jouni is also hosting a podcast known as Uhkametsä (In Finnish) and has a threat hunting blog that he is writing occasionally, https://threathunt.blog/.",
+
+            "some": "LinkedIn: <a href='https://linkedin.com/in/jouni-mikkola-3b5a32114'>jouni-mikkola-3b5a32114</a>",
+
+			"img": "mikkola"
+		},
+        {
+			"id": 94,
+			"code": "NWJWNE",
+			"name": "Juuso Myllylä",
+			"position": "Security Analyst",
+
+			"bio": "Juuso is working as a Threat Hunter and a DFIR analyst at Nixu. Before reaching these roles, Juuso has previously worked in two SOCs, doing analyst duties and detection engineering. Blue team has always been home for Juuso and the best part of being on the defensive side is to uncover and analyze new and innovative threats. \n\n Juuso co-hosts a Finnish cybersecurity podcast Uhkametsä, discussing latest threats from defense perspective.",
+
+            "some": "Twitter: <a href='https://twitter.com/juus0x0'>@juus0x0</a> \nLinkedIn: <a href='https://linkedin.com/in/juuso-myllyla'>juuso-myllyla</a>",
+
+			"img": "myllyla"
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"title": "Trustworthy platforms in practice",
+	"subtitle": "I have a TPM, now what?",
+	"synopsis": "Trusted Computing denotes a set of technologies that can be used to provide trustworthy platforms by leveraging the use of a Trusted Platform Module (TPM) chip, available in most modern computing platforms. The TPM provides secure storage of keys, confidential data, certificates, cryptographic measurements of system components, as well as cryptographic functions and key generation. We can use this device to guarantee the integrity of the software running on a platform, from the firmware up to run-time components. When a device boots, we can measure each component in the boot sequence and store those measurements in the TPM. Then, we can check if those values are as expected, to detect any possible tampering with the machine.\n\nBut what does this mean in practice?\n\nTo build large trusted platforms, we need to understand what kind of guarantees we can actually make about our system. TPM-aware systems generate a set of logs that can be used to reconstruct the measurements that get stored in the chip. The content of these logs is defined in a set of standards and, when something changes, they can be used to pin-point the component that changed. However, sometimes the ideal world of the standards doesn't quite match what we find in reality. This talk covers the practical aspects of building and working with trusted platforms, what they enable us to do and where the limitations are.",
+	"speakers": [
+		{
+			"name": "Gabriela Limonta",
+			"position": "Security Researcher at Nokia Bell Labs",
+			"bio": "Gabriela is a researcher in the CyberSecurity Research group at Nokia Bell Labs. She specializes in using trusted computing technologies to create a Trustworthy Telco Cloud and using root cause analysis techniques to diagnose and mitigate trust failures. When not doing computer stuff, you can find her knitting in front of the TV.",
+			"img": "limonta"
+		}
+	]
+}

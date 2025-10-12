@@ -1,0 +1,33 @@
+{
+	"guid": "27caff44-0526-5356-81fa-069d2d154bce",
+	"title": "Dangers of Service as a Principal - AWS",
+	"subtitle": "",
+	"synopsis": "When setting a permission policy on a resource in Amazon Web Services, it may be necessary to allow a service to perform actions on your behalf. We look into the dangers of allowing this with no additional restrictions in place, we demonstrate two styles of attack, and finally discuss defensive measures to avoid these pitfalls.",
+
+	"speakers": [
+		{
+			"id": 80,
+			"code": "MPSUWB",
+			"name": "Matthew Keogh",
+			"position": "",
+
+			"bio": "Matt is a Security Consultant at WithSecure with a keen focus on all things cloud. He has several years’ experience building and securing enterprise applications at scale. Prior to joining the security industry Matt worked in systems operation assisting organisations to move large applications from on premise into the cloud. \n\nOutside of work Matt likes to travel and go on long walks with his dog Max.",
+
+            "some": "LinkedIn: <a href='https://linkedin.com/in/matthew-keogh-723116113'>matthew-keogh-723116113</a>",
+
+			"img": "keogh"
+		},
+        {
+			"id": 115,
+			"code": "YETDMN",
+			"name": "Tom Taylor-MacLean",
+			"position": "",
+
+			"bio": "After studying maths at university, Tom worked for several years in an unrelated industry before reverting to his initial interests in computing and security. He is currently completing a part-time Masters course in Computer Science with Cyber Security where he is now focusing on AWS Cloud Security, an area WithSecure introduced him to. \n\n When not protecting client systems, Tom can be found running, studying or bothering his cat.",
+
+            "some": "Twitter: <a href='https://twitter.com/TIJMacLean'>@TIJMacLean </a>",
+
+			"img": "taylor_maclean"
+		}
+	]
+}

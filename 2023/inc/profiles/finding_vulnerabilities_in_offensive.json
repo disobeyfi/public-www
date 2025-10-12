@@ -1,0 +1,21 @@
+{
+	"guid": "69d58735-ea37-5931-9f3d-761235b7ef93",
+	"title": "Finding vulnerabilities in offensive security tooling",
+	"subtitle": "",
+	"synopsis": "This talk takes a closer look at open source offensive tooling used to perform lateral movement and post exploitation on Windows. We look under the hood how these tools work and shows how their behavior can be abused by an attacker in the environment.",
+
+	"speakers": [
+		{
+			"id": 107,
+			"code": "PZV77N",
+			"name": "Jonas Vestberg",
+			"position": "Senior Security Consultant",
+            "nick" : "bugch3ck",
+			"bio": "Jonas is a senior security consultant for the Swedish cyber security company Sentor since 2013, securing the world one reverse shell at a time. Enjoys coffee, coding, bypassing EDRs, Windows privilege escalation bugs and getting Domain Admin.",
+
+            "some": "Twitter: <a href='https://twitter.com/bugch3ck'>@bugch3ck</a> \n Mastodon: @bugch3ck @infosec.exchange \n Github: <a href='https://github.com/bugch3ck'>bugch3ck</a>",
+
+			"img": "vestberg"
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"title": "Secure Elements and Disclosure",
+	"subtitle": "",
+	"synopsis": "In this half hour we study aspects of physically and cryptographically secure hardware (often termed secure element or SE) and the integration into circuits. We illustrate utility of such integration by inspecting a cryptocurrency wallet design, and explain the difficulty presented by nondisclosure agreements (NDA) common to industry closed adversaries. We consider the conference badge, study it's parts under a close range circuit camera, and hypothesize on value added by secure hardware components.",
+	"speakers": [
+		{
+			"name": "Michael Schloh",
+			"position": "",
+			"bio": "Michael Schloh von Bennewitz is a computer scientist specializing in embedded systems and hardware production. He actively contributes to the Opensource development community and teaches hardware security and IoT hacking workshops. He currently develops hardware with the Monero Project and contracts worldwide.",
+			"img": "schloh"
+		}
+	]
+}

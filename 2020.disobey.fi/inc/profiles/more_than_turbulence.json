@@ -1,0 +1,13 @@
+{
+	"title": "More than turbulence",
+	"subtitle": "",
+	"synopsis": "Ever wonder how digitally secure the aviation industry is? Take a peek inside the world's largest aircraft manufacturer Boeing. As Chris takes you on a journey of surprisingly weak security which can potentially affect passenger and aircrew safety. XSS Exploitable vulnerabilities, email spoofing, bypassing authentication into the Aviation ID system for accessing flight control software live and test and the cabin viewing system with IOT camera in the cockpit. Describe safety risks and struggles to coordinate disclosure and legal pressure by Boeing to keep silent.\n\nKey takeaways:\n- Boeing is in the IT business and happen to produce aircraft.\n- Applications and software live and breathe throughout aerospace.\n- Changing the way digital technology is regarded by industry is paramount.\n- Ever critical manufacturing involved with safety must have a functional coordinated disclosure program.\n- Software affects safety system, especially when planes have already fallen out of the sky due to code errors.",
+	"speakers": [
+		{
+			"name": "Chris Kubecka",
+			"position": "CEO at HypaSec",
+			"bio": "Chris CEO of HypaSec. Previously, Chris headed the Information Protection Group, NOC, SOC & joint-international intelligence team for the Aramco family. Helping to recover Aramco from a nation-state attack, implementing digital security and reconnecting international business operations. Responsible for all digital IT and ICS assets throughout the EMEA region (minus KSA) and Latin America. Subsequently, establishing and assisting global digital security teams, standards, security driven legal contracts for secure software development with third parties, the Aramco EU/UK Privacy group with internal and external council and computer emergency response teams. Chris has practical and strategic hands-on experience in several cyber warfare incidents. USAF Space Command, detecting and helping to halt the July 2009 Second Wave attacks from the DPKR against South Korea and helping to recover and re-establish international business operations after the world’s most devastating cyber warfare attack, Shamoon in 2012.",
+			"img": "kubecka"
+		}
+	]
+}

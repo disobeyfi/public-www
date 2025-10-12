@@ -1,0 +1,11 @@
+{
+	"title":"Jackpotting ATM's (Automated Teller Machines) - Its easier than you might think",
+
+	"synopsis":"Details on how ATMs are made.\n\nHow can we attack ATMs (and eventually get all the money out!)\n\nIf you're buying or deploying ATM's, how to secure them properly.",
+
+	"speakers":
+	[
+			{ "name" : "Alexander Forbes", 			"img" : "alexander_forbes" }
+	]
+
+}

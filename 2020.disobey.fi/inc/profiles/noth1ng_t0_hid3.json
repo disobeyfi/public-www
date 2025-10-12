@@ -1,0 +1,13 @@
+{
+	"title": "NOTH1NG T0 HID3",
+	"subtitle": "Should we fix privacy?",
+	"synopsis": "This talk revisits the theme of personal privacy in the digital world, this time centring around the \"I've got nothing to hide\" argument. A beam of intensive light is shed on the motivation behind caring about one's privacy. We go in depth into what we can do to stay private and should we even try to do it at all. We talk about where we as an global society were able to fix privacy and where we have failed. New topics previously not covered are discussed, such as herd immunity and certification programs.",
+	"speakers": [
+		{
+			"name": "Kirils Solovjovs",
+			"position": "Lead Researcher at PossibleSecurity.com",
+			"bio": "Mg. sc. comp. Kirils Solovjovs is Lead Researcher at Possible Security, bug bounty hunter, IT policy activist, and the most visible white-hat hacker in Latvia having discovered and responsibly disclosed or reported  multiple security vulnerabilities in information systems of both  national and international significance. Kirils has developed the jailbreak tool for Mikrotik RouterOS. He has extensive experience in social engineering, penetration testing, network flow analysis, reverse engineering, and the legal dimension. Spoken at SHA2017, 35C3, CONFidence, Hack In The Box, Hack in Paris, Nullcon, BalCCon, TyphoonCon, Hackfest and more.",
+			"img": "kirils"
+		}
+	]
+}

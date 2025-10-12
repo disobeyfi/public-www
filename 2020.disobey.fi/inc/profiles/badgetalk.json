@@ -1,0 +1,13 @@
+{
+	"title": "Badge Talk",
+	"subtitle": "",
+	"synopsis": "Introduction to Disobey 2020 Badge; usage, app development, hacking, puzzle. If you want to know what the badge is, what it does and how to use it, you should hear this.",
+	"speakers": [
+		{
+			"name": "Heikki Juva",
+			"position": "Hardware hacker, cyber hand model, badge-team lead since 2016",
+			"bio": "Heikki is a MSc in system security, mainly interested in rapid prototyping, cybersecurity and electric vehicles. He currently works in an automotive industry startup focusing in intelligent energy storage solutions.",
+			"img": "heikki"
+		}
+	]
+}

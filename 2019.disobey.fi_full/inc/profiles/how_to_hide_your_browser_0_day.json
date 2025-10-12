@@ -1,0 +1,11 @@
+{
+	"title":"How to hide your browser 0-day",
+
+	"synopsis":"Zero-day exploits targeting browsers are usually very short-lived. These zero-days are actively gathered and analyzed by security researchers. Whenever a new 0-day becomes known by the security industry, protections against the exploit are shared, AV/IDS signatures are made, patches are deployed, and the precious 0-day loses its value. One example is when Ahmed Mansoor was targeted by an iOS 0-day exploit (August 2016). The Citizen Lab analyzed the 0-day exploit, and <a href='http://bit.ly/2bm8ueo'>Apple patched the vulnerability within days</a>. Whoever targeted Mansoor, lost a precious 0-day exploit worth hundreds of thousands of dollars.\n\nIn my research, I propose a tool for law enforcement, 0-day brokers, and advanced attackers to protect their browser exploits. The key step is to establish key agreement between the exploit server and the victim browser. After a shared key is set up, attackers can encrypt the real exploit with AES. It is recommended to encrypt both the code to trigger the exploit, and the shellcode. This idea was <a href='http://bit.ly/2mnvfYE'>first published by me </a>, and quickly adopted by exploit kit developers in-the-wild.\n\nI will show how my tool makes life hard for defenders to analyze these attacks, and what countermeasures can attackers do to further complicate this kind of analysis. So far, no encrypted browser exploit delivery code was available in the public to test or implement these attacks.\n\nIn addition to protecting the 0-day exploits from analysis, my proposed solution is also able to stay under the radar in IDS systems or Next Generation IDS systems (a.k.a. breach detection systems, APT detection systems). This is aligned with the trend that perimeter security is becoming less effective due to mobile devices and the increasing number of encrypted channels.",
+
+	"speakers":
+	[
+			{ "name" : "Zoltan Balazs, CTO at MRG Effitas", 			"img" : "zoltan_balazs" }
+	]
+
+}

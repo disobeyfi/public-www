@@ -1,0 +1,19 @@
+{
+	"title": "Identifying attack paths with BloodHound",
+	"subtitle": "",
+	"synopsis": "Identifying hidden and often unintended attack paths is crucial for organisations since once an attacker obtains initial access into the network the first objective is to perform data collection. Attackers use these techniques, which will be covered in the training to identify attack paths that could be exploited to compromise the Active Directory environment.\n\nThe training is planned to roughly consist of the following topics:\n* Setting up and running BloodHound for data collection\n* Differences between data collection methods\n* Analysis of data collected by BloodHound\n* Using customised cypher-queries\n\nObjective of this workshop is to give attendants the knowledge and capabilities on what is BloodHound and how to use it in their organisations to identify attack paths.\n\nAfter the training, the participants have necessary skills to independently use BloodHound for data collection and analysis to identify and mitigate attack paths in their environment.\n\nPre-requirements:\n* Laptop with VirtualBox or VMWare\n* Internet connectivity\n* Kali pre-installed\n\nMaterial:\n* Access to cloud instance containing database for data analysis\n* Pre-installed Kali images containing all necessary data (if you do not have Kali readily available – there will be time in the beginning of the workshop to set this up)",
+	"speakers": [
+		{
+			"name": "Niklas Särökaari",
+			"position": "Senior Security Consultant at F-Secure Consulting",
+			"bio": "Red Teamer at F-Secure. Holder of abbreviations.",
+			"img": "niklas"
+		},
+		{
+			"name": "Henri Nurmi",
+			"position": "Security Consultant at F-Secure Consulting",
+			"bio": "Red teamer and reverse engineer who likes take things apart rather than use them.",
+			"img": "henri"
+		}
+	]
+}

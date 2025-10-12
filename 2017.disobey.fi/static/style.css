@@ -1,0 +1,200 @@
+body
+		{
+			background-color: #000000;
+			color: black;
+		}
+		li
+		{
+			list-style-type: georgian;
+		}
+		#container
+		{
+		}
+
+		#page {
+			position: fixed;
+			top: 0; left: 0; bottom: 0; right: 0;
+			z-index: 0;
+			overflow: auto;
+			color: white;
+
+			font-family: 'Overpass', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			margin: 0em;
+		}
+
+		.mobilebox
+		{
+			position: fixed;
+
+			overflow: hidden;
+
+			display: none;
+		}
+
+		.mobilebox a
+		{
+						color: #ffff00;
+		}
+
+		#mb0
+		{
+			top: 100px; left: 100px;
+			width: 300px;
+			height: 200px;
+
+		}
+
+		.mobilebox-inner
+		{
+			position: absolute;
+			top: 0px; left: 0px;
+			width: 300px;
+			height: 200px;
+
+			border: 3px solid #00ff00;
+
+			color: black;
+
+		}
+
+
+		.mobilebox-title
+		{
+			background-color: #00ff00;
+			color: black;
+
+			position: absolute;
+			top: 0px; left: 0px;
+			padding: 0px;
+
+			overflow: hidden;
+
+
+		}
+
+
+		.mobilebox2
+		{
+			color: white;
+			height: 100%;
+
+			position: absolute;
+			top: 30px; left: 0px;
+			width: 300px;
+			height: 200px;
+
+			overflow: auto;
+
+			padding: 4px;
+			border: 1px solid black;
+
+			background-image: url("/static/haxback.png");
+
+		}
+
+		.content
+		{
+			display: none;
+		}
+
+
+		.boxi
+		{
+			background-color: #000000;
+			font-size: 30px;
+			font-weight: bold;
+			position: fixed;
+			transform-origin: 50% 50%;
+			user-select: none;
+  			cursor: pointer;
+		}
+		.boxi:hover
+		{
+			background-color: #000000;
+			text-decoration: underline;
+		}
+
+
+		#box1
+		{
+			transform: rotate(0deg);
+		}
+		#box2
+		{
+			transform: rotate(90deg);
+		}
+		#box3
+		{
+			transform: rotate(180deg);
+		}
+		#box4
+		{
+			transform: rotate(270deg);
+		}
+
+		@keyframes disz {
+			0%   { transform:scale(4.0); }
+			70%   { transform:scale(0.8); }
+			80%   { transform:scale(1.1); }
+			100%   { transform:scale(1.0); }
+		}
+
+		@keyframes diso {
+			0%   { transform:scale(1.1); opacity: 0.0; }
+			90%   { transform:scale(1.1); opacity: 0.0; }
+			100%   { transform:scale(1.0); opacity: 1.0; }
+		}
+
+
+		.dis {
+			position: fixed;
+			display: none;
+ -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 0;
+                           		}
+
+		#dis1 {
+			animation-name: diso;
+			animation-duration: 0.6s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+			animation-timing-function: ease-out;
+		}
+		#dis2 {
+			animation-name: disz;
+			animation-duration: 0.6s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+			animation-timing-function: ease-out;
+		}
+		#dis3 {
+			animation-name: diso;
+			animation-duration: 0.6s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+			animation-timing-function: ease-out;
+		}
+
+
+		@keyframes fuzzz {
+			0%   { transform:scale(1.0); }
+			70%   { transform:scale(1.2); }
+			85%   { transform:scale(0.8); }
+			100%   { transform:scale(1.0); }
+		}
+
+
+		.fuzz {
+			animation-name: fuzzz;
+			animation-duration: 0.3s;
+			animation-iteration-count: 1;
+			animation-fill-mode: forwards;
+			animation-timing-function: ease-out;
+		}
+
+

@@ -1,0 +1,34 @@
+{
+	"guid": "0f3b9c2e-002f-5f9f-99ca-3a22d9db0906",
+	"title": "Hacking Citizen Awareness by Maria Bique, Daria Catalui",
+	"subtitle": "",
+	"synopsis": "Most of the world is online, but not everyone has the skills to benefit from it. Our society is facing an increasing digital skill divide. It doesn't just correlate with growing socioeconomic divide, but it actually worsens it. Disadvantaged individuals are at risk of becoming even more disadvantaged as the increased cybersecurity threat landscape affects them disproportionately. As a result, our safety, democracy and future are at risk. What can we do as cyber professionals, as citizens, as companies?",
+
+	"track": "Workshop",
+	"type": "Workshop - 2 hours",
+
+	"speakers": [
+		{
+			"id": 73,
+			"code": "GQHGTX",
+			"name": "Maria Bique",
+			"position": "CEO and co-founder of CyberCoach",
+			"bio": "Maria BIQUE is the CEO and co-founder of CyberCoach, a cyber awareness geek, data privacy professional, security culture expert and digital rights activist. She has cultured cells in a lab, developed algorithms for analyzing brain activity and led security and tech teams at various companies. Currently lost in the startup world, trying to finish a Ph.D. and fight for digital skills equality through CyberCoach, #cybercivicduty and #kansalaiskyberteko.",
+
+            "some": "Twitter: <a href='https://twitter.com/MariaBique'>@MariaBique</a> \nLinkedIn: <a href='https://linkedin.com/in/biquemaria'>biquemaria</a>",
+
+			"img": "bique"
+		},
+        {
+			"id": 79,
+			"code": "RHQKNU",
+			"name": "Daria Catalui",
+			"position": "Cyber security training and awareness professional",
+			"bio": "Daria Catalui is a cyber security training and awareness professional pioneering #CyberSecMonth #ECCC #APF #CyberAware #CyberReadyGame. Always searching for impact and connecting ideas she gained experience at local- regional and European level, e.g. EU’s cyber security agency ENISA, the European Commission and the RO Presidency of the Council of the EU. She is currently leading the global education account of a major financial services company, also conducting research with focus on gamification through #CyberEDUinitiative. Passionate learner and believer in a trained Human Firewall.",
+
+
+
+			"img": "catalui"
+		}
+	]
+}

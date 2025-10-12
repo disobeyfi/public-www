@@ -1,0 +1,16 @@
+{
+	"guid": "8ea6281f-fefd-50ab-9fc3-a4d5524292e2",
+	"title": "IEC62443-4-2-wtf? Operational Technology Device Security",
+	"subtitle": "",
+	"synopsis": "Operational Technology (OT) is what controls big moving things, medical systems and many other invisible but critical things. A single failure in an OT system can cause big trouble, in worst-case killing someone. Safety matters and more and more safety requires security. \n\n For a long time OT security was solved with air-gapped networks. However, today network connections are needed for both control and data collection. \n\n OT device manufacturers apply many standards. For example, safety alone has multiple essential standards. Now the industrial sector is in progress of adopting Operation Technology cyber security standard IEC62443-4-2. The standard set security requirements for industrial devices. \n\n Manufacturers may see security standard as just another standard to comply with. However, expecting device security standard alone to produce good security is pretty optimistic. Most device security standards do not give sufficient requirements for good security, but only set a starting point for the security work. This highlights the need to apply also less formal means to get focus into security, e.g., hacker mentality!",
+	"speakers": [
+		{
+			"id": 89,
+			"code": "DSECDP",
+			"name": "Lauri Paatero",
+			"position": "Security Architect, Wapice Oy",
+			"bio": "Lauri has developed secure systems almost 30 years, including smartcards, mobile phones and cryptographic systems. While Lauri’s main job has been to create things, finding vulnerabilities has always been a large and interesting part of this. \n\n Creating security that fits to the problem at hand is a key driver for Lauri. This often means not only improving security, but also combining security solutions with other important goals Multiple times this has resulted in new cryptographic solution where standard solutions are unsuitable. \n\n Lauri’s main focus has been on embedded devices. The most notable creation has been the early work for Trusted Execution Environments, before TEE name was coined. \n\n Since 2019 Lauri has been working at Wapice Oy, helping customers implement industrial IoT securely and supporting in challenging cryptography designs.",
+			"img": "paatero"
+		}
+	]
+}

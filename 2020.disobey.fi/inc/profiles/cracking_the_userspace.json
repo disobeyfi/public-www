@@ -1,0 +1,13 @@
+{
+	"title": "Freeda them all",
+	"subtitle": "Cracking the userspace for fun and profit",
+	"synopsis": "I'm going to talk and demostrate modern techniques to mess up with Android applications, fuzzing for bugs and break ARM anti debugging. I'll introduce some of my opensource tools which make reverse engineering and malware analysis less painful.",
+	"speakers": [
+		{
+			"name": "Giovanni 'iGio90' Rocca",
+			"position": "Programmer and reverse engineer at Overwolf",
+			"bio": "I'm a programmer and reverse engineer for Overwolf, daddy of a little princess and various open source tools used by reverse engineers and crackers, exploit developer and malware analyst. I live somewhere in the center of Italy, very far from cities and noises from the Human being.",
+			"img": "giovanni_rocca"
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"title": "Paradigm Shift",
+	"subtitle": "",
+	"synopsis": "Why are people having such a hard time using computers? Why are my users so stupid? Why would anyone click that link, open that attachment or struggle with software? This talk is about people's relationship with computers, and how hardware and software design is in need of a paradigm shift towards simpler systems that are hard to use incorrectly and easy to use securely.",
+	"speakers": [
+		{
+			"name": "Antti Kurittu",
+			"position": "DFIR team lead at Nixu",
+			"bio": "Antti Kurittu is a former crime investigator and a former NCSC-FI information security specialist. He has worked cases and helped design exercises for various companies over the years.",
+			"img": "antti_kurittu"
+		}
+	]
+}

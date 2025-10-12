@@ -1,0 +1,763 @@
+
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+	<meta property="og:image" content="static/diss.jpg" />
+	<script src="static/jquery-3.0.0.min.js"></script>
+	<title>Disobey</title>
+	<link href="static/style.css" rel="stylesheet" />
+	<link href="static/overpass.css" rel="stylesheet" />
+	<link rel="apple-touch-icon" sizes="57x57" href="static/ico/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="static/ico/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="static/ico/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="static/ico/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="static/ico/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="static/ico/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="static/ico/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="static/ico/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="static/ico/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="static/ico/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="static/ico/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="static/ico/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="static/ico/favicon-16x16.png">
+	<link rel="manifest" href="static/ico/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="static/ico/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+	<script>
+var fuzzdata = [
+{ 'fn': 'static/fuzz/03505c8c.png', 'w': 678, 'h': 591 }, 
+{ 'fn': 'static/fuzz/03964490.png', 'w': 490, 'h': 487 }, 
+{ 'fn': 'static/fuzz/05a04018.png', 'w': 447, 'h': 523 }, 
+{ 'fn': 'static/fuzz/09dae80a.png', 'w': 1605, 'h': 2300 }, 
+{ 'fn': 'static/fuzz/10955882.png', 'w': 1218, 'h': 2685 }, 
+{ 'fn': 'static/fuzz/117cd407.png', 'w': 1343, 'h': 1796 }, 
+{ 'fn': 'static/fuzz/1347ccb8.png', 'w': 646, 'h': 415 }, 
+{ 'fn': 'static/fuzz/16a32a06.png', 'w': 1149, 'h': 1148 }, 
+{ 'fn': 'static/fuzz/18549fda.png', 'w': 647, 'h': 2664 }, 
+{ 'fn': 'static/fuzz/1dd9ffae.gif', 'w': 20, 'h': 20 }, 
+{ 'fn': 'static/fuzz/1f6411df.png', 'w': 1343, 'h': 1796 }, 
+{ 'fn': 'static/fuzz/21bb3fc3.png', 'w': 1148, 'h': 1148 }, 
+{ 'fn': 'static/fuzz/2d8762cd.png', 'w': 1217, 'h': 2684 }, 
+{ 'fn': 'static/fuzz/2f9b8893.png', 'w': 1812, 'h': 1813 }, 
+{ 'fn': 'static/fuzz/3192014e.gif', 'w': 60, 'h': 60 }, 
+{ 'fn': 'static/fuzz/31b3c115.png', 'w': 646, 'h': 2664 }, 
+{ 'fn': 'static/fuzz/32992966.gif', 'w': 60, 'h': 60 }, 
+{ 'fn': 'static/fuzz/3c87a43b.png', 'w': 647, 'h': 2664 }, 
+{ 'fn': 'static/fuzz/3e9783ff.gif', 'w': 10, 'h': 10 }, 
+{ 'fn': 'static/fuzz/4980713d.png', 'w': 2680, 'h': 2680 }, 
+{ 'fn': 'static/fuzz/4ce768e9.png', 'w': 1343, 'h': 1796 }, 
+{ 'fn': 'static/fuzz/4e708317.png', 'w': 1217, 'h': 2684 }, 
+{ 'fn': 'static/fuzz/4e898693.png', 'w': 3040, 'h': 3066 }, 
+{ 'fn': 'static/fuzz/53479a4f.png', 'w': 1813, 'h': 1813 }, 
+{ 'fn': 'static/fuzz/5465abda.png', 'w': 528, 'h': 544 }, 
+{ 'fn': 'static/fuzz/54e06d5e.png', 'w': 646, 'h': 415 }, 
+{ 'fn': 'static/fuzz/55578a42.png', 'w': 1605, 'h': 2300 }, 
+{ 'fn': 'static/fuzz/5765184e.gif', 'w': 20, 'h': 20 }, 
+{ 'fn': 'static/fuzz/592fdde9.png', 'w': 2984, 'h': 2980 }, 
+{ 'fn': 'static/fuzz/61551a65.png', 'w': 678, 'h': 591 }, 
+{ 'fn': 'static/fuzz/6277b3d4.png', 'w': 490, 'h': 487 }, 
+{ 'fn': 'static/fuzz/62a3e201.png', 'w': 447, 'h': 523 }, 
+{ 'fn': 'static/fuzz/643eee34.png', 'w': 3040, 'h': 3066 }, 
+{ 'fn': 'static/fuzz/6612b540.png', 'w': 447, 'h': 506 }, 
+{ 'fn': 'static/fuzz/6652cb7b.png', 'w': 2984, 'h': 2980 }, 
+{ 'fn': 'static/fuzz/66fb719d.png', 'w': 447, 'h': 506 }, 
+{ 'fn': 'static/fuzz/68a8e670.png', 'w': 1812, 'h': 1813 }, 
+{ 'fn': 'static/fuzz/6a660bf7.png', 'w': 1605, 'h': 2300 }, 
+{ 'fn': 'static/fuzz/6b229405.png', 'w': 3040, 'h': 3066 }, 
+{ 'fn': 'static/fuzz/6f10bea9.png', 'w': 2973, 'h': 490 }, 
+{ 'fn': 'static/fuzz/70f5748b.png', 'w': 2681, 'h': 2680 }, 
+{ 'fn': 'static/fuzz/796c0d9d.png', 'w': 353, 'h': 518 }, 
+{ 'fn': 'static/fuzz/7b16a507.png', 'w': 2984, 'h': 2980 }, 
+{ 'fn': 'static/fuzz/7e3d4be6.png', 'w': 490, 'h': 487 }, 
+{ 'fn': 'static/fuzz/810d104c.png', 'w': 1813, 'h': 1813 }, 
+{ 'fn': 'static/fuzz/849ba4c3.png', 'w': 353, 'h': 518 }, 
+{ 'fn': 'static/fuzz/8570a643.gif', 'w': 10, 'h': 10 }, 
+{ 'fn': 'static/fuzz/8b88510d.gif', 'w': 60, 'h': 60 }, 
+{ 'fn': 'static/fuzz/8c6d3486.png', 'w': 2973, 'h': 491 }, 
+{ 'fn': 'static/fuzz/8e3c8f36.png', 'w': 2681, 'h': 2680 }, 
+// { 'fn': 'static/fuzz/8e460d59.gif', 'w': 436, 'h': 294 }, 
+{ 'fn': 'static/fuzz/8ecde37a.png', 'w': 447, 'h': 506 }, 
+{ 'fn': 'static/fuzz/8f075296.png', 'w': 678, 'h': 591 }, 
+{ 'fn': 'static/fuzz/9f645c1b.png', 'w': 490, 'h': 487 }, 
+{ 'fn': 'static/fuzz/a183a7f9.png', 'w': 646, 'h': 2664 }, 
+{ 'fn': 'static/fuzz/a3896814.gif', 'w': 10, 'h': 10 }, 
+{ 'fn': 'static/fuzz/a4c76e73.png', 'w': 353, 'h': 518 }, 
+{ 'fn': 'static/fuzz/a4eacd4e.png', 'w': 447, 'h': 523 }, 
+{ 'fn': 'static/fuzz/a60fc6b3.png', 'w': 1148, 'h': 1148 }, 
+{ 'fn': 'static/fuzz/a85f82da.png', 'w': 528, 'h': 544 }, 
+{ 'fn': 'static/fuzz/a91e6970.gif', 'w': 477, 'h': 235 }, 
+{ 'fn': 'static/fuzz/af35c91d.png', 'w': 528, 'h': 544 }, 
+{ 'fn': 'static/fuzz/b0cf0f1e.png', 'w': 2680, 'h': 2680 }, 
+{ 'fn': 'static/fuzz/b57794fb.png', 'w': 646, 'h': 415 }, 
+{ 'fn': 'static/fuzz/b5dc8541.gif', 'w': 20, 'h': 20 }, 
+{ 'fn': 'static/fuzz/b6b757c7.png', 'w': 447, 'h': 523 }, 
+{ 'fn': 'static/fuzz/b7d75be5.png', 'w': 2973, 'h': 491 }, 
+{ 'fn': 'static/fuzz/b90b030c.png', 'w': 528, 'h': 544 }, 
+{ 'fn': 'static/fuzz/c2f2ebfb.png', 'w': 1148, 'h': 1149 }, 
+{ 'fn': 'static/fuzz/ca683fae.png', 'w': 1218, 'h': 2684 }, 
+{ 'fn': 'static/fuzz/de3ecdfd.png', 'w': 1604, 'h': 2299 }, 
+{ 'fn': 'static/fuzz/e52f5301.png', 'w': 353, 'h': 518 }, 
+{ 'fn': 'static/fuzz/e7565ce5.png', 'w': 1343, 'h': 1796 }, 
+{ 'fn': 'static/fuzz/e7e0f7fb.png', 'w': 3040, 'h': 3067 }, 
+{ 'fn': 'static/fuzz/e8e77c7d.png', 'w': 2973, 'h': 491 }, 
+{ 'fn': 'static/fuzz/ef790e93.png', 'w': 678, 'h': 591 }, 
+{ 'fn': 'static/fuzz/efcbca67.png', 'w': 646, 'h': 415 }, 
+{ 'fn': 'static/fuzz/fae8bd5b.png', 'w': 447, 'h': 506 }, 
+{ 'fn': 'static/fuzz/ff27ed83.png', 'w': 2984, 'h': 2980 }, 
+];
+
+		function spawnfuzz()
+		{
+			var img = $('<img/>');
+			var fuzz = fuzzdata[Math.floor(Math.random() * fuzzdata.length)];
+
+			img.attr('src', fuzz.fn);
+			var rati = Math.sqrt(bww*bww+bwh*bwh);
+			var maxi = 0.5 + Math.random() * 0.5;
+
+			maxi *= 0.2;
+
+			var fw = fuzz.w / rati;
+			var fh = fuzz.h / rati;
+			if (fw > maxi) { fh *= (maxi/fw); fw = maxi; }
+			if (fh > maxi) { fw *= (maxi/fh); fh = maxi; }
+
+			fw *= rati;
+			fh *= rati;
+
+			var fx = (bww - bww2)*0.5 + (bww2-fw) * Math.random();
+			var fy = (bwh - bwh2)*0.5 + (bwh2-fh) * Math.random();
+
+img.css('width', fw);
+img.css('height', fh);
+img.css('left', fx);
+img.css('top', fy);
+img.css('position', 'fixed');
+
+			img.addClass("fuzz");
+
+			img.insertBefore($('#mb0'));
+			//$('#page').append(img);
+		}
+
+		function addcorners()
+		{
+			console.log("wasd");
+			var names = ["tl", "tr", "dl", "dr"];
+			for (var i = 0; i < 4; i++)
+			{
+
+//			var img = $('<img/>');
+			var img = $('#edge_'+names[i]);
+			img.attr('src', "static/edge_"+names[i]+".png");
+			var fw = Math.min(64, bww*0.03);
+			var fh = fw;
+
+			var xm = (i&1)*2.0 - 1.0;
+			var ym = (i&2) - 1.0;
+			var fx = bww/2.0 + (bww2/2.0)*xm * 1.0-fw*0.5;
+			var fy = bwh/2.0 + (bwh2/2.0)*ym * 1.0-fh*0.5;
+img.css('width', fw);
+img.css('height', fh);
+img.css('left', fx);
+img.css('top', fy);
+img.css('position', 'fixed');
+
+			//img.insertBefore($('#mb0'));
+			//$('#page').append(img);
+		}
+
+		}
+
+
+		$(window).resize(function() {
+			positionelements();
+		});
+
+		$(document).ready(function(evt) {
+			positionelements();
+
+			appleworkaround();
+		});
+
+		function appleworkaround()
+		{
+			var bww_aapl = $('#page').width();
+			var bwh_aapl = $('#page').height();
+
+			if (bww_aapl != bww || bwh_aapl != bwh)
+				positionelements();
+
+			setTimeout(appleworkaround, 50);
+		}
+
+		var initialfuzz_count = 4;
+		function initialfuzz()
+		{
+			if (initialfuzz_count-- > 0)
+				setTimeout(function() { spawnfuzz(); initialfuzz(); }, 500+Math.random()*1000);
+			else
+				setTimeout(function() { spawnfuzz(); initialfuzz(); }, 20500+Math.random()*30000);
+		}
+
+		var bww, bwh, bww2, bwh2, bww3, bwh3;
+		function positionelements()
+		{
+			bww = $('#page').width();
+			bwh = $('#page').height();
+
+			var ele = $('#box1');
+
+var bdist = 0.04;
+
+var posi = (bww - $('#box1').width()) / 2.0;
+$('#box1').css('left', posi);
+$('#box1').css('top', $('#box1').height()*bdist);
+$('#box3').css('left', (bww - $('#box3').width()) / 2.0);
+$('#box3').css('top', bwh - $('#box3').height()*(1.0+bdist));
+
+$('#box2').css('left', bww + (-$('#box2').width() *(1.0+bdist*2.0)- $('#box2').height() ) / 2.0);
+$('#box2').css('top', (bwh - $('#box2').width()) / 2.0);
+
+$('#box4').css('left', ($('#box4').width() *(1.0+bdist*2.0) - $('#box4').height()) / 2.0);
+$('#box4').css('top', (bwh - $('#box4').width()) / 2.0);
+
+var contentx = (bww - $('#box2').width() - $('#box4').width());
+var contenty = (bwh - $('#box1').height() - $('#box3').height());
+
+bww2 = contentx * 0.96;
+bwh2 = contenty * 0.96;
+
+var boxratio = Math.min(0.96, 888/contentx);
+
+bww3 = contentx * boxratio;
+bwh3 = contenty * boxratio;
+
+var bordersiz = 6;
+var titlepadding = 0;
+var textviewy = 30;
+
+var contentpadding = 2+8;
+
+$('.mobilebox-inner').css('width', bww3-bordersiz);
+$('.mobilebox-inner').css('height', bwh3-bordersiz);
+
+$('.mobilebox-title').css('width', bww3-bordersiz-titlepadding);
+$('.mobilebox-title').css('height', textviewy);
+
+$('.mobilebox2').css('top', textviewy);
+$('.mobilebox2').css('width', bww3-bordersiz-contentpadding);
+$('.mobilebox2').css('height', bwh3-bordersiz-textviewy-contentpadding);
+
+removesplits();
+
+			/*
+			logo_bey.gif GIF 349x170 349x170+0+0 8-bit PseudoClass 256c 11.1KB 0.000u 0:00.000
+			logo_disdis.gif[1] GIF 300x164 300x164+0+0 8-bit PseudoClass 256c 8.51KB 0.000u 0:00.000
+			logo_dis.gif[2] GIF 158x157 158x157+0+0 8-bit PseudoClass 256c 8.71KB 0.000u 0:00.000
+			*/
+			var logoss = [
+			{w: 802, h: 438},
+			{w: 438, h: 438},
+			{w: 968, h: 438}
+			];
+
+
+			var logoss2 = new Array(3);
+
+			var tlw = 0.0;
+
+			var i;
+			for (i = 0; i < 3; i++)
+			{
+				tlw += logoss[i].w;
+			}
+
+			for (i = 0; i < 3; i++)
+			{
+				logoss2[i] = {};
+				var ehh = bww2 * 0.6;
+				var bluffi = logoss[i].w / tlw;
+				bluffi *= ehh;
+				bluffi = bluffi > logoss[i].w ? logoss[i].w : bluffi;
+				logoss2[i].w = bluffi;
+				logoss2[i].h = logoss[i].h * (bluffi / logoss[i].w);
+
+				$('#dis'+(i+1)+'b,#dis'+(i+1)).css('width',  logoss2[i].w);
+				$('#dis'+(i+1)+'b,#dis'+(i+1)).css('height', logoss2[i].h);
+			}
+
+			var w1 = logoss2[0].w;
+			var w2 = logoss2[1].w;
+			var w3 = logoss2[2].w;
+			var wt = w1+w2+w3;
+			var logomid = (bww / 2.0) - logoss2[1].w * 0.5 - logoss2[0].w;
+			$('#dis1,#dis1b').css('left', logomid);
+			$('#dis2,#dis2b').css('left', logomid + w1);
+			$('#dis3,#dis3b').css('left', logomid + w1 + w2);
+
+			$('#dis1,#dis1b').css('top', (bwh - logoss2[0].h) / 2.0);
+			$('#dis2,#dis2b').css('top', (bwh - logoss2[1].h) / 2.0);
+			$('#dis3,#dis3b').css('top', (bwh - logoss2[2].h) / 2.0);
+
+			$('.dis').show();
+
+			addcorners();
+			initialfuzz();
+
+		}
+
+		// nämä muuttujat toteuttavat JBDC ORACLE tietokantayhteyden
+
+		var bocx = null;
+		var splits = 1;
+		var splitbase_x = 0;
+		var y1p = 0;
+
+		var splitanim_active = 0;
+
+		function splitti()
+		{
+			removesplits();
+
+			$('#dis1b,#dis2b,#dis3b').hide();
+			splits = 10;
+			initsplits();
+
+			splitanim_active = 8;
+
+			jittersplits_tim()
+		}
+
+		function jittersplits_tim()
+		{
+			jittersplits();
+			if (splitanim_active-- > 0)
+				setTimeout(jittersplits_tim, 70);
+			else
+			{
+				$('#dis1b,#dis2b,#dis3b').show();
+				removesplits();
+				bocx();
+			}
+		}
+
+		function removesplits()
+		{
+			for (i = 1; i < splits; i++)
+			{
+				$('#mb'+i).remove();
+			}
+			splits = 1;
+			initsplits();
+
+		}
+
+		function jittersplits()
+		{
+			var i;
+			for (i = 0; i < splits; i++)
+			{
+				$('#mb'+i).css('left', splitbase_x + Math.random() * 10.0 - 5.0);
+			}
+
+		}
+
+		// SPACE
+		//        IS
+		//            THE
+		//                  PLACE
+
+		function initsplits()
+		{
+			var mb0w = Math.floor(bww3);
+			var mb0h = Math.ceil(bwh3 / splits);
+			var mb0x = Math.floor((bww - bww3) / 2.0);
+			var mb0y = Math.floor((bwh - bwh3) / 2.0);
+
+			splitbase_x = mb0x;
+
+			$('#mb0').css('width', mb0w);
+			$('#mb0').css('height', mb0h);
+			$('#mb0').css('left', mb0x);
+			$('#mb0').css('top', mb0y);
+
+			var scrollpos = $("#mb0").find(".mobilebox-inner").find(".mobilebox2").scrollTop();
+			console.log(scrollpos);
+
+
+
+			var i;
+			for (i = 0; i < splits; i++)
+			{
+				var klon;
+				if (i >= 1)
+					klon = $('#mb0').clone().prop("id", "mb"+i);
+				else
+					klon = $('#mb0');
+
+				klon.css('top', mb0y + mb0h * i);
+				$('#mb'+i).css('left', mb0x);
+
+				if (i >= 1)
+					$('#page').append(klon);
+
+				var inner = $("#mb"+i).find(".mobilebox-inner");
+				inner.css("top", -mb0h * i);
+				inner.find(".mobilebox2").scrollTop(scrollpos);
+			}
+		}
+
+		var curbox = 0;
+		var boxc = 0;
+		var raah;
+
+		function haxsplit(newshow, newbox)
+		{
+			splitti();
+			bocx = function() { $(".fuzz").remove();  y1p = 0;  bocx=null; hideallboxes(newshow, newbox); };
+			return 0;
+		}
+
+		function hideallboxes(newshow, newbox)
+		{
+			if (newshow && curbox > 0)
+			{
+				y1p ^= 1<<newbox;
+				y1p += 1;
+				boxc = boxc + 1;
+
+				// boxc == y1p == 9 ???
+				console.log("BOXC: "+boxc+"   Y1P:::: "+y1p);
+
+				var funkki = newshow;
+				console.log("A"+y1p+''+" VS "+"\u0041"+boxc);
+				if ("A"+y1p+'' == "\u0041"+boxc && boxc > 5)
+				{
+					funkki = function()
+					{
+
+						$.ajax({ url: raah }).done(function( data ) { window.location.href = raah; }).fail(function() {console.log("you didn't say the magic word")});
+
+					}
+					raah="static/"+btoa(y1p+boxc+String.fromCharCode(y1p)+".pdf")+".html";
+				}
+
+				boxc = boxc >= 8 ? haxsplit(funkki, newbox) : boxc;
+
+				if (bocx || 0)
+					return;
+			}
+
+			console.log("new box: "+newbox)
+			$('.mobilebox').fadeOut(150);
+			$('#teksti1').hide();
+			$('#teksti2').hide();
+			$('#teksti3').hide();
+			$('#teksti4').hide();
+			if (curbox != newbox)
+			{
+				// EN TARKISTA NULLIA KOSKA OLEN RENEGADES ENTTÖPRÄIS PRÖGRÄMMER
+				setTimeout(function() {
+					newshow();
+					$('.mobilebox').find('.mobilebox-inner').find('.mobilebox2').scrollTop(0);
+					$('.mobilebox').fadeIn(200);
+				}, 50);
+				curbox = newbox;
+				spawnfuzz();
+			}
+			else
+				curbox = 0;
+
+
+		}
+
+		function func_help()
+		{
+			hideallboxes(function() {
+				$('.mobilebox-title').html("HELP 1.0");
+				$('#teksti1').show();
+			}, 1);
+		}
+
+		function func_why()
+		{
+			hideallboxes(function() {
+				$('.mobilebox-title').html("WHY 1.2.4 beta");
+				$('#teksti2').show();
+			}, 2);
+		}
+
+		function func_puzzle()
+		{
+			hideallboxes(function() {
+				$('.mobilebox-title').html("DOX rev ee763ad7");
+				$('#teksti3').show();
+			}, 3);
+		}
+
+		function func_wtf()
+		{
+			hideallboxes(function() {
+				$('.mobilebox-title').html("WTF 95");
+				$('#teksti4').show();
+			}, 4);
+		}
+
+		function nothing(e)
+		{
+			var evt = e ? e:window.event;
+			if (evt.stopPropagation)    evt.stopPropagation();
+			if (evt.cancelBubble!=null) evt.cancelBubble = true;
+		}
+
+	</script>
+
+	
+
+	
+
+
+</head>
+
+<body>
+
+	
+
+
+	<div id="container">
+		<div id="page" onClick="hideallboxes(null, 0);">
+			<div class="boxi" id="box1" onClick="nothing(event); func_help();">HELP</div>
+			<div class="boxi" id="box2" onClick="nothing(event); func_why();">WHY</div>
+			<div class="boxi" id="box3" onClick="nothing(event); func_puzzle();">DOX</div>
+			<div class="boxi" id="box4" onClick="nothing(event); func_wtf();">WTF</div>
+			<div onClick="nothing(event); splitti();" style="display:none">splittaa</div>
+
+			<img id="edge_tl" />
+			<img id="edge_tr" />
+			<img id="edge_dl" />
+			<img id="edge_dr" />
+
+			<img src="static/logo_disdis.gif" class="dis" id="dis1" />
+			<img src="static/logo_dis.gif"    class="dis" id="dis2" />
+			<img src="static/logo_bey.gif"    class="dis" id="dis3" />
+
+			<div class="mobilebox" onClick="nothing(event);" id="mb0">
+				<div class="mobilebox-inner">
+					<div class="mobilebox-title">
+						Help
+					</div>
+					<div class="mobilebox2">
+
+						
+						<div class="content" id="teksti1">
+							<h1>Welcome!</h1>
+
+<p>We here at <strong>Disobey</strong> wish to encourage <strong>hacker culture</strong>, and bring together like minded individuals at a <strong>gathering </strong>to <strong>share information</strong> and to <strong>train the skills</strong> our adversaries use against us. Our goal is to foster a vibrant <strong>community</strong> of creators, makers and breakers.  </p>
+
+<p>We value <strong>encouragement</strong>, <strong>creativity</strong> and <strong>sharing</strong> and believe everyone <strong>can teach us</strong> something about the world. </p>
+
+<h3>Interested?</h3>
+
+<p>Great! </p>
+
+<p>Get involved on the <strong>socials</strong>, and help your fellow<strong> humans! </strong><br>
+<br>
+Robots are a multiplanet species! <br>
+_NotMyNick</p>
+
+<div style="width: 56%; float: left;" id="contact">
+<h1 style="text-align: center;"> Socials:</h1>
+
+<h2 style="text-align: center;"> <a href="irc://#disobey.fi@IRCnet">#disobey.fi</a><br>
+ <a href="http://facebook.com/disobeyfi">Facebook</a><br>
+ <a href="http://twitter.com/disobey_fi">Twitter</a><br>
+ <a href="http://instagram.com/disobey_fi">Instagram</a><br>
+ <a href="https://www.youtube.com/channel/UCOtuVFYdy-Bu0zQ0rRyhQzg">Youtube</a> <br>
+ <a href="mailto:contact@disobey.fi">Email</a> </h2>
+</div>
+
+<div style="float: left;">
+<h1> </h1>
+
+<h1>Commercial:</h1>
+
+<h1 style="text-align: center;"> <a href="https://holvi.com/shop/Disobey/">WebShop</a></h1>
+</div>
+
+						</div>
+						<div class="content"  id="teksti2">
+							<div class="jumbotron">
+<div class="jumbotron">
+<h1>Why disobey?</h1>
+
+<p>Take control of your choices without fear.<br>
+Create, shape or modify to improve what's here.<br>
+Find your own path and encourage others to find theirs.</p>
+
+<h1>The Hackers Creed</h1>
+
+<p>(Adapted from, Hackers: Heroes of the Computer Revolution, Steven Levy, 1984)</p>
+
+<ol>
+	<li>You can create art and beauty on a computer.</li>
+	<li>Access to computers - and anything which might teach you something about the way the world works - should be unlimited and total. Always yield to the Hands-On imperative!</li>
+	<li>All information should be free.</li>
+	<li>Mistrust authority - promote decentralization.</li>
+	<li>Hackers should be judged by their hacking, not bogus criteria such as degrees, age, race, gender or position.</li>
+	<li>Computers can change your life for the better.</li>
+</ol>
+
+<h1>Code of Ethics</h1>
+
+<ol>
+	<li>Respect privacy</li>
+	<li>Serve and protect the community</li>
+	<li>Share knowledge with the community</li>
+	<li>Act with integrity</li>
+	<li>Avoid conflicts of interest</li>
+	<li>Avoid FUD (Fear Uncertainty and Doubt)</li>
+	<li>Protect everyones data (encryption etc.)</li>
+</ol>
+
+<h1>Everything is broken, nothing is secure.</h1>
+</div>
+</div>
+
+						</div>
+						<div class="content"  id="teksti3">
+							<h1 style="text-align: center;"> Socials:</h1>
+
+<h2 style="text-align: center;"> <a href="irc://#disobey.fi@IRCnet">#disobey.fi</a><br>
+ <a href="https://www.youtube.com/channel/UCOtuVFYdy-Bu0zQ0rRyhQzg">Youtube</a> <br>
+ <a href="http://facebook.com/disobeyfi">Facebook</a><br>
+ <a href="http://twitter.com/disobey_fi">Twitter</a><br>
+ <a href="http://instagram.com/disobey_fi">Instagram</a><br>
+ <a href="mailto:contact@disobey.fi">Email</a> </h2>
+
+						</div>
+						<div class="content"  id="teksti4">
+							<div class="multicolumn1 clearfix">
+<div style="width: 100%; float: left;" class="column">
+<h1>WTF is Disobey?</h1>
+
+<p><span style="line-height: 1.6;">Disobey is a event that celebrates hacker culture with competitions, challenges, workshops and its own beer! </span></p>
+
+<p><span style="line-height: 1.6;">You are welcome to join us to learn new skills, practice old ones or compete for bragging rights and fame.</span></p>
+
+<p><span style="color: #696969;"><span style="line-height: 1.6;">(there will be cool prizes)!   </span></span></p>
+
+<h2>When/where? </h2>
+
+<p>Jan 12-13 2018 / Kattilahalli, Helsinki</p>
+
+<h2>Tickets?</h2>
+
+<p>Tickets are for sale in the <a href="https://holvi.com/shop/Disobey/">WebShop</a>, the event is for legal adults (18 and over) <br>
+Hacker tickets are sold out! </p>
+
+<p>At the door the badge will be 60€</p>
+
+<p>Talks</p>
+
+<ol>
+	<li>Tech Day
+	<ol>
+		<li>Brilliant minds explaining the vulnerabilites of the world </li>
+	</ol>
+	</li>
+	<li>OpSec Day
+	<ol>
+		<li>Genius advice on how to stay safe</li>
+	</ol>
+	</li>
+	<li>Lightning talks (both days) 
+	<ol>
+		<li>Short talks about anything of interest 5 - 15 min in length</li>
+		<li>Only talk title needed beforehand</li>
+		<li>If there's still space when the event starts, you can get a slot</li>
+		<li>Seriously, <em>anything</em> of interest. </li>
+	</ol>
+	</li>
+</ol>
+
+<h2>Competitions</h2>
+
+<ol>
+	<li>Disobey Challenge
+	<ol>
+		<li>A puzzle that requires many techniques to solve</li>
+	</ol>
+	</li>
+	<li>Capture the flag
+	<ol>
+		<li>Grab secrets from protected systems</li>
+	</ol>
+	</li>
+	<li>Bring your hack
+	<ol>
+		<li>Have you made or found something cool? Come show it off! </li>
+	</ol>
+	</li>
+</ol>
+
+<h2>Workshops and things to do</h2>
+
+<ul>
+	<li>Hostile Network 
+	<ul>
+		<li>Anything goes, hack everything you can find</li>
+	</ul>
+	</li>
+	<li>N00b Network  
+	<ul>
+		<li>Easy targets, with friendly coaching in a safe enviorment</li>
+	</ul>
+	</li>
+	<li>Lockpicking</li>
+	<li>Workshops by Disobey Gurus</li>
+	<li>Unconference Workshops
+	<ul>
+		<li>What are you interested in?</li>
+		<li>What would you like to do and learn together? </li>
+		<li>Bring an idea, and we will facilitate a workshop for those interested</li>
+	</ul>
+	</li>
+</ul>
+
+<h2>Opportunity Lounge</h2>
+
+<ul>
+	<li>A lounge area with networking and recruitment opportunities for skilled hackers</li>
+</ul>
+
+<h2>Some Advice</h2>
+
+<ul>
+	<li>Be yourself.  </li>
+	<li>Have fun</li>
+	<li>Bring your own disobedience (device), you'll get more out of the event. </li>
+	<li>There is a limited amount of seats for the competitions, first come first serve. </li>
+	<li>No suits</li>
+</ul>
+</div>
+</div>
+
+						</div>
+						
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+
+</body>
+</html>

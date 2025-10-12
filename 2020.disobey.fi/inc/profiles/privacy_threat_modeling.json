@@ -1,0 +1,19 @@
+{
+	"title": "Privacy Threat Modeling Based on Data Lifecycle",
+	"subtitle": "",
+	"synopsis": "Privacy should not be left only to the legal department: every security specialist and software developer should know the basics to be able to design applications with Privacy by Design principles.\n\nThreat modeling is a natural approach to Privacy by Design, since it's already an established practice in secure software development. In addition, the general idea of threat modeling - thinking what can go wrong and what can you do about it - is excellent, because even features added to increase privacy may bring new threats if implemented insecurely.\n\nThere are only a few existing privacy threat modeling methodologies, such as LINDDUN, but they don't take into account the lifecycle of personal data. A pure LINDDUN model works on data flow diagrams which easily become complicated and its approach to compliance-type threats is underdeveloped. Instead of focusing only on data flows, taking a higher-level look at functionality and business processes makes identifying threats easier.\n\nThis talk introduces a privacy threat modeling method that enables you to systematically detect threats from the five data lifecycle phases: collecting, storing, handling, anonymization and removal. The method combines elements from LINDDUN, TRIM and Persona non Grata approaches and takes into account the data breach victims for better coverage. \n\nThis talk explains what kind of threats are related to personal data from the moment of collecting it to the point of deletion. You will learn how to find privacy threats from each lifecycle phase, system features and architecture.\n\nAfter this talk, you will be able to identify potential harm-doers and understand how people even with good intentions can cause privacy problems. You will get practical advice on running a privacy threat workshop and getting privacy features and controls implemented alongside functionality and security.",
+	"speakers": [
+		{
+			"name": "Anne Oikarinen",
+			"position": "Senior Security Consultant at Nixu",
+			"bio": "Anne Oikarinen is a Senior Security Consultant who works with software development teams to help them design and develop secure software. Anne will find the weak points of your architecture and security concerns that threaten your business. In her current job at Nixu Corporation, Anne divides her time between threat analysis and hacking. Anne also has experience on incident response and security awareness and a background in software testing and test management.",
+			"img": "oikarinen"
+		},
+		{
+			"name": "Tuisku Sarrala",
+			"position": "Senior Privacy Consultant at Nixu",
+			"bio": "Tuisku Sarrala is a Senior Privacy Consultant whose work revolves around embedding privacy in cybersecurity. In her role as the Practice Lead for Privacy & Data Protection at Nixu Corporation, Tuisku is currently focusing on developing collaboration between technical and legal/privacy experts. Tuisku is also studying a Masters in Engineering in Cyber Security alongside her day job.",
+			"img": "tuisku"
+		}
+	]
+}

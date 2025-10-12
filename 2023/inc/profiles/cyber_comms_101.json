@@ -1,0 +1,23 @@
+{
+	"guid": "70c1f2c6-0bce-5753-b284-ac331e8ac1a0",
+	"title": "Cyber comms 101 - What to say when cyber hits the fan",
+	"subtitle": "",
+	"synopsis": "Learn how to communicate about cyber incidents without previous communication experience and pick up free templates for various scenarios.",
+
+	"track": "Workshop",
+	"type": "Workshop - 2 hours",
+
+	"speakers": [
+		{
+			"id": 51,
+			"code": "9TAMU9",
+			"name": "Helinä Turunen",
+			"position": "Senior specialist at NCSC-FI",
+			"bio": "Helinä wields the power of words in cyber. Their experience includes a plethora of things from both private and public sectors - From coordinating zero day vulnerability warnings, giving media interviews on latest cyber phenomena and herding cyber alpacas at the NCSC-FI to leading phishing training experts at Hoxhunt. They are also a mentor and an artist.",
+
+            "some": "LinkedIn: <a href='https://linkedin.com/in/hturunen'>hturunen</a>",
+
+			"img": "turunen"
+		}
+	]
+}

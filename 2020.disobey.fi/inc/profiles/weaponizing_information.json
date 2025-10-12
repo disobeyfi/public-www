@@ -1,0 +1,19 @@
+{
+	"title": "Weaponizing information",
+	"subtitle": "How to craft a credible attack pretext",
+	"synopsis": "We will go through some basic tools and principles for Open Source Intelligence (OSINT) and see what kind of information we can find from our potential targets and then figure out what is something we could use to create a believable phishing package.\n\nIn this workshop we do not craft technical malware packages but focus on the information gathering and thinking more about how we can get the psychological effect that our package would be opened by the would-be target.\n\nWe ask the participants to figure out in advance a target organization they wish to conduct the reconnaissance on.\n\nPre-requisite: Laptop",
+	"speakers": [
+		{
+			"name": "Riku Juurikko",
+			"position": "Senior Security Manager at Elisa",
+			"bio": "By understanding how the attackers think, we can better defend against them. Riku is passionate about psychology and secrets of the human mind and how it can be influenced. He wishes to raise awareness about fraudsters and other crooks who fool innocent people.",
+			"img": "rikujuu"
+		},
+		{
+			"name": "Lauri 'OpEs' Vakkala",
+			"position": "Security analyst at Silverskin Information Security",
+			"bio": "Lauri is OSINT Enthusiast and penetration tester making the world a more secure place everyday. His current role at Silverskin involves penetration testing a variety of targets from web applications to intra networks and IoT devices.",
+			"img": "vakkala"
+		}
+	]
+}

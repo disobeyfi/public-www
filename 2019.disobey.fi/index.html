@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+		<title>Disobey 2019</title>
+		<meta name="description" content="Disobey 2019 - The Nordic Security Event">
+
+		<meta property="og:url"                content="https://www.disobey.fi" />
+		<meta property="og:type"               content="website" />
+		<meta property="og:title"              content="Disobey 2019" />
+		<meta property="og:description"        content="Disobey 2019 - The Nordic Security Event From 11th to 12th of January, 2019" />
+		<meta property="og:image"              content="img/disobey_facebook.jpg" />
+
+		<!--- STYLES -->
+		<style>@import url("https://use.typekit.net/nfb1rio.css");</style>
+		<link rel="stylesheet" href="https://use.typekit.net/nfb1rio.css">
+		<!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+
+		<link rel="stylesheet" type="text/css" href="css/foundation.min.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css?v=3">
+
+		<!-- SCRIPTS -->
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
+		<script defer src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha256-XJuslujM3cGzRZGiSi/KNSdk58uORO/mmrEQNjVtb5k=" crossorigin="anonymous"></script>
+
+		<script defer src="js/vendor/fontawesome.min.js"></script>
+		<script defer src="js/vendor/fa-brands.min.js"></script>
+		<script defer src="js/vendor/fa-regular.js"></script>
+		<script defer src="js/vendor/fa-solid.js"></script>
+
+		<script defer src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js" 	integrity="sha256-mRYlCu5EG+ouD07WxLF8v4ZAZYCA6WrmdIXyn1Bv9Vk=" crossorigin="anonymous"></script>
+		<script defer src="js/vendor/lazyload.min.js"></script>
+
+		<script defer src="js/main.js"></script>
+		<script>
+			var startLoader = function(){
+				TweenLite.to(".loader", 10, {rotation:-1440, transformOrigin:"50% 50%"});
+				$(".loader").removeClass("hidden");
+			}
+		</script>
+</head>
+<body class='text-center hide-background'>
+	<div class='loader hidden'><img onload="startLoader()" src='img/just_logo.png' alt="loader"></div>
+
+	<section class='container hidden'>
+		<div class='full-row top-bar'></div>
+			<!--- HEADER + DATE -->
+			<div class='full-row header-row clearfix  transparent-bg' >
+
+				<a href="https://holvi.com/shop/Disobey/" class="button get-ticket hidden">
+						<div class='show-for-medium'>Get your ticket now <i class="fas fa-chevron-right"></i></div>
+						<div class='hide-for-medium'>Buy ticket<i class="fas fa-chevron-right"></i></div>
+				</a>
+				<div class='dimmer'></div>
+				<div class='header-content'>
+					<div class='ident'>
+						<img src='img/logo.png' class='logo show-for-medium hidden' alt="Disobey">
+						<img src='img/logo_mobile.png' class='logo show-for-small-only' alt="Disobey">
+					</div>
+
+					<!--- DATE -->
+					<section class="grid-x grid-padding-x grid-margin-x datetime text-center show-for-medium">
+						<div class='cell large-6 large-text-right'>
+							<h3><i class="far fa-clock"></i> From 11th to 12th of January, 2019</h3>
+						</div>
+						<div class='cell large-6 large-text-left'>
+							<h3><i class="far fa-map-marker-alt"></i> Kaapelitehdas, Helsinki Finland</h3>
+						</div>
+					</section>
+				</div>
+
+				<!--- CTA -->
+				<!--<section class="grid-container cta">
+					<a  href="#" class='button hide-for-medium'>Buy ticket <span class=''><i class="fas fa-chevron-right"></span></i></a>
+
+				</section>-->
+
+			</div>
+
+			<!-- INFO -->
+			<div class='full-row info clearfix '>
+
+				<section class="grid-container cell program">
+					<h1>Program</h1>
+					<div id='program'>
+							<div class='grid-x grid-padding-x event-items'>
+								<div class='cell medium-4'>
+										<h4>Main event</h4>
+										<p> will be filled with talks from leading security professionals, hackers and other interesting people.</p>
+								</div>
+								<div class='cell medium-4'>
+										<h4>Workshops</h4>
+										<p>will cover practical cyber security, vulnerabilities, exploits and system fortification.</p>
+								</div>
+								<div class='cell medium-4'>
+										<h4>Parties!</h4>
+										<p>For sure, we will have Disobey parties for you. Perhaps even other casual, off-program activity.</p>
+								</div>
+							</div>
+							<br>
+							<div class='grid-x grid-padding-x illustrations'>
+									<div class='cell medium-4'>
+											<div class='illustration lazyload' data-src='img/kuvitus_1.jpg' style='background-image:url("");'></div>
+									</div>
+									<div class='cell medium-4'>
+										<div class='illustration lazyload'   data-src='img/kuvitus_2.jpg' style='background-image:url("");'></div>
+									</div>
+									<div class='cell medium-4'>
+										<div class='illustration lazyload'   data-src='img/kuvitus_3.jpg' style='background-image:url("");'></div>
+									</div>
+							</div>
+					</div>
+				</section>
+
+		</div>
+
+		<!--- LOCATIION AND VENUE -->
+			<div class='full-row clearfix lazyload' data-src='img/puzzle.jpg' style='background-image:url( "" );' >
+					<section class="grid-container cell grid-y cell location" id='puzzle' >
+								<div class="cell">
+									<h1>Disobey puzzle</h1>
+								</div>
+								<div class='cell'>
+											<p>Solve the <a href='http://puzzle.disobey.fi' target="_blank">Disobey puzzle</a> and you may win a special discount hacker ticket.</p>
+								</div>
+					</section>
+			</div>
+
+			<div class='full-row clearfix divider'>
+			</div>
+		<!--- LOCATIION AND VENUE -->
+			<div class='full-row clearfix lazyload' data-src='img/kaapeli.jpg' style='background-image:url( "" );' >
+					<section class="grid-container cell grid-y cell location" id='location' >
+								<div class="cell">
+									<h1>Location</h1>
+								</div>
+								<div class='cell'>
+											<h4>The Cable Factory, Helsinki</h4>
+											<p>	Tallberginkatu 1<br>00180 Helsinki<br> Finland</p>
+								</div>
+					</section>
+			</div>
+
+
+			<div class='full-row clearfix'>
+				<!-- CONTACT -->
+				<section class="cell grid-container"  id='contact'>
+					<div class='grid-y cell medium-6 contact'>
+							<div class="cell">
+								<h1>Contact us</h1>
+							</div>
+							<div class='cell some'>
+
+	                        <a href="http://twitter.com/disobey_fi" target="_blank"><i class="fab fa-twitter"></i>
+	                        </a>
+
+	                        <a href="http://facebook.com/disobeyfi"  target="_blank"><i class="fab fa-facebook-f"></i>
+	                        </a>
+
+	                        <a href="http://instagram.com/disobey_fi"  target="_blank"><i class="fab fa-instagram"></i>
+	                        </a>
+	                        <a href="https://www.youtube.com/channel/UCOtuVFYdy-Bu0zQ0rRyhQzg"  target="_blank"><i class="fab fa-youtube"></i>
+	                        </a>
+
+	                        <a href="irc://#disobey.fi@IRCnet"  target="_blank"><i class="fas fa-hashtag"></i>
+	                        </a>
+
+	                        <a href="https://holvi.com/shop/Disobey/"  target="_blank"><i class="fas fa-shopping-cart"></i>
+													</a>
+							</div>
+							<div class='cell contact-email'>
+								contact@disobey.fi
+							</div>
+
+					</div>
+
+				</section>
+
+		</div>
+	</section>
+
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+{
+	"guid": "43ba6746-9e9f-583f-a5d4-b134634c9faa",
+	"title": "Need for network visibility in the age of modern EDR by Ville Vainikka",
+	"subtitle": "",
+	"synopsis": "EDR is an excellent tool for getting local visibility to endpoints but linking events to a context to get a clearer picture requires something more, especially when the users are mobile.",
+	"speakers": [
+		{
+			"id": 82,
+			"code": "VVC8JS",
+			"name": "Ville Vainikka",
+			"position": "Cyber Security Architect",
+			"bio": "Government grunt of 12 years and many roles, with interest on the technical deep end, especially networking. Currently working as cyber security architect at Valtori, focusing on network security solutions.",
+
+            "some" : "LinkedIn: <a href='https://www.linkedin.com/in/ville-vainikka-03a596148'>ville-vainikka-03a596148</a>",
+
+			"img": "vainikka"
+		},
+
+        {
+			"id": 119,
+			"code": "G9UUNJ",
+			"name": "Henri Aalto",
+			"position": "Cyber Security Architect",
+			"bio": "Seasoned IT / cyber security professional who has been working for the Finnish Government for the last 14 years in different positions and organizations. Currently working as cyber security architect at Valtori, with main responsibilities being SOC & SIEM development (processes, technologies & tools, detection engineering, threat intel etc.).",
+
+			"img": "aalto"
+		}
+	]
+}

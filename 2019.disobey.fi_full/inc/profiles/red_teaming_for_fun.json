@@ -1,0 +1,11 @@
+{
+	"title":"Red teaming for fun and education",
+
+	"synopsis":"How to build a game-like experience out of cyber attacks In cyber Security exercise? How to entertain  the blue teams and enable blue teams to defend themselves but stay one step ahead of the defenders to keep the game going? Red teaming for fun and education!\n\nHosted by: Tuuli Siiskonen, CuddyCom Security Ltd\nhacker, agile security coach, technology enthusiast with human interface.",
+
+	"speakers":
+	[
+			{ "name" : "Tuuli Siiskonen, CuddyCom Security Ltd", "img" : "tuuli_siiskonen" }
+	]
+
+}

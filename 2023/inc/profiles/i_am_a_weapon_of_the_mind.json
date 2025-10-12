@@ -1,0 +1,17 @@
+{
+	"guid": "e1ccbcc2-221e-5a4b-8824-ab6efef57e07",
+	"title": "I am a weapon of the mind, used to manipulate and deceive, I can make people believe in anything, no matter how hard they try to see. What am I?",
+	"subtitle": "",
+	"synopsis": "Using large language models such as ChatGPT, it is now possible to automate social engineering attacks at scale. In this talk, we will discuss how these models can be used to generate highly convincing and personalized phishing messages, and how they can be integrated into existing tools and frameworks to automate the attack process. We will also explore the ethical implications of using language models for malicious purposes and discuss potential countermeasures and defenses.",
+
+	"speakers": [
+		{
+			"id": 104,
+			"code": "HRWAPS",
+			"name": "Pyry Åvist",
+			"position": "CTO & Co-Founder of Hoxhunt",
+			"bio": "",
+			"img": "avist"
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"title":"All your bases are belong to us",
+
+	"synopsis":"Shamil Alifov is generally tolerable guy. Got some education. Started TurkuSec. Works for Cyber Intelligence House. Volunteers for DisObey (Volunteer of the year 2018). Can be reached at @CryptoLek.\n\nData breaches, duh, happen all the time. As the saying goes; another day, another breach. Chances are high that you have read in the news about the biggest data breach incidents, involving Quora, Marriott, Yahoo, Equifax, LinkedIn and many more. There are a lot more smaller breaches happening all the time, which don’t get the attention of the media.\n\nThe main focus of the talk is the use of breached databases and the trading and hoarding scene. Furthermore,  the talk will shed a light on the economy of the breached databases. We will also dive into database sharing/trading places, such as forums, marketplaces, websites, lookup services and the economy.\n\nFirst of all, the definition of data breach will be introduced and will give some well-known examples. After the needful is done, the talk will go deeper into this interesting topic.\n\nThe use of breached databases varies from the uses somewhere in the grey zone to the completely illegal ones. During the talk, this will be illustrated by examples of real cases. An interesting fact: breached databases became collectable digital items. There are folks who are avid collectors of databases and engage in trading and sharing of those. Another use case of breached databases are breach notification services (like the famous project “HaveIBeenPwned” by Troy Hunt), and lookup services allowing to access raw breached data for a fee. Brian Krebs as well as many other people use breached databases to dox others. Of course, database breaches are utilized for attacks, such as password reuse, credential stuffing and sextortion scams.",
+	"speakers":
+	[
+			{ "name" : "Shamil Alifov", "img" : "shamil_alifov" }
+	]
+
+}

@@ -1,0 +1,13 @@
+{
+	"title": "app.setAsDefaultRCEClient",
+	"subtitle": "Electron, scheme handlers and stealthy security patches",
+	"synopsis": "In January 2018, Electron patched a critical vulnerability, CVE-2018-1000006, resulting in Remote Code Execution in all Windows apps using the app.setAsDefaultProtocolClient API. Yet in February 2019, in a review of some of the more popular applications, we were still able to identify seven RCEs in six different apps, all using the same attack vector of Windows URI scheme handlers. All six of the identified apps were already patched against the Electron vulnerability, yet five of the seven exploits relied only on Electron features for code execution.\n\nWe detail three different approaches for exploiting Windows scheme handlers — two of them application-specific and one applicable to Electron apps more generally — and show how Windows Universal Naming Convention can present a significant risk for command injection. We also demonstrate a small tool for exploiting the Chrome DevTools protocol.\n\nWhile most of the issues discussed in this talk have already been mitigated on several levels, the Electron team has failed to publicly document which versions of the framework are vulnerable. And while Electron's new tightened release cycle means that vulnerable versions have already reached EOL, when developers are unaware that a vulnerability exists, there is little incentive to upgrade. With this talk, we aim to fix that lack of incentive.\n\nIn addition to the technical details of the seven vulnerabilities, we provide insight into the disclosure process itself, the various types of programs intended to facilitate it, and their shortcomings. In particular we present our experiences with Zero Day Initiative, who acquire high-impact vulnerabilities,  and Mattermost, one of the affected vendors running a responsible disclosure program.",
+	"speakers": [
+		{
+			"name": "Juho Nurminen",
+			"position": "",
+			"bio": "Juho Nurminen has nearly a decade of experience in application security starting from his first submissions to the Google VRP as a high school kid. He's seen the software industry from both the developer's and pentester's perspectives, and over the years he's been credited for several CVEs in Chrome, Firefox, Safari as well as a few more unconventional browsers. While breaking web technologies themselves has become something of a trademark for Juho, he hasn't shied away from applications running inside the browser, either: Juho has wreaked havoc in everything from online banking protocols and ERP systems to JavaScript UI frameworks. His recent research into Electron security has been a natural progression from those two areas.",
+			"img": "juho_nurminen"
+		}
+	]
+}

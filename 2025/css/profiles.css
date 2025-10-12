@@ -1,0 +1,175 @@
+#profile { max-width: 800px;  }
+#simple-program{ margin-top: 40px;}
+
+#profile h1, #simple-program h1{
+	color: white;
+	margin-top:30px;
+	margin-bottom: 30px;
+	line-height: 1.1;
+}
+
+#simple-program h1{
+	font-size: 32px;
+	margin-bottom: 10px;
+	text-transform: none;
+	padding: 0px 30px 0px 30px;
+}
+#simple-program h3{
+	font-size: 16px;
+	margin-top:0px;
+	margin-bottom:30px;
+	text-transform: none;
+	font-weight: 400;
+	opacity: 0.6;
+}
+
+#profile .synopsis{ font-size: 18px;  }
+#profile hr{ border-bottom: 1px solid rgba(255,255,255,0.2); }
+
+#profile span.larger{ font-size: 20px; font-weight: 600; }
+
+#simple-program .synopsis{
+	display:none;
+	padding: 0px 20px 0px 20px;
+	text-align:left;
+	margin: 15px 0px 20px 0px;
+}
+
+#profile .speakers,
+#simple-program .speakers{ margin-bottom:40px; margin-top: 40px;}
+#simple-program .speakers{ margin-top: 40px; }
+
+#profile .speaker,
+#simple-program .speaker{
+	display: inline-block;
+	font-size: 19px;
+	line-height:19px;
+}
+
+
+#simple-program .speaker{ display: block; margin-bottom: 10px;}
+
+#profile .speaker p,
+#simple-program .speaker p{
+	line-height:1;
+	margin-top:18px;
+	display: initial;
+	padding-left: 5px;
+}
+#simple-program .speaker p{ margin-top:12px; font-size:16px; }
+
+#profile .speaker.single p, #simple-program .speaker.single p{ float:left; }
+
+/* Image */
+#profile .speaker-image, #simple-program .speaker-image{
+	width:100%;
+	height: 100%;
+	margin-right: 15px;
+	display: block;
+}
+#simple-program .speaker-image{
+	width:40px;
+	height: 40px;
+	display: inline-block;
+	margin-bottom:0px;
+}
+
+.program-item{
+	background-color: rgba( 0, 0, 0, 0.2 );
+	position: relative;
+}
+.simple-program-header{
+	min-height: 60px;
+}
+
+.simple-program-read-more{ 
+	color: #26c041;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 600;
+
+	position: absolute;
+  z-index: 2;
+  right: 15px;
+	top: 10px;
+}
+
+/*-------------------------
+ Use Flexbox to align speaker text to images
+ regardles how many lines of text there is
+ -----------------------*/
+.speaker .speaker-container{
+	display: inline-block;
+
+}
+
+.speaker .flexed-item-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+	flex: 0 0 auto;
+}
+
+.speaker .flexed-item-container .image{
+	width:120px;
+	height:120px;
+	flex-shrink: 0;
+	margin-right:15px;
+}
+#simple-program .speaker .flexed-item-container .image{
+	width:40px;
+	height:40px;
+	flex-shrink: 0;
+	margin-right:15px;
+}
+.speaker .flexed-item-container img{
+ 	margin-bottom:0px;
+	object-fit: contain;
+	width:100%;
+	height: auto;
+}
+
+.speaker .flexed-item-container p{
+  line-height: 1.1;
+  margin-bottom:0px;
+  margin-top:0px !important;
+}
+
+/*-------------------------
+ Change text open / close on simple program
+ -----------------------*/
+.simple-program-read-more .sp-close-button{ display: none; }
+.simple-program-read-more .sp-open-button{ display:inline-block; }
+
+.is-open.simple-program-read-more .sp-close-button{ display:inline-block; }
+.is-open.simple-program-read-more .sp-open-button{ display:none; }
+
+.profile-speaker-name{
+	display: block;
+    clear: both;
+	font-size: 20px;
+    font-weight: 600;
+}
+
+.profile-speaker-position{
+	display: inline-block;
+    clear: both;
+    margin-top: 10px;
+	font-size: 15px;
+    line-height: 1.2;
+}
+
+#profile .profile-nick{
+	margin-top: 40px;
+}
+
+#profile .profile-some{
+	margin-top: 20px;
+	line-height: 1.8em;
+}
+
+#profile .profile-nick .fieldname, #profile .profile-some .fieldname{
+	font-weight: 400;
+	display: inline-block;
+    margin-right: 0px;
+}

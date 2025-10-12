@@ -1,0 +1,24 @@
+{
+	"guid": "fc924456-15b6-5bf8-8aba-71cb30f657d9",
+	"title": "pwn Abloy Easy: Case study if it is possible to pick the latest Abloy mechanical lock model Abloy Easy released in 2021",
+	"subtitle": "",
+	"synopsis": "All Finns know that it is not possible to pick Abloy locks such as Classic, Exec, Sento: - I have picked them all. In this presentation you will learn the operation principle of Abloy latest mechanical lock model Abloy Easy and how it can be picked.",
+
+	"speakers": [
+		{
+			"id": 60,
+			"code": "7VNLYZ",
+			"name": "Petri Maksimainen",
+			"position": "",
+
+			"bio": "When Finland faced the first round of covid pandemic I did not get hit by covid, but I got hit by the locksport interest. Since then I have pwned several lock types, including those different Abloy lock types. \n\nIn the locksport scene I play with a nickname 'Idanhurja'. Lock Pickers United awarded me with \"black belt\" -picker status in 2021. I have shared some of my learning in youtube. \n\nI am also interested in cyber security in hands on fashion. I completed pwn.college and been playing in different CTF-competitions. \n\nMy professional life so far has not been related to cyber security / physical security, but I am always open for interesting opportunities.",
+
+            "nick" : "idanhurja",
+
+            "some": "Youtube: <a href='https://www.youtube.com/c/idanhurja'>idanhurja</a>",
+
+			"img": "idanhurja"
+		}
+	]
+}
+

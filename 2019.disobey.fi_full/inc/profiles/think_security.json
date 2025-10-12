@@ -1,0 +1,14 @@
+{
+	"title":"Think Security",
+
+	"synopsis":"Hackers? White hats? Black hats? Cybersecurity Experts? Who are these people and how technical do I have to be to become one of them?\n\nDuring the workshop, you will be immersed in the world of cybersecurity and get a feel of how attackers and defenders think. You will get a feel of how an attacker could about infiltrating a company by looking for weakest links and extracting valuable information such as passwords and confidential documents.\nVarious professionals with careers in penetration testing, software development, security research and risk management will guide you on how to \"Think Security\" and improve the defenses of an individual's and a company's systems and networks against these types of attacks. These experts will also share their stories and experiences from their careers.\n\n<b>Hosted by:</b>\nF-Secure security experts: Laura Kankaala, Karmina Aquino, Christine Bejerasco and Laura Noukka\n\n<b>Laura Noukka</b>\nSenior Risk Management consultant, Privacy service lead\nRisk management professional who have made a deep dive in to the world of privacy and IT security while working for the F-Secure cyber security services",
+
+	"speakers":
+	[
+			{ "name" : "Laura Kankaala, F-Secure security expert", 			"img" : "laura_kankaala" },
+			{ "name" : "Karmina Aquino, F-Secure security expert", 			"img" : "karmina_aquino" },
+			{ "name" : "Christine Bejerasco, F-Secure security expert", "img" : "christine_bejerasco" },
+			{ "name" : "Laura Noukka, F-Secure security expert", 				"img" : "laura_noukka" }
+	]
+
+}

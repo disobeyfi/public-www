@@ -1,0 +1,21 @@
+{
+	"guid": "f66a7bdd-5f2a-5392-8abe-e4066484f873",
+	"title": "Your connection is not private - Exploiting insecure certificate validation in TLS clients",
+	"subtitle": "",
+	"synopsis": "Securing websites and servers with TLS has never been easier. But what about the clients that connect to them? Most TLS connections security rely on the clients ability to validate the server identity correctly. \n\n This talk explores the 'most dangerous code in the world'.  Lets hack an iPhone, Windows 11 and more while we deep dive into the world of insecure TLS certificate validation.",
+	"speakers": [
+		{
+			"id": 18,
+			"code": "DVNTD9",
+			"name": "Aapo Oksman",
+			"position": "Senior Security Specialist at Nixu",
+			"nick" : "",
+
+			"bio": "Aapo Oksman is a Senior Security Specialist at Nixu Corporation, working with application, protocol and device security focusing on industrial IoT. His background is in electrical engineering, embedded devices, and test automation.",
+
+			"some": "Twitter: <a href='https://twitter.com/AapoOksman'>@AapoOksman</a> \nLinkedIn: <a href='https://linkedin.com/in/AapoOksman'>AapoOksman</a>",
+
+			"img": "oksman"
+		}
+	]
+}

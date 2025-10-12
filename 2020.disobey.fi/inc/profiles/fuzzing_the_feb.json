@@ -1,0 +1,13 @@
+{
+	"title": "fffu-ffu-ffuzzing fhe feb",
+	"subtitle": "",
+	"synopsis": "This beginner (as well as intermediate / advanced) friendly workshop runs the participants through a vast variety of different configuration issues and vulnerabilities that can be discovered using active scanning, bruteforcing and fuzzing in web context. The participants will learn to use variety of tools and to automate repetitive parts of the workflow. Topics covered include (but not limited to) content & asset discovery, credential bruteforcing, virtualhost discovery, SSRF, denial of service, shell scripting, dynamic payload generation and result filtering. We will be fuzzing different inputs: HTTP headers, GET & POST parameters, payloads and different APIs across various hosts. The participants will be provided with a VirtualBox VM image with a variety of challenges covering these topics, with difficulties ranging from easy to really hard. Large parts of the workshop content dive into advanced usage of a blazing fast open source web fuzzing tool ffuf (https://github.com/ffuf/ffuf/), and also often act as the first steps of bug bounty hunting on a target.\n\nPre-requirements: Laptop with VirtualBox installed, basic Linux command line knowledge and adventurous mind.",
+	"speakers": [
+		{
+			"name": "joohoi",
+			"position": "",
+			"bio": "joohoi is a privacy and security enthusiast, hacker and open so(u)rcerer involved in projects like Certbot, acme-dns and ffuf. Approaches problems from purple teamer perspective.",
+			"img": "joohoi"
+		}
+	]
+}

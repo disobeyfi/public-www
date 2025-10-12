@@ -1,0 +1,13 @@
+{
+	"title": "Near practical quantum computing",
+	"subtitle": "",
+	"synopsis": "Now that we all know the fundamentals of quantum computing, let’s dive into machines available in the near term and solving problems that have practical value. In the workshop we will look use a quantum annealing process on a Noisy Intermediate-Scale Quantum (NISQ) quantum computer to solve an optimization problem. In practice the prerequisite knowledge is a very superficial understanding of quantum computing and a laptop. The more detailed prerequisites will be clarified as the planning of the content progresses. Get as close to practical quantum computing as possible!",
+	"speakers": [
+		{
+			"name": "Topias Uotila",
+			"position": "Nordcloud",
+			"bio": "Regular presenter at Disobey, independent knowledge security researcher",
+			"img": "topias_uotila"
+		}
+	]
+}

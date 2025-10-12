@@ -1,0 +1,19 @@
+{
+	"guid": "8fff08ee-60e7-5b0d-9e31-e5425a6ff58b",
+	"title": "Deepfakes through the lense of an adversary model",
+	"subtitle": "",
+	"synopsis": "In this talk we look into the technologies behind deepfakes and attempt to understand its current technological stage.",
+
+	"speakers": [
+		{
+			"id": 53,
+			"code": "LKETYB",
+			"name": "Mika Juuti",
+			"position": "D. Sc. (Tech)",
+
+			"bio": "Mika is a Data Scientist at the Social Security Institute, Finland. Mika was a Postdoctoral Fellow at the Cryptography, Security and Privacy group at University Waterloo in Canada, and a doctoral researcher at the Secure Systems Group at Aalto University, Finland, during which he contributed to 12 publications in security and privacy. Mika is broadly interested in the intersection of machine learning, security and privacy, where he is actively contributing to peer-reviewing. When he is not working, you can find Mika listening to D&D podcasts. ",
+
+			"img": "juuti"
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"guid": "8a5e85fe-9a2f-5695-8549-bd69b7b28d57",
+	"title": "Fuzzing complex input languages using context-free grammars",
+	"subtitle": "",
+	"synopsis": "Random fuzzing is not sufficient for testing input languages that require parsing. We show how context-free grammars and their derivation trees can be utilized for generating syntactically correct but otherwise random  input that is useful for testing parsers themselves and the application logic that relies on the parsed input. \n\n <b>Requirements:</b> \n\n  Laptop, Python basics and code from fuzzingbook.org. A brief introduction to formal language theory (e.g. regular and context-free languages) and how it relates to fuzzing is given but it does not hurt to familiarize oneself with these topics beforehand. \n\n In the workshop we are going to use Fuzzingbook for building fuzzers for context-free grammars. The easiest way to use Fuzzingbook is to download all the code from (https://www.fuzzingbook.org/dist/fuzzingbook-code.zip) and install all requirements \n\n I use Jupyter Notebook for showing examples but you of course can use your favourite code editor.",
+
+	"track": "Workshop",
+	"type": "Workshop - 2 hours",
+
+	"speakers": [
+		{
+			"id": 29,
+			"code": "NR8XMG",
+			"name": "Jani \"Aivo\" Kirmanen",
+			"position": "Chief Development Officer at Silverskin",
+            "nick" : "aivo",
+			"bio": "Jani is a seasoned application security researcher with passion for languages (both natural and synthetic). He is a PhD student at University of Jyväskylä and his research deals with using formal language theory to model software security vulnerabilities. Aside from all things cyber, he can also give you an introduction into astrophotography, like it or not.",
+
+            "some": "LinkedIn: <a href='https://linkedin.com/in/janikirmanen'>janikirmanen</a>",
+
+			"img": "kirmanen"
+		}
+	]
+}

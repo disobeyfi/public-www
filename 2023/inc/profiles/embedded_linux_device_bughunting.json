@@ -1,0 +1,16 @@
+{
+	"guid": "8ddf91c6-502c-516b-a263-0423770a4014",
+	"title": "Embedded Linux device bughunting",
+	"subtitle": "",
+	"synopsis": "A walkthrough of the audit procedure of an embedded Linux device, in this case an IP camera created by Uniview, showcasing a range of (RCE) bugs and describing how to get started reviewing / auditing / hacking devices like this.",
+	"speakers": [
+		{
+			"id": 23,
+			"code": "TBUHSN",
+			"name": "Knud Hojgaard",
+			"position": "Senior security consultant at Fraktal",
+			"bio": "Knud works at Fraktal.fi in the exciting field of information security. Interests and focus areas span wide, from lock manipulation and covert entry to vulnerability discovery and exploit development, usually focused on traversing trust boundaries one way or another. He enjoys popping shells and stealing corporate secrets, with permission naturally.",
+			"img": "knud"
+		}
+	]
+}

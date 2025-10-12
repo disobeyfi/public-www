@@ -1,0 +1,10 @@
+{
+	"title":"Bug Bounting Web Applications",
+
+	"synopsis":"Have you always wanted to take part in bug bounty hunting but don't know how? This talk will give you the info you need for web applications: where, how, what to look for, what not to do, tools & techniques and their limits.\nHosted by: Lea 'LadyBug' Viljanen\n\nLea 'LadyBug' Viljanen has been in the Finnish security scene for 20+ years doing technical auditing and consulting, building processes etc. In addition to that she is one of the founders of Hackrfi, a Finnish company specialized in organising bug bounties.",
+	"speakers":
+	[
+			{ "name" : "Lea 'LadyBug' Viljanen", "img" : "default" }
+	]
+
+}

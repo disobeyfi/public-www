@@ -1,0 +1,21 @@
+{
+	"guid": "259448cf-1698-53c2-9626-1ce2fde5f7de",
+	"title": "Losing My Mental Health in Cyber Security",
+	"subtitle": "",
+	"synopsis": "Personal story how the environment of continuous improvement and the pressure of being the best in your field made me lose my mental health. My purpose is to share information so that future security rock stars do not fall into the same traps. Take care of yourself folks.",
+	"speakers": [
+		{
+			"id": 28,
+			"code": "3W9WKG",
+			"name": "Juho \"whois\" Jauhiainen",
+			"position": "",
+			"bio": "Juho is a DFIR professional, a malware analyst, a speaker, and an instructor. He is currently working as a Lead Security Incident Investigator and helping out organisations with their incident response globally. In addition to his current position, he has DFIR and malware analysis experience from various private and public sector organizations. In his freetime, he co-hosts award-winning Finnish podcast Turvakäräjät, runs Helsinki security meetup group HelSec, and teaches forensics at National Defence Training Association of Finland. Since 2021, Juho has been recognized as one of the top-100 IT influencers in Finland by TIVI magazine. Juho is CISSP, GCFA, GMON, GREM, and OSCP certified, and holds a master's degree in Information Security and Cryptography.",
+
+            "some": "Twitter: <a href='https://twitter.com/JuhoJauhiainen'>@JuhoJauhiainen</a> \n Mastodon: @whois@infosec.exchange \n LinkedIn: <a href='https://linkedin.com/in/jauhiainen'>jauhiainen</a> \n Instagram: <a href='https://www.instagram.com/jauhiaine'>jauhiaine</a>",
+
+
+			"img": "jauhiainen"
+		}
+	]
+}
+

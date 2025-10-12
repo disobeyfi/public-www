@@ -1,0 +1,16 @@
+{
+	"guid": "dee20311-dc57-5fa6-bd5a-14ebd0b5a4ef",
+	"title": "A Look Behind the Scenes: Responding to a Security Incident",
+	"subtitle": "",
+	"synopsis": "Through the introduction of initial access brokers threat actors have new methods to compromise organizations. Initial access brokers monetize on selling compromised company credentials to other threat actors who then target these users and services to obtain initial access on the target organization. However, through the adoption of multifactor authentication (MFA) as a user access control threat actors have been forced to adapt to the situation and discover novel ways to bypass these security controls. In addition to preventative security controls, organizations are nowadays also required to have robust response procedures and broad detection capabilities to maintain an effective security posture and capabilities to detect and respond to emerging threats and attacks where compromised credentials are used for obtaining initial access to target organizations.",
+	"speakers": [
+		{
+			"id": 78,
+			"code": "VA3DVW",
+			"name": "Niklas Särökaari",
+			"position": "",
+			"bio": "Niklas Särökaari is currently working at KONE security operations performing incident management and response, threat hunting and detection engineering. His previous experience is from security consulting with emphasis on offensive operations, such as adversary simulation and emulation engagements.",
+			"img": "sarokaari"
+		}
+	]
+}

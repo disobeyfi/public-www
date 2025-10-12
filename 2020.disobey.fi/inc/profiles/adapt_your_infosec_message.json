@@ -1,0 +1,13 @@
+{
+	"title": "How to adapt your infosec message for different audiences",
+	"subtitle": "",
+	"synopsis": "How do you unravel complex social engineering techniques to someone with no infosec knowledge? How can your message be noticed if you're not used to writing? This workshop will share simple writing techniques and provide support for sharing infosec knowledge for different audiences. You'll learn how to open up difficult terminology, how to adapt your style for various audiences, and how to improve your overall professional knowledge sharing skills. This workshop is for you, if you want:\n- Motivation to write and share your professional knowledge\n- Techniques for adapting your infosec message for different audiences\n- To improve your message e.g. in information security campaigns\nAttendees are required to bring: Writing materials (analog or digital)",
+	"speakers": [
+		{
+			"name": "Helinä Turunen",
+			"position": "Social engineering translator",
+			"bio": "Helinä transforms complex social engineering techniques into user-friendly infosec education. Leading the phishing training content team at Hoxhunt, they help others use the power of words to make the world a better place.",
+			"img": "helina"
+		}
+	]
+}

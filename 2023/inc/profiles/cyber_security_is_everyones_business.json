@@ -1,0 +1,16 @@
+{
+	"guid": "fdea741b-e985-532b-8b22-5b6ac453c6e1",
+	"title": "\"Cyber Security is everyone's business\" - How should we talk about cyber to home users and why is this important?",
+	"subtitle": "",
+	"synopsis": "In my master's thesis that was published in June 2021 I researched cyber security communication for home users. I analyzed the communication materials of the National Cyber Security Centre of Finland in order to find out what kind of communicational frames are used to talk about cyber security. In other words, how cyber security is being spoken about effects on how people understand it and how they feel about it. Furthermore, how people feel about cyber security can affect their cyber security behaviour, like how strong passwords they use. In home user context this is important because they do not have an information security policy to guide them and be compliant with. They are on their own. \n\nIn this talk I will be sharing my findings about how cyber security communication should not aim at creating a sense of fear, but try to give people concrete advice on how they could easily mitigate the risks they are facing in the cyber world. For cyber security communication to be successful, it should make ordinary people feel like there is something they can do to mitigate the threats they are facing in the cyber world.",
+	"speakers": [
+		{
+			"id": 71,
+			"code": "NNWK8J",
+			"name": "Lotta Sandroos",
+			"position": "MSocSc, MSc",
+			"bio": "Lotta is a Cyber Security and Communications professional who has worked for different governmental organizations as well as private companies, and studied Cyber Security in the University of Jyväskylä. In her studies she focused on Cyber Security behaviour. Lotta's passion is to raise awareness of Cyber Security especially among the home users",
+			"img": "sandroos"
+		}
+	]
+}

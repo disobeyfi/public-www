@@ -1,0 +1,22 @@
+{
+	"guid": "2bbe7022-efd2-5916-a46e-4bdd6368e412",
+	"title": "Hacking the audit interview",
+	"subtitle": "",
+	"synopsis": "Many security audits include an interview. This talk is aimed to both auditors and auditees alike and explores the psychological truths which an auditor can use to make the interview yield results -- and in contrast, how can the audited party leverage them to affect the interview.",
+
+	"speakers": [
+		{
+			"id": 69,
+			"code": "DEQPS7",
+			"name": "Lea Viljanen",
+			"position": "",
+            "nick" : "LadyBug",
+
+			"bio": "25 years of full stack security from technical work to management and policy mostly in consultant roles. Currently consulting with LAV Security Oy and running bug bounties with Hackrfi Oy.",
+
+            "some": "Twitter: <a href='https://twitter.com/leaviljanen'>@leaviljanen</a> \nLinkedIn: <a href='https://linkedin.com/in/leaviljanen'>leaviljanen</a>\n Mastodon: @ladybug@infosec.exchange",
+
+			"img": "viljanen"
+		}
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"guid": "12ec669e-7e56-5bbd-a08d-acef98ab867d",
+	"title": "Drug Traders on the Dark Web",
+	"subtitle": "",
+	"synopsis": "Here, we present ways in which drug traders discuss their practices on the Dark Web. Topics include cultural differences between countries, the building and maintennance of trust on anonymous, disnormative forums, and the ways in which emerging tehnologies and evolving legislation create changes in these patterns.",
+	"speakers": [
+		{
+			"id": 61,
+			"code": "JYZ9EC",
+			"name": "J. Tuomas Harviainen",
+			"position": "Professor of Information Studies and Interactive Media at Tampere University",
+			"bio": "J. Tuomas Harviainen (PhD, MBA) is Professor of Information Studies and Interactive Media at Tampere University, Finland. He has been leading the Academy of Finland funded project consortium ENNCODE (2020-2022), which studied drug trading and extremist media production on the Dark Web and in social media, and now continues that research as part of two new projects, in both Finland and in Poland",
+
+            "some" : "<a href='https://research.tuni.fi/enncode/publications/'>https://research.tuni.fi/enncode/publications/</a>",
+
+			"img": "harviainen"
+
+
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"guid": "91d74b22-28ea-55e6-be7f-4ee2c11236d1",
+	"title": "Deep Dive: External Attack Surface Mapping and how to SCALE IT UP",
+	"subtitle": "",
+	"synopsis": "Intent of this workshop is to shed light on the techniques and methodologies around OSINT reconnaissance. Everything that we explore throughout this workshop can be achieved using open source tooling and scaled up effectively. \n\n This journey won't be just a scratch of the (attack) surface, but a true deep dive in what is happening behind all of the steps and the reasoning behind it.",
+
+	"track": "Workshop",
+	"type": "Workshop - 4 hours",
+
+	"speakers": [
+		{
+			"id": 50,
+			"code": "9LMD3U",
+			"name": "Alexis Fernández",
+			"position": "",
+            "nick" : "six2dez",
+			"bio": "Alexis Fernandez (aka six2dez) is a pentester and bug hunter with extensive experience in Linux systems administration and programming. Passionate about reconnaissance and asset discovery techniques, author of open source projects such as reconFTW, OneListForAll or Pentest-Book and contributor of multiple other recon related projects.",
+			"img": "fernandez"
+		},
+        {
+			"id": 49,
+			"code": "WLNNYZ",
+			"name": "Joona Hoikkala",
+			"position": "",
+			"bio": " ",
+			"img": "hoikkala"
+		}
+	]
+}

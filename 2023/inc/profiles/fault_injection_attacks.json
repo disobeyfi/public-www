@@ -1,0 +1,41 @@
+{
+	"guid": "876bbcc0-1a04-5a24-943b-e8a6182c0e34",
+	"title": "Hands-on Workshop on Fault Injection Attacks",
+	"subtitle": "",
+	"synopsis": "Fault injection attacks are a physical attack technique used to induce vulnerabilities in otherwise trouble free code and hardware. This is done by altering the target's normal operating environment in an adversarial fashion. For instance, Electromagnetic Fault Injection (EMFI) directs a powerful electromagnetic pulse at a CPU to induce temporary faults. As a result, the code execution is occasionally diverted, and data may get corrupted. By controlling the fault timing, length, and power, as well as the injection scenario we can somewhat deterministically attack systems intended to be secure against attackers with physical access. \n\n Upon hearing about glitch attacks, most people wonder how practical these attacks really are. How much expertise is required, and how likely are they to succeed? In this session we will try and succeed doing these attacks on realistic practice targets. We do this without invasive modifications like de-capping, soldering or drilling. To accomplish this we use an EMFI tool called PicoEMP, which is affordable and easy to use. The workshop is open for all observers and listeners for a 30 minute intro lecture. After the introduction we will spend the remainder of session to conduct hands-on experiments. \n\n There is limited capacity for the hands-on hacking part. We have 7 pre-built EMFI devices and have a separate registration with an at cost sign-up fee. <b>With the fee the device will be yours to take home and continue experimenting.</b> \n\n Participants of the hands-on workshop should bring their own laptops. Details about the registration and supplemental materials are provided at https://faultattack.github.io/",
+
+	"track": "Workshop",
+	"type": "Workshop - 2 hours",
+
+	"speakers": [
+		{
+			"id": 59,
+			"code": "NHAL9D",
+			"name": "Joona Kannisto",
+			"position": "Staff Security Engineer at Qualcomm",
+			"bio": "At work, Joona works on securing low level software on mobile chips. The best moments in security work are when previously held beliefs and assumptions about what is possible break down.",
+			"img": "kannisto"
+		},
+        {
+			"id": 63,
+			"code": "DSCFUU",
+			"name": "Tomi Koski",
+			"position": "Visma, Red (read: Purple) Teamer",
+			"bio": "Tomi Koski has been working with IT-systems for many moons, actually since (the wonderful) 1990’s. He is passionate about anything related to security, combining both physical and virtual worlds. He is a constant learner and very curious person about life and bug bounties.",
+
+            "some" : "<a href='https://public-exposure.inform.social/author/tomi-koski/'>https://public-exposure.inform.social/author/tomi-koski/</a>",
+
+			"img": "koski"
+		},
+        {
+			"id": 116,
+			"code": "USCBMW",
+			"name": "Mika Kaustinen",
+			"position": "Senior Researcher at Turku University of Applied Sciences",
+
+			"bio": "Mika has been working with the microchips and low level software 30 years.  Mika thinks he is also a pretty big hacker.\n\n Latest years he has worked as Senior Researcher at Turku University of Applied Sciences.Latest years he has worked as Senior Researcher at Turku University of Applied Sciences. \n\n <a href='https://www.turkuamk.fi/fi/turun-amk/yhteystiedot/4307/mika-kaustinen/'>https://www.turkuamk.fi/fi/turun-amk/yhteystiedot/4307/mika-kaustinen </a> \n\n <a href='https://www.turkuamk.fi/fi/artikkelit/2991/vahan-kuin-nykyajan-vakoilua-mika-kaustinen-paatyi-nokian-opeista-turun-amkn-kyberturvallisuusasiantuntijaksi/'>https://www.turkuamk.fi/fi/artikkelit/2991/vahan-kuin-nykyajan-vakoilua-mika-kaustinen-paatyi-nokian-opeista-turun-amkn-kyberturvallisuusasiantuntijaksi</a>",
+
+			"img": "kaustinen"
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+	"guid": "6c925be6-dd2e-50ea-bf9b-4c5144d53132",
+	"title": "Have U Been Invited? My journey to find and chain macOS vulns",
+	"subtitle": "",
+	"synopsis": "This is a story about my journey to find logic bugs in macOS. During 2020 - 2022 I found a bunch of them and reported three major vulnerabilities from macOS. I will explain my methodology to find them and walk you through an exploit chain that compromises users' sensitive data with zero click.\n\nThis chain starts with a zero-click vulnerability that I found in macOS Calendar. It allows an attacker to add or delete arbitrary files inside the Calendar sandbox environment. This will lead to arbitrary code execution. <del>I will demonstrate how the vulnerability can be combined with Gatekeeper evasion and TCC evasion to compromise users’ sensitive data.</del>\n\nEdit: Some of the patches are still coming so unfortunately I can not disclose the full vulnerability chain yet. Instead, I will concentrate more on the first part of the vulnerability.",
+	"speakers": [
+		{
+			"id": 109,
+			"code": "YYQAPF",
+			"name": "Mikko Kenttälä (Turmio)",
+			"position": "",
+            "nick" : "Turmio",
+			"bio": "Since I remember, I have hacked, built and broken stuff, and that landed me a career in cybersecurity over 10 years ago. I have done technical security audits, hunted bug bounties, and now also built security products as CEO of SensorFu. Hacking still makes me happy, I enjoy blue and red teaming in exercises, and I am interested in defending electronic freedoms and privacy in our digital society.",
+
+            "some": "Twitter: <a href='https://twitter.com/Turmio_'>@Turmio_</a>",
+
+			"img": "turmio"
+		}
+	]
+}

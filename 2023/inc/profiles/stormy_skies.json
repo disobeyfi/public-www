@@ -1,0 +1,19 @@
+{
+	"guid": "ab44e7d3-1d78-5acf-8b5b-75adf1d18ff0",
+	"title": "Stormy Skies: Modern Cloud Attacks and their Countermeasures",
+	"subtitle": "",
+	"synopsis": "What're the most common attack vectors for breaking into cloud environments? What works well to prevent these breaches, and what mistakes are attackers making that get them caught? \n\n Nick will outline the most common breach scenarios, how those have changed over the last few years, and the key weak spots in most organisations' cloud security posture. He'll cover off some tips and tricks both for spotting real world malicious activity, and for bypassing some of the common detection mechanisms. Lastly, the talk will cover the most effective security controls to put in place to block the most common weaknesses and attack vectors.",
+
+	"speakers": [
+		{
+			"id": 108,
+			"code": "ALGAXC",
+			"name": "Nick Jones",
+			"position": "Principal Security Consultant at WithSecure",
+
+			"bio": "Nick Jones is a principal consultant at WithSecure, where he leads the cloud security consulting team. He focuses on AWS security and attack detection in large, complex estates and forward-thinking cloud-native organizations. He has previously spoken at fwd:cloudsec, t2, RSA, Def Con Cloud Village and others, and is an AWS Community Builder.",
+
+			"img": "jones"
+		}
+	]
+}
