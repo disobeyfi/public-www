@@ -13,7 +13,7 @@ error_reporting(E_ALL);
 	  	<source src="" type="video/mp4">
 		</video>
 	</div>
-	<div id='loader-container' class='hidden'><div class='loader hidden'><img onload="startLoader()" src='<?php echo $baseurl; ?>img/just_logo_red.png' alt="loader"></div></div>
+    <div id='loader-container' class='hidden'><div class='loader hidden'><img onload="startLoader()" src='img/just_logo_red.png' alt="loader"></div></div>
 
 	<script> var current_navi_item="" </script>
 	<?php include "inc/navigation.inc.php"; ?>
