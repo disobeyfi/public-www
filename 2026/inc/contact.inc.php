@@ -21,7 +21,7 @@
 				<a href="irc://#disobey.fi@IRCnet"  target="_blank"><i class="fas fa-hashtag"></i>
 				</a>
 
-				<a href="https://bsky.app/profile/disobeyfi.bsky.social"  target="_blank"><img src="img/logo_bluesky.svg" alt="Bluesky" class="image-link"></a>
+				<a href="https://bsky.app/profile/disobeyfi.bsky.social"  target="_blank"><img src="<?php echo $baseurl; ?>img/logo_bluesky.svg" alt="Bluesky" class="image-link"></a>
 
 				<a href="https://discord.gg/S7eMF3TQCj" target="_blank"><i class="fab fa-discord"></i>
 				</a>
@@ -42,7 +42,7 @@
 				contact@disobey.fi
 			</div>
 			<div id='powered-by' class='cell contact-row'>
-				Disobey is powered by <a class='image-link' href="https://upcloud.com/"><img src="img/upcloud.png" alt="Upcloud"/></a>
+				Disobey is powered by <a class='image-link' href="https://upcloud.com/"><img src="<?php echo $baseurl; ?>img/upcloud.png" alt="Upcloud"/></a>
 			</div>
 			<div class='cell contact-row'>
 				<a href='<?php echo "{$baseurl}privacy{$suffix}";?>' class='red'>Privacy policy</a>

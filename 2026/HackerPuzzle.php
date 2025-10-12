@@ -14,7 +14,7 @@
 
 	<section class='container hidden'>
 
-		<div class='full-row clearfix lazyload translucent competitions' data-src='img/lockbox.jpg' style='background-image:url( "" );' >
+		<div class='full-row clearfix lazyload translucent competitions' data-src='<?php echo $baseurl; ?>img/lockbox.jpg' style='background-image:url( "" );' >
 				<section class="grid-container cell grid-y cell location" id='workshops' >
 					<div class="cell">
 						<h1>Hacker Puzzle</h1>

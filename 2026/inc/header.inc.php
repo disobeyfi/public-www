@@ -38,12 +38,12 @@
 			<!--- DATE -->
 			<section class="grid-x grid-padding-x grid-margin-x datetime text-center show-for-medium">
 				<div class='cell large-12 large-text-right' id='header-logo-section'>
-					<img id="main-logo" src='img/logo.webp'> <!-- Only for frontpage -->
+					<img id="main-logo" src='<?php echo $baseurl; ?>img/logo.webp'> <!-- Only for frontpage -->
 				</div>
 			</section>
 			<section class="grid-x grid-padding-x grid-margin-x datetime text-center show-for-small-only">
 				<div class='cell large-12 large-text-right'id='header-logo-mobile-section'>
-					<img id="main-mobile-logo" src='img/logo_mobile.webp'>
+					<img id="main-mobile-logo" src='<?php echo $baseurl; ?>img/logo_mobile.webp'>
 				</div>
 			</section>
 			<section class="grid-x grid-padding-x grid-margin-x datetime text-center">
