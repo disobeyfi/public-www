@@ -33,7 +33,7 @@
 					<p><b>Corporate tickets will be available at 12:00 (noon) Finnish time (UTC+3) on Thursday 16th October!</b></p>
 
 					<p>
-						<div class='buy-ticket-button inactive' style="text-decoration: line-through;" >LINK https://tickets.disobey.fi</div>
+						<a class='buy-ticket-button' href="https://tickets.disobey.fi" target='_blank'>BUY HERE</a>
 					</p>
 
 				</div>
@@ -49,7 +49,7 @@
 					<p><b>Standard tickets will be available soon! We will announce the start of sales on our social media and here well in advance.</b></p>
 					<p>
 						<!-- button placeholder keep class buy-ticket-button remove inactive -->
-						<div class='buy-ticket-button inactive' style="text-decoration: line-through;" > LINK https://tickets.disobey.fi</div>
+						<a class='buy-ticket-button' href="https://tickets.disobey.fi" target='_blank'>BUY HERE</a>
 					</p>
 				</div>
 
