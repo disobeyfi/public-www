@@ -27,7 +27,6 @@
 					<h4>CORPORATE TICKETS</h4>
 
 					<p>The Disobey corporate ticket for the 2026 event. Corporate tickets are aimed for corporations and organizations, and they help us keep regular ticket prices low.</p>
-					<p>Corporate tickets will be available for purchase on Oct 1st 2024 at 09:00 UTC.</p>
 					<p>One corporate ticket costs 350€.</p>
 					<p></p>
 					<p><b>Corporate tickets will be available at 12:00 (noon) Finnish time (UTC+3) on Thursday 16th October!</b></p>
