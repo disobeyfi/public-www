@@ -26,12 +26,14 @@
 
 					<h4>CORPORATE TICKETS</h4>
 
-					<p>The Disobey corporate ticket for the 2025 event. Corporate tickets are aimed for corporations and organizations, and they help us keep regular ticket prices low.</p>
+					<p>The Disobey corporate ticket for the 2026 event. Corporate tickets are aimed for corporations and organizations, and they help us keep regular ticket prices low.</p>
 					<p>Corporate tickets will be available for purchase on Oct 1st 2024 at 09:00 UTC.</p>
-					<p>One corporate ticket costs 300€ (electronic badge included)</p>
+					<p>One corporate ticket costs 350€.</p>
+					<p></p>
+					<p><b>Corporate tickets will be available at 12:00 (noon) Finnish time (UTC+3) on Thursday 16th October!</b></p>
 
 					<p>
-						<div class='buy-ticket-button inactive' style="text-decoration: line-through;" >SOLD OUT</div>
+						<div class='buy-ticket-button inactive' style="text-decoration: line-through;" >LINK https://tickets.disobey.fi</div>
 					</p>
 
 				</div>
@@ -40,12 +42,14 @@
 
 					<h4>STANDARD TICKETS</h4>
 
-					<p>A standard Disobey ticket grants two day entrance to the event on Feb 14-15th 2025.</p>
-					<p>Standard tickets will be available for purchase on Nov 6th 2024 at 10:00 UTC.</p>
+					<p>A standard Disobey ticket grants two day entrance to the event on Feb 13-14th 2026.</p>
+					<p>Standard tickets will be available for purchase on soon!</p>
 					<p>One standard ticket costs 49€ (with optional electronic badge +30€; for more info on the badge, see below). You can buy max 3 tickets at a time.</p>
+					<p></p>
+					<p><b>Standard tickets will be available soon! We will announce the start of sales on our social media and here well in advance.</b></p>
 					<p>
 						<!-- button placeholder keep class buy-ticket-button remove inactive -->
-						<div class='buy-ticket-button inactive' style="text-decoration: line-through;" >SOLD OUT</div>
+						<div class='buy-ticket-button inactive' style="text-decoration: line-through;" > LINK https://tickets.disobey.fi</div>
 					</p>
 				</div>
 
