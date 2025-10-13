@@ -22,20 +22,18 @@
 					<div class='cell text-left grid-container grid-x grid-padding-x grid-margin-x grid-padding-y grid-margin-y'>
 
 							<div class='cell large-12 text-center'>
-                                <p>The KCCP Cyber Division has identified a suspicious file linked to recent activity targeting key companies in Kouvostoliitto, including Kouvoston Makkara. We suspect a ransomware group may be involved, but their true motives remain unclear.</p>
+                                <p>Are you a puzzle crafter, exploit artist, or protocol wizard? Do you have a knack for creating mind-bending challenges that push hackers to their limits?We're inviting <b>up to 10 challenge creators</b> to join the <b>Disobey CTF Challenge Team</b>! If selected, you'll help shape the competition by submitting <b>2–3 original challenges</b>.
+<p>In return, you'll receive:</p>
+<br>- Free entry to the event</br>
+<br>- Some swag</br>
+<br>- •	Eternal glory (or at least some serious bragging rights)</br>
 
-<p>We are calling on the cybersecurity community to help us:</p>
-<br>- Analyze the recovered file and determine its purpose</br>
-<br>- Trace and infiltrate the group responsible</br>
+<p>To apply, send a short application to <i>games@disobey.fi</i> describing what kind of challenges you’d like to create (e.g., web, crypto, reverse engineering, forensics, etc.) and any relevant experience or ideas you’re excited to explore.</p>
 
-<p>⚠️ As a general best practice, files of unknown origin should always be analyzed in a secure, isolated environment (e.g. sandbox or virtual machine). Avoid opening or executing them on your primary system.</p>
+<p>Applying is considered a commitment to submit 2–3 challenges. If your challenges are accepted, you're in! </p>
 
-<p>Your mission begins here: https://files.kccp.fi/sample.zip </p>
+<p>More detailed instructions will be provided to the selected challenge team.</p>
 
-<p>Good luck. We're counting on you.</p>
-
-<p>— KCCP Cyber Division
-								</p>
                             </div>
 
 
