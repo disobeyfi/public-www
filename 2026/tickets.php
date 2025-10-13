@@ -42,8 +42,7 @@
 					<h4>STANDARD TICKETS</h4>
 
 					<p>A standard Disobey ticket grants two day entrance to the event on Feb 13-14th 2026.</p>
-					<p>Standard tickets will be available for purchase on soon!</p>
-					<p>One standard ticket costs 49€ (with optional electronic badge +30€; for more info on the badge, see below). You can buy max 3 tickets at a time.</p>
+					<p>You can buy max 3 tickets at a time.</p>
 					<p></p>
 					<p><b>Standard tickets will be available soon! We will announce the start of sales on our social media and here well in advance.</b></p>
 					<p>
