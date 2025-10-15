@@ -30,7 +30,10 @@
 					<p>One corporate ticket costs 350€.</p>
 					<p></p>
 					<p><b>Corporate tickets will be available at 12:00 (noon) Finnish time (UTC+3) on Thursday 16th October!</b></p>
+					<p></p>
+					<p><b>Note that the tickets do not include the electronic badge but default; it is an optional add-on that can be bought separately when buying the tickets. See more below. </b></p>
 
+					
 					<p>
 						<a class='buy-ticket-button' href="https://tickets.disobey.fi" target='_blank'>BUY HERE</a>
 					</p>
@@ -45,6 +48,8 @@
 					<p>You can buy max 3 tickets at a time.</p>
 					<p></p>
 					<p><b>Standard tickets will be available soon! We will announce the start of sales on our social media and here well in advance.</b></p>
+					<p></p>
+					<p><b>Note that the tickets do not include the electronic badge but default; it is an optional add-on that can be bought separately when buying the tickets. See more below. </b></p>
 					<p>
 						<!-- button placeholder keep class buy-ticket-button remove inactive -->
 						<a class='buy-ticket-button' href="https://tickets.disobey.fi" target='_blank'>BUY HERE</a>
