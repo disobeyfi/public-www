@@ -67,7 +67,7 @@
 				</div>
 				<div class='cell'>
 					<p>
-					The electronic badge is a physical tool with which you can access the badge challenge and games at Disobey. purchasing it is optional, but if you enjoy badge challenges, you will want to consider it! If you want to check the designs for some previous years, you will find them here: <a href="https://badge.team/docs/badges/disobey-2020/">2020 Badge.team</a>, <a href="https://badge.team/docs/badges/disobey-2019/">2019 Badge.team</a>, <a href="https://github.com/disobeyfi/badge-2019">2019 GitHub</a>, <a href="https://github.com/disobeyfi/badge-2018">2018 GitHub</a>, <a href="https://github.com/disobeyfi/badge-2017">2017 GitHub</a>
+					The electronic badge is a physical tool with which you can access the badge challenge and games at Disobey. Purchasing it is optional, but if you enjoy badge challenges, you will want to consider it! If you want to check the designs for some previous years, you will find them here: <a href="https://badge.team/docs/badges/disobey-2020/">2020 Badge.team</a>, <a href="https://badge.team/docs/badges/disobey-2019/">2019 Badge.team</a>, <a href="https://github.com/disobeyfi/badge-2019">2019 GitHub</a>, <a href="https://github.com/disobeyfi/badge-2018">2018 GitHub</a>, <a href="https://github.com/disobeyfi/badge-2017">2017 GitHub</a>
 					</p>
 					<p>
 					Important: Please note that you can only buy badges when buying your tickets. You cannot buy them afterwards or at the event - only when buying your ticket.
