@@ -17,10 +17,7 @@
 				</a>
 				<a href="https://www.youtube.com/channel/UCOtuVFYdy-Bu0zQ0rRyhQzg"  target="_blank"><i class="fab fa-youtube"></i>
 				</a>
-
-				<a href="irc://#disobey.fi@IRCnet"  target="_blank"><i class="fas fa-hashtag"></i>
-				</a>
-
+				
 				<a href="https://bsky.app/profile/disobeyfi.bsky.social"  target="_blank"><img src="<?php echo $baseurl; ?>img/logo_bluesky.svg" alt="Bluesky" class="image-link"></a>
 
 				<a href="https://discord.gg/S7eMF3TQCj" target="_blank"><i class="fab fa-discord"></i>
