@@ -459,6 +459,7 @@ Buy button
 	background-color: #33ff00;
 	color: #ffffff;
 	opacity: 0.9;
+        text-decoration: line-through;
  }
 
 

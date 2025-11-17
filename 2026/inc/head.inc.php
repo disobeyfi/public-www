@@ -32,7 +32,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.5.3/css/foundation.css" integrity="sha256-Ed7kL1p/BVuHCwGSEpUib2v9K7JtkCQlX4CweQEimJo=" crossorigin="anonymous" />
 
 		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/loader.css?v=17">
-		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/main.css?v=32">
+		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/main.css?v=33">
 		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/lists.css?v=18">
 		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/navigation.css?v=8">
 		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/header.css?v=18">
