@@ -33,9 +33,8 @@
 					<p></p>
 					<p><b>Note that the tickets do not include the electronic badge but default; it is an optional add-on that can be bought separately when buying the tickets. See more below. </b></p>
 
-					
 					<p>
-						<a class='buy-ticket-button' href="https://tickets.disobey.fi" target='_blank'>BUY HERE</a>
+						<a class='buy-ticket-button inactive' href="https://tickets.disobey.fi" target='_blank'>SOLD OUT</a>
 					</p>
 
 				</div>
@@ -52,7 +51,7 @@
 					<p><b>Note that the tickets do not include the electronic badge but default; it is an optional add-on that can be bought separately when buying the tickets. See more below. </b></p>
 					<p>
 						<!-- button placeholder keep class buy-ticket-button remove inactive -->
-						<a class='buy-ticket-button' href="https://tickets.disobey.fi" target='_blank'>BUY HERE</a>
+						<a class='buy-ticket-button inactive' href="https://tickets.disobey.fi" target='_blank'>SOLD OUT</a>
 					</p>
 				</div>
 
