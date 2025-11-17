@@ -47,7 +47,7 @@
 					<p>A standard Disobey ticket grants two day entrance to the event on Feb 13-14th 2026.</p>
 					<p>You can buy max 3 tickets at a time.</p>
 					<p></p>
-					<p><b>Standard tickets will be available soon! We will announce the start of sales on our social media and here well in advance.</b></p>
+					<p><b>Please note that if you missed getting a ticket, we are soon announcing a sales raffle for a sizeable portion of standard tickets. Follow our social media for announcements and more information!</b></p>
 					<p></p>
 					<p><b>Note that the tickets do not include the electronic badge but default; it is an optional add-on that can be bought separately when buying the tickets. See more below. </b></p>
 					<p>
