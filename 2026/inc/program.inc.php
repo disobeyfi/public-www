@@ -12,7 +12,7 @@
 			<?php /*include "inc/date.inc.php";*/ ?>
 
 			<section id='program-intro' >
-					<p>Below you can find the stage program guide for Disobey 2025 full of amazing talks and presentations. In addition, the Community Village has its own set of awesome scheduled and unscheduled program, which you can find on <a id='community-village-link' href='<?php echo $baseurl; ?>communityvillage<?php echo $suffix;?>'>the Community Village page! <span class='arrow right inline-arrow'></span></a></p>
+					<p>Below you can find the stage program guide for Disobey 2026 full of amazing talks and presentations.</p>
 			</section>
 
 			<?php	include "inc/program_details.inc.php"; ?>
