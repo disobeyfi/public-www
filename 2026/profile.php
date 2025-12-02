@@ -50,7 +50,6 @@ if ($profile_data == null) {
  Content
  -----------------------*/
 $profile_data['abstract'] = poor_mans_markdown($profile_data['abstract']);
-$profile_data['description'] = poor_mans_markdown($profile_data['description']);
 $title 		= ( empty( $profile_data['title'] ) )?    "" : "{$profile_data['title']}";
 $subtitle	= ( empty( $profile_data['subtitle'] ) )? "" : "{$profile_data['subtitle']}";
 $content 	= ( empty( $profile_data['abstract'] ) )? "" : "<div class='synopsis'>".nl2br($profile_data['abstract'])."</div>";
