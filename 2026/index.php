@@ -92,6 +92,8 @@ error_reporting(E_ALL);
 			<?php include "inc/speakers.inc.php";	?>
 */ ?>
 
+<?php /*
+
 	<div class='full-row clearfix divider'>&nbsp;</div>
 
 	<!--- Puzzle -->
@@ -105,6 +107,7 @@ error_reporting(E_ALL);
 			</div>
 		</section>
 	</div>
+*/ ?>
 
 	<div class='full-row clearfix divider'>&nbsp;</div>
 
@@ -112,10 +115,11 @@ error_reporting(E_ALL);
 	<div class='full-row clearfix lazyload'>
 		<section class="grid-container cell grid-y cell location" id='cfp' >
 			<div class="cell">
-				<h1 class="red">Call for papers</h1>
+				<h1 class="red">Programme published</h1>
 			</div>
 			<div class='cell'>
-				<p>Disobey 2026 Call for papers has now closed. Thank you for your submissions - our program team is now going through them and will get back to you soon!</p>
+				<p>We have published the programme for Disobey 2026! Visit <a href="Program">our Programme page</a> to see all the awesome talks, panels, and workshops at the event! !</p>
+				<p> But wait, that's not all! We will announce our keynote speakers soon, and the programme for our Community Village will be revealed shortly - so stay tuned!</p>
 			</div>
 		</section>
 	</div>
