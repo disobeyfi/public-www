@@ -12,7 +12,7 @@
 			<?php /*include "inc/date.inc.php";*/ ?>
 
 			<section id='program-intro' >
-					<p>Below you can find the stage program guide for Disobey 2026 full of amazing talks and presentations.</p>
+					<p>Below you can find the full stage program guide for Disobey 2026! Please note that changes to the schedule are possible.</p>
 			</section>
 
 			<?php	include "inc/program_details.inc.php"; ?>
