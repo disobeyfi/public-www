@@ -26,6 +26,8 @@
 								Find some of those below &ndash; and the rest at the event! The competitions are only active during the event!
 								</p>
                             </div>
+
+		<?php /*
 							<div class='cell large-6'>
 								<h4>UNAUTHORIZED ACCESS COMPETITION</h4>
 
@@ -70,15 +72,28 @@
                                 <p>Send your design by Feb 6th!.</p>
 
 							</div>
+	*/ ?>
 
+
+							<div class='cell large-6'>
+								<h4>BADGE COMPETITIONS!</h4>
+
+									<p>Let's do a new thing with the badge! The badge's source available in <a href="https://github.com/disobeyfi/disobey-badge-2025-game-firmware"> in this repository</a>.</p>
+
+									<p>The Badge 3D model and schema are available <a href="https://github.com/disobeyfi/disobey-badge-2025-game-firmware/blob/main/HARDWARE.md#badge-design-files"> here</a>.</p>
+									
+									<p>Don't know what to do? Get to our Discord and in the badge channel and we will help you onwards!</p>
+									
+									<p>The 1st competition is "Best hardware mod for the badge." You know what to do!</p>
+									
+									<p>The 2nd competition will be announced later, but will be software related!</p>
 
 							<div class='cell large-6'>
 							</div>
 
-
-
-
 					</div>
+	<?php /*
+	
 					<div class="cell">
 						<h1>Disobey 2025 CTF results</h1>
 					</div>
@@ -119,6 +134,8 @@
 					</div>
 				</section>
 		</div>
+
+		*/ ?>
 
 		<div class='full-row clearfix divider'>&nbsp;</div>
 
