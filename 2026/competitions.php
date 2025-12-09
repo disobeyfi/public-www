@@ -135,8 +135,6 @@
 				</section>
 		</div>
 
-		*/ ?>
-
 		<div class='full-row clearfix divider'>&nbsp;</div>
 
 				<!--- Puzzle -->
@@ -163,6 +161,8 @@
 					</div>
 				</section>
 			</div>
+
+		*/ ?>
 
 		<div class='full-row clearfix divider'>&nbsp;</div>
 
