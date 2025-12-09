@@ -117,6 +117,7 @@
 									<li>LinkedIn <br> <a href="https://www.linkedin.com/company/disobey-fi"><span class='pink'>@disobey</span></a></li>
 									<li>BlueSky <br> <a href="https://bsky.app/profile/disobeyfi.bsky.social"  target="_blank"><span class='pink'>@disobey_fi</span></a></li>
 									<li>Instagram <br> <a href="https://instagram.com/disobey_fi"  target="_blank"><span class='pink'>@disobey_fi</span></a></li>
+									<li>Discord <br> <a href="https://discord.gg/S7eMF3TQCj" target="_blank"><span class='pink'>Disobey_Fi</span></a></li>
 									
 								</ul>
 
