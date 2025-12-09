@@ -21,17 +21,7 @@
 					</div>
 					<div class='cell text-left grid-container grid-x grid-padding-x grid-margin-x grid-padding-y grid-margin-y'>
 
-							<!-- Afterparties -->
-							<div class='cell large-6'>
-								<h4>Afterparties</h4>
-								<p>There will be afterparties! Of course! Our main partner <b>Accenture</b> is hosting an afterparty at <b>Radisson Blu Seaside</b> (Ruoholahdenranta 3). The venue is open 21:00-02:00. </p>
-
-								<p>Other venues nearby for spillover parties include <b>Huutokonttori Kanttiini</b> (Välimerenkatu 2, open until 03:00), and <b>Amsterdam</b> (Itämerenkuja 1C, a few doors down from the Ruoholahti metro station, open until 02:00). </p>
-								<p>If those are full, there are <b>Barley & Bait</b> (Välimerenkatu 20, open until 02:00) and Meritähti (Itämerenkatu 14, straight next to Amsterdam, open until midnight) are open!</p>
-
-								<p>See you in any of those after the event ends!</p>
-							</div>
-						
+					
 							<!-- location -->
 							<div class='cell large-6'>
 								<h4>Disobey Location</h4>
@@ -58,11 +48,9 @@
 									<a href="https://finland.ihg.com/hotellit/holiday-inn-helsinki-west-ruoholahti/">Holiday Inn - Helsinki West Ruoholahti</a>, which offers a discount for Disobey visitors. Please check availability well in advance!
 								</p>
 								<p>
-									Reservations here: <a href="https://www.holidayinn.com/redirect?path=rates&brandCode=HI&localeCode=en&regionCode=1&hotelCode=HELWE&checkInDate=13&checkInMonthYear=012025&checkOutDate=16&checkOutMonthYear=012025&_PMID=99801505&GPC=Z61&cn=no&viewfullsite=true">Holiday Inn for Disobey</a>.
+									Reservations here: <a href=http://ihg.com/holidayinn/hotels/gb/en/find-hotels/select-roomrate?fromRedirect=true&qSrt=sBR&qIta=99801505&icdv=99801505&qSlH=HELWE&qCiD=12&qCiMy=012026&qCoD=15&qCoMy=012026&qGrpCd=A44&setPMCookies=true&qSHBrC=HI&qDest=Sulhasenkuja%203,%20Helsinki,%20FI&showApp=true&adjustMonth=false&srb_u=1">Holiday Inn for Disobey</a>.
 								</p>
 
-
-								<p>For other options <a href="https://wikitravel.org/en/Helsinki#Sleep" target="_blank">check Wikitravel.</a></p>
 							</div>
 
 							<!-- map for desktop -->
@@ -78,20 +66,6 @@
 								<p>The closest metro station is Helsinki / Ruoholahti.</p>
 
 								<p>The local transport service <a href='https://www.hsl.fi/en' target="_blank">HSL's Journey Planner</a> can be used to plan your local mode of transportation. It recognizes the name "Kaapelitehdas" as a starting or end point.</p>
-							</div>
-
-							<!-- tickets -->
-							<div class='cell large-6'>
-
-								<h4>Tickets</h4>
-
-								<p>This year we have the possibility to change the ticket for a wristband in advance. If you want to do this, please come to Lasipiha at Kaapelitehdas on Thu between 10:30-18:00.</p>
-
-								<p>On Friday the doors and the wristband exchange will open at 11:30. When you arrive at the exchange point, please remember to dig out the QR code from your email before your turn at the counter. Please keep your phone screen bright to help with the QR code readers!
-								Please note that one ticket gives entrance to one person, regardless of the ticket type. Once exchange to a wristband, the wristband is non-transferable, i.e. one wristband equals one person. A single wristband can only be used to provide entrance for one person during the event.</p>
-								<p>Some ticket groups do not contain a QR code. If yours does not, find the queue that is marked as “Special Cases”.</p>
-
-								<p><b>Important: The event is sold out, so we will not be selling tickets at the door.</b></p>
 							</div>
 
 							<!-- schedule -->
@@ -139,15 +113,41 @@
 									The official hashtag is: <span class='pink'><b>#disobey2025</b></span> &nbsp;&nbsp; We can be found and tagged on various social media with:
 								</p>
 								<ul id='social-media-list'>
-									<li>Twitter / X <br> <a href="https://x.com/disobey_fi" target="_blank"><span class='pink'>@Disobey_fi</span></a></li>
 									<li>Facebook <br> <a href="https://facebook.com/disobeyfi"  target="_blank"><span class='pink'>@disobeyfi</span></a></li>
 									<li>LinkedIn <br> <a href="https://www.linkedin.com/company/disobey-fi"><span class='pink'>@disobey</span></a></li>
 									<li>BlueSky <br> <a href="https://bsky.app/profile/disobeyfi.bsky.social"  target="_blank"><span class='pink'>@disobey_fi</span></a></li>
 									<li>Instagram <br> <a href="https://instagram.com/disobey_fi"  target="_blank"><span class='pink'>@disobey_fi</span></a></li>
+									
 								</ul>
 
 							</div>
+						
+		<?php /*			
+							<!-- Afterparties -->
+							<div class='cell large-6'>
+								<h4>Afterparties</h4>
+								<p>There will be afterparties! Of course! Our main partner <b>Accenture</b> is hosting an afterparty at <b>Radisson Blu Seaside</b> (Ruoholahdenranta 3). The venue is open 21:00-02:00. </p>
 
+								<p>Other venues nearby for spillover parties include <b>Huutokonttori Kanttiini</b> (Välimerenkatu 2, open until 03:00), and <b>Amsterdam</b> (Itämerenkuja 1C, a few doors down from the Ruoholahti metro station, open until 02:00). </p>
+								<p>If those are full, there are <b>Barley & Bait</b> (Välimerenkatu 20, open until 02:00) and Meritähti (Itämerenkatu 14, straight next to Amsterdam, open until midnight) are open!</p>
+
+								<p>See you in any of those after the event ends!</p>
+							</div>
+														
+							<!-- tickets -->
+							<div class='cell large-6'>
+
+								<h4>Tickets</h4>
+
+								<p>This year we have the possibility to change the ticket for a wristband in advance. If you want to do this, please come to Lasipiha at Kaapelitehdas on Thu between 10:30-18:00.</p>
+
+								<p>On Friday the doors and the wristband exchange will open at 11:30. When you arrive at the exchange point, please remember to dig out the QR code from your email before your turn at the counter. Please keep your phone screen bright to help with the QR code readers!
+								Please note that one ticket gives entrance to one person, regardless of the ticket type. Once exchange to a wristband, the wristband is non-transferable, i.e. one wristband equals one person. A single wristband can only be used to provide entrance for one person during the event.</p>
+								<p>Some ticket groups do not contain a QR code. If yours does not, find the queue that is marked as “Special Cases”.</p>
+
+								<p><b>Important: The event is sold out, so we will not be selling tickets at the door.</b></p>
+							</div>
+		*/ ?>
 					
 
 					</div>
