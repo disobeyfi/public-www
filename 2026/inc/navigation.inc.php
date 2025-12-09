@@ -10,13 +10,14 @@
 	<a id='navi-hackerpuzzle' href='{$baseurl}HackerPuzzle{$suffix}'>Hacker Puzzle</a>
 	<a id='navi-program'      href='{$baseurl}program{$suffix}'>Program</a>
 	<a id='navi-tickets'      href='{$baseurl}tickets{$suffix}'><i class='far fa-ticket show-for-medium' aria-hidden='true'></i> Get Tickets!</a>
+	<a id='navi-competitions'  href='{$baseurl}competitions{$suffix}'>Competitions</a>
 	<a id='navi-cfc'          href='{$baseurl}ctfchallenge{$suffix}'>Call for challenges</a>
+	<a id='navi-practical'  href='{$baseurl}practical{$suffix}'>Practical</a>
 	<a id='navi-about'        href='{$baseurl}about{$suffix}'>About</a>
 	</section>";
 	/*
-	<a id='navi-practical'  href='{$baseurl}practical{$suffix}'>Practical</a>
+
 	<a id='navi-venue'  href='{$baseurl}venue{$suffix}'>Venue</a>
-	<a id='navi-competitions'  href='{$baseurl}competitions{$suffix}'>Competitions</a>
 	<a id='navi-contact'  			href='{$baseurl}contact{$suffix}'>Contact</a>
 	*/
 
