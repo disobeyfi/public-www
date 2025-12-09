@@ -7,9 +7,6 @@
 			</div>
 			<div class='cell some'>
 
-				<a href="https://x.com/disobey_fi" target="_blank"><i class="fab fa-twitter"></i>
-				</a>
-
 				<a href="https://facebook.com/disobeyfi"  target="_blank"><i class="fab fa-facebook-f"></i>
 				</a>
 
