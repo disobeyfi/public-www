@@ -110,7 +110,10 @@
 								<h4>Social Media</h4>
 
 								<p>
-									The official hashtag is: <span class='pink'><b>#disobey2025</b></span> &nbsp;&nbsp; We can be found and tagged on various social media with:
+									The official hashtag is: <span class='pink'><b>#disobey2026</b></span>
+								</p>
+								<p>
+								We can be found and tagged on various social media with:
 								</p>
 								<ul id='social-media-list'>
 									<li>Facebook <br> <a href="https://facebook.com/disobeyfi"  target="_blank"><span class='pink'>@disobeyfi</span></a></li>
