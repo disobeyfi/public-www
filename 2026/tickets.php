@@ -27,7 +27,7 @@
 					<h4>TICKET RAFFLE</h4>
 
 					<p>Yes, tickets were sold out in record time. But do not worry! We have a bunch of tickets we will be selling via a raffle - so this will not be a speed contest.</p>
-					<p>Just enter your contact information via the form below to enter the raffle. The Raffle is open until December 15th 23:59 Finn time (UTC+2 now that it is winter time), and winners will be notified personally on (or by) December 21st 2025. Winners will have 1 week to buy their ticket – after that, they are freed to the next lucky winners. 
+					<p>Just enter your contact information via the form below to enter the raffle. The raffle is open until December 15th 23:59 Finn time (UTC+2 now that it is winter time), and winners will be notified personally on (or by) December 21st 2025. Winners will have 1 week to buy their ticket – after that, they are freed to the next lucky winners. 
 					</p>
 					<p></p>
 					<p><b>Note that the tickets do not include the electronic badge but default; it is an optional add-on that can be bought separately when buying the tickets - as long as there are badges left to sell. See more below. </b></p>
