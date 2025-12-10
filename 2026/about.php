@@ -35,7 +35,7 @@
 		<div class='full-row clearfix lazyload extra-padding translucent'  >
 				<section class="grid-container cell grid-y cell location" id='theme' >
 					<div class="cell">
-						<h1 class="red">Theme 2026 - First Principles</h1>
+						<h4 class="red">Theme 2026 - First Principles</h4>
 					</div>
 					<div class='cell'>
 
