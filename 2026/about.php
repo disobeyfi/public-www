@@ -28,12 +28,7 @@
 							<p>We value encouragement, creativity and sharing and believe everyone can teach us something about the world.</p>
 						</div>
 					</div>
-				</section>
-		</div>
-		
-		<!-- Theme -->
-		<div class='full-row clearfix lazyload extra-padding translucent'  >
-				<section class="grid-container cell grid-y cell location" id='theme' >
+
 					<div class="cell">
 						<h4 class="red">Theme 2026 - First Principles</h4>
 					</div>
