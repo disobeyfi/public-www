@@ -26,6 +26,8 @@
 							<p>We here at Disobey wish to encourage hacker culture and bring together like-minded individuals at a gathering to share information and to train the skills our adversaries use against us. Our goal is to foster a vibrant community of creators, makers and breakers.</p>
 
 							<p>We value encouragement, creativity and sharing and believe everyone can teach us something about the world.</p>
+							<p></p>
+							<p></p>
 						</div>
 					</div>
 					<div class="cell">
