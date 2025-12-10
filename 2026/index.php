@@ -111,15 +111,27 @@ error_reporting(E_ALL);
 
 	<div class='full-row clearfix divider'>&nbsp;</div>
 
-	<!--- CFP -->
+	<!--- Tickets -->
+	<div class='full-row clearfix lazyload'>
+		<section class="grid-container cell grid-y cell location" id='cfp' >
+			<div class="cell">
+				<h1 class="red">Extra Tickets Sales Raffle</h1>
+			</div>
+			<div class='cell'>
+				<p>Didn't get a ticket? We have a bunch of User Tickets available Dec 10-15 via a ticket sales raffle via our <a href="Tickets">Tickets page</a>. Join the raffle and get the chance to join us at the event!</p>
+			</div>
+		</section>
+	</div>
+		
+	<!--- Programme -->
 	<div class='full-row clearfix lazyload'>
 		<section class="grid-container cell grid-y cell location" id='cfp' >
 			<div class="cell">
 				<h1 class="red">Programme published</h1>
 			</div>
 			<div class='cell'>
-				<p>We have published the programme for Disobey 2026! Visit <a href="Program">our Programme page</a> to see all the awesome talks, panels, and workshops at the event! !</p>
-				<p> But wait, that's not all! We will announce our keynote speakers soon, and the programme for our Community Village will be revealed shortly - so stay tuned!</p>
+				<p>We have published the programme for Disobey 2026! Visit <a href="Program">our Programme page</a> to see all the awesome talks, panels, and workshops at the event!</p>
+				<p>But wait, that's not all! We will announce our keynote speakers soon, and the programme for our Community Village will be revealed shortly - so stay tuned!</p>
 			</div>
 		</section>
 	</div>
