@@ -44,6 +44,7 @@
 
 							<p>United by curiosity, united by Disobey.</p>
 						</div>
+					</div>
 				</section>
 		</div>
 		
