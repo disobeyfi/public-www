@@ -15,7 +15,7 @@
 	<section class='container hidden'>
 
 		<!-- About -->
-		<div class='full-row clearfix lazyload extra-padding translucent'  >
+		<div class='full-row clearfix lazyload translucent'  >
 				<section class="grid-container cell grid-y cell location" id='about' >
 					<div class="cell">
 						<h1 class="red">Disobey - organising hacker culture events since 2015</h1>
