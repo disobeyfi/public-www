@@ -27,16 +27,14 @@
 					<h4>TICKET SALES RAFFLE</h4>
 
 					<p>Yes, tickets were sold out in record time. But do not worry! We have a bunch of standard tickets we will be selling via a raffle - so this will not be a speed contest.</p>
-					<p></p>
+
 					<p>Just enter your contact information via the form below to enter the raffle. The raffle is open until December 15th 23:59 Finn time (UTC+2 now that it is winter time), and winners will be notified personally on (or by) December 21st 2025. Winners will have 1 week to buy their ticket – after that, they are freed to the next lucky winners.</p>
-					<p></p>
+
 					<p>Tickets bought via purchase rights won in the raffle cost 49€ - the same as a standard user ticket. One raffle entry is for the purchase right for one ticket.</p>
-					<p></p>
+
 					<p><b>Note that the tickets do not include the electronic badge but default; it is an optional add-on that can be bought separately when buying the tickets - as long as there are badges left to sell. See more below. </b></p>
 
-					<p>
-						Enter the raffle here: <a href="https://forms.gle/hvZeJbJ4yGxWCrxM8"> Disobey 2026 Ticket Raffle</a>
-					</p>
+					<p>Enter the raffle here: <a href="https://forms.gle/hvZeJbJ4yGxWCrxM8"> Disobey 2026 Ticket Raffle</a></p>
 
 				</div>
 
@@ -45,9 +43,9 @@
 					<h4>CORPORATE TICKETS</h4>
 
 					<p>The Disobey corporate ticket for the 2026 event. Corporate tickets are aimed for corporations and organizations, and they help us keep regular ticket prices low.</p>
-					<p></p>
+
 					<p>One corporate ticket costs 350€.</p>
-					<p></p>
+
 					<p><b>Note that the tickets do not include the electronic badge but default; it is an optional add-on that can be bought separately when buying the tickets. See more below. </b></p>
 
 					<p>
@@ -61,9 +59,9 @@
 					<h4>STANDARD TICKETS</h4>
 
 					<p>A standard Disobey ticket grants two day entrance to the event on Feb 13-14th 2026.</p>
-					<p></p>
+
 					<p>One standard ticket costs 49€. You can buy max 3 tickets at a time.</p>
-					<p></p>
+
 					<p><b>Note that the tickets do not include the electronic badge but default; it is an optional add-on that can be bought separately when buying the tickets. See more below. </b></p>
 					<p>
 						<!-- button placeholder keep class buy-ticket-button remove inactive -->
@@ -81,12 +79,9 @@
 					<h1 class="red">Electronic Badge</h1>
 				</div>
 				<div class='cell'>
-					<p>
-					The electronic badge is a physical tool with which you can access the badge challenge and games at Disobey. Purchasing it is optional, but if you enjoy badge challenges, you will want to consider it! If you want to check the designs for some previous years, you will find them here: <a href="https://badge.team/docs/badges/disobey-2020/">2020 Badge.team</a>, <a href="https://badge.team/docs/badges/disobey-2019/">2019 Badge.team</a>, <a href="https://github.com/disobeyfi/badge-2019">2019 GitHub</a>, <a href="https://github.com/disobeyfi/badge-2018">2018 GitHub</a>, <a href="https://github.com/disobeyfi/badge-2017">2017 GitHub</a>
-					</p>
-					<p>
-					Important: Please note that you can only buy badges when buying your tickets. You cannot buy them afterwards or at the event - only when buying your ticket.
-					</p>
+					<p>The electronic badge is a physical tool with which you can access the badge challenge and games at Disobey. Purchasing it is optional, but if you enjoy badge challenges, you will want to consider it! If you want to check the designs for some previous years, you will find them here: <a href="https://badge.team/docs/badges/disobey-2020/">2020 Badge.team</a>, <a href="https://badge.team/docs/badges/disobey-2019/">2019 Badge.team</a>, <a href="https://github.com/disobeyfi/badge-2019">2019 GitHub</a>, <a href="https://github.com/disobeyfi/badge-2018">2018 GitHub</a>, <a href="https://github.com/disobeyfi/badge-2017">2017 GitHub</a>.</p>
+					
+					<p>Important: Please note that you can only buy badges when buying your tickets. You cannot buy them afterwards or at the event - only when buying your ticket.</p>
 				</div>
 			</section>
 		</div><!-- row end -->
