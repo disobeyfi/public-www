@@ -32,7 +32,7 @@
 
 					<p>Tickets bought via purchase rights won in the raffle cost 49€ – the same as a standard user ticket. One raffle entry is for the purchase right for one ticket.</p>
 
-					<p><b>Note that the tickets do not include the electronic badge but default; it is an optional add-on that can be bought separately when buying the tickets - as long as there are badges left to sell. See more below. </b></p>
+					<p><b>Note that the tickets do not include the electronic badge as default; it is an optional add-on that can be bought separately when buying the tickets - as long as there are badges left to sell. See more below. </b></p>
 
 					<p>Enter the raffle here: <a href="https://forms.gle/hvZeJbJ4yGxWCrxM8"> Disobey 2026 Ticket Raffle</a></p>
 
@@ -46,7 +46,7 @@
 
 					<p>One corporate ticket costs 350€.</p>
 
-					<p><b>Note that the tickets do not include the electronic badge but default; it is an optional add-on that can be bought separately when buying the tickets. See more below. </b></p>
+					<p><b>Note that the tickets do not include the electronic badge as default; it is an optional add-on that can be bought separately when buying the tickets. See more below. </b></p>
 
 					<p>
 						<a class='buy-ticket-button inactive' href="https://tickets.disobey.fi" target='_blank'>SOLD OUT</a>
@@ -62,7 +62,7 @@
 
 					<p>One standard ticket costs 49€. You can buy max 3 tickets at a time.</p>
 
-					<p><b>Note that the tickets do not include the electronic badge but default; it is an optional add-on that can be bought separately when buying the tickets. See more below. </b></p>
+					<p><b>Note that the tickets do not include the electronic badge as default; it is an optional add-on that can be bought separately when buying the tickets. See more below. </b></p>
 					<p>
 						<!-- button placeholder keep class buy-ticket-button remove inactive -->
 						<a class='buy-ticket-button inactive' href="https://tickets.disobey.fi" target='_blank'>SOLD OUT</a>
