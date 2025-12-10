@@ -26,9 +26,11 @@
 
 					<h4>TICKET SALES RAFFLE</h4>
 
-					<p>Yes, tickets were sold out in record time. But do not worry! We have a bunch of tickets we will be selling via a raffle - so this will not be a speed contest.</p>
-					<p>Just enter your contact information via the form below to enter the raffle. The raffle is open until December 15th 23:59 Finn time (UTC+2 now that it is winter time), and winners will be notified personally on (or by) December 21st 2025. Winners will have 1 week to buy their ticket – after that, they are freed to the next lucky winners. 
-					</p>
+					<p>Yes, tickets were sold out in record time. But do not worry! We have a bunch of standard tickets we will be selling via a raffle - so this will not be a speed contest.</p>
+					<p></p>
+					<p>Just enter your contact information via the form below to enter the raffle. The raffle is open until December 15th 23:59 Finn time (UTC+2 now that it is winter time), and winners will be notified personally on (or by) December 21st 2025. Winners will have 1 week to buy their ticket – after that, they are freed to the next lucky winners.</p>
+					<p></p>
+					<p>Tickets bought via the ticket sales raffle cost 49€ - the same as a standard user ticket. One raffle entry is for the purchase right for one ticket.</p>
 					<p></p>
 					<p><b>Note that the tickets do not include the electronic badge but default; it is an optional add-on that can be bought separately when buying the tickets - as long as there are badges left to sell. See more below. </b></p>
 
@@ -43,9 +45,8 @@
 					<h4>CORPORATE TICKETS</h4>
 
 					<p>The Disobey corporate ticket for the 2026 event. Corporate tickets are aimed for corporations and organizations, and they help us keep regular ticket prices low.</p>
-					<p>One corporate ticket costs 350€.</p>
 					<p></p>
-					<p><b>Corporate tickets will be available at 12:00 (noon) Finnish time (UTC+3) on Thursday 16th October!</b></p>
+					<p>One corporate ticket costs 350€.</p>
 					<p></p>
 					<p><b>Note that the tickets do not include the electronic badge but default; it is an optional add-on that can be bought separately when buying the tickets. See more below. </b></p>
 
@@ -60,9 +61,8 @@
 					<h4>STANDARD TICKETS</h4>
 
 					<p>A standard Disobey ticket grants two day entrance to the event on Feb 13-14th 2026.</p>
-					<p>You can buy max 3 tickets at a time.</p>
 					<p></p>
-					<p><b>Please note that if you missed getting a ticket, we are soon announcing a sales raffle for a sizeable portion of standard tickets. Follow our social media for announcements and more information!</b></p>
+					<p>One standard ticket costs 49€. You can buy max 3 tickets at a time.</p>
 					<p></p>
 					<p><b>Note that the tickets do not include the electronic badge but default; it is an optional add-on that can be bought separately when buying the tickets. See more below. </b></p>
 					<p>
