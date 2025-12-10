@@ -24,7 +24,7 @@
 
 				<div class='cell large-12 flex-column text-center medium-text-left sideline'>
 
-					<h4>TICKET RAFFLE</h4>
+					<h4>TICKET SALES RAFFLE</h4>
 
 					<p>Yes, tickets were sold out in record time. But do not worry! We have a bunch of tickets we will be selling via a raffle - so this will not be a speed contest.</p>
 					<p>Just enter your contact information via the form below to enter the raffle. The raffle is open until December 15th 23:59 Finn time (UTC+2 now that it is winter time), and winners will be notified personally on (or by) December 21st 2025. Winners will have 1 week to buy their ticket – after that, they are freed to the next lucky winners. 
