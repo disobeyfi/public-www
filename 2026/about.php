@@ -28,6 +28,20 @@
 							<p>We value encouragement, creativity and sharing and believe everyone can teach us something about the world.</p>
 						</div>
 					</div>
+					<div class="cell">
+						<h4 class="white">Theme 2026 - First Principles</h4>
+					</div>
+					<div class='cell'>
+
+						<div class=''>
+							<p>Question what you know. Build what you need. Break things down. Revisit the fundamentals - to understand what still holds. Not to resist change, but to shape it.</p>
+
+							<p>A return to basics, or a leap into the unknown. A keynote, a workshop, a spark that starts a conversation.</p>
+
+							<p>This year’s theme is an open invitation: explore what drives you, and share it with others who care. Revisit what you know. Share what you’ve learned. Build something new. Where it goes is up to you.</p>
+
+							<p>United by curiosity, united by Disobey.</p>
+						</div>
 				</section>
 		</div>
 		
