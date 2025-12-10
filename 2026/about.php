@@ -32,7 +32,7 @@
 		</div>
 		
 		<!-- Theme -->
-		<div class='full-row clearfix lazyload extra-padding translucent'  >
+		<div class='full-row clearfix lazyload translucent'  >
 				<section class="grid-container cell grid-y cell location" id='theme' >
 					<div class="cell">
 						<h4 class="white">Theme 2026 - First Principles</h4>
