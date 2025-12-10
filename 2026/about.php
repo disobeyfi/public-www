@@ -26,16 +26,6 @@
 							<p>We here at Disobey wish to encourage hacker culture and bring together like-minded individuals at a gathering to share information and to train the skills our adversaries use against us. Our goal is to foster a vibrant community of creators, makers and breakers.</p>
 
 							<p>We value encouragement, creativity and sharing and believe everyone can teach us something about the world.</p>
-							<p></p>
-							<p></p>
-							<h4 class="red">Theme 2026 - First Principles</h4>
-							<p>Question what you know. Build what you need. Break things down. Revisit the fundamentals - to understand what still holds. Not to resist change, but to shape it.</p>
-
-							<p>A return to basics, or a leap into the unknown. A keynote, a workshop, a spark that starts a conversation.</p>
-
-							<p>This year’s theme is an open invitation: explore what drives you, and share it with others who care. Revisit what you know. Share what you’ve learned. Build something new. Where it goes is up to you.</p>
-
-							<p>United by curiosity, united by Disobey.</p>
 						</div>
 					</div>
 				</section>
