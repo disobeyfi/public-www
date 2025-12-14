@@ -63,10 +63,20 @@ var changeColor = function(){
 
 		//$("body").addClass("on-red") 
 
-		$("#main-mobile-logo").attr("src", BASEURL + "img/logo_mobile.webp")
-		$("#navi-frontpage img").attr("src", BASEURL + "img/just_logo_red.png")
+		// Only update src if it's different to avoid constant reloading
+		var mainMobileLogo = $("#main-mobile-logo");
+		var naviFrontpageLogo = $("#navi-frontpage img");
+		var mainLogo = $("#main-logo");
 
-		$("#main-logo").attr("src", BASEURL + "img/logo.webp")
+		if(mainMobileLogo.attr("src") !== BASEURL + "img/logo_mobile.webp") {
+			mainMobileLogo.attr("src", BASEURL + "img/logo_mobile.webp");
+		}
+		if(naviFrontpageLogo.attr("src") !== BASEURL + "img/just_logo.png") {
+			naviFrontpageLogo.attr("src", BASEURL + "img/just_logo.png");
+		}
+		if(mainLogo.attr("src") !== BASEURL + "img/logo.webp") {
+			mainLogo.attr("src", BASEURL + "img/logo.webp");
+		}
 
 
 	}else{
@@ -76,9 +86,6 @@ var changeColor = function(){
 			in_transition = true;
 
 			//$("body").removeClass("on-red")
-
-			$("#main-mobile-logo").attr("src", BASEURL + "img/logo_mobile.webp")
-			$("#navi-frontpage img").attr("src", BASEURL + "img/just_logo.png")
 
 
 			$("#main-logo").attr("src", BASEURL + "img/glitch_logo/logo_glitch_1.webp")

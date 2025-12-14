@@ -1,4 +1,4 @@
-<div class='full-row clearfix lazyload'  data-src='img/laptop.jpg' style='background-image:url( "" );'>
+<div class='full-row clearfix lazyload' data-src='img/laptop_dark_blur.webp' style='background-image:url("");'>
 		<section class="grid-container grid-y" id='about' >
 			<div class="cell">
 

@@ -14,7 +14,7 @@
 	border: 0px;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 1210px) {
 	.navigation-bar{
 		background-color:black;
 		background-image: none;
@@ -25,7 +25,7 @@
 	}
 }
 
-@media only screen and (min-width: 641px) {
+@media only screen and (min-width: 1211px) {
 	.navigation-bar{
 		display: flex;
     	justify-content: center;
@@ -35,8 +35,8 @@
 
 
 .navigation-bar a.current{
-	background-color: #f000f0;
-	border-color: #f000f0;
+	background-color: var(--color-orange);
+	border-color: var(--color-orange);
 	border: 0px;
 }
 
@@ -46,8 +46,10 @@
 }
 
 #navigation-home-symbol {
-	width: 25px;
-	height: 25px;
+	width: 25px !important;
+	height: 25px !important;
+    max-width: 25px;
+    max-height: 25px;
 }
 
 .navigation-bar  #navi-tickets{
@@ -84,11 +86,35 @@
 	width: 35px;
 	height: 35px;
 	float: right;
-	color:#38b854;
+	color: white;
 }
 
 .on-red #hamburger svg{
 	color:red;
+}
+
+/* Override Foundation's hide-for-large and keep hamburger container visible up to 1210px */
+@media only screen and (min-width: 64em) and (max-width: 1210px) {
+	.hide-for-large.custom {
+		display: block !important;
+	}
+}
+
+/* Ensure hamburger is visible up to 1210px */
+@media only screen and (max-width: 1210px) {
+	#hamburger {
+		display: block !important;
+	}
+}
+
+/* Hide hamburger and its container from 1211px onwards */
+@media only screen and (min-width: 1211px) {
+	.hide-for-large.custom {
+		display: none !important;
+	}
+	#hamburger {
+		display: none !important;
+	}
 }
 
 #offCanvas{

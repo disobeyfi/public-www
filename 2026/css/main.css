@@ -1,7 +1,26 @@
+:root {
+    --color-brown: #80523B; /* Brown */
+    --color-mud: #6A5D54; /* Mud */
+    --color-grey: #596468; /* Grey */
+    --color-black: #292317; /* Black */
+
+    --color-teal: #6CC8C5; /* Teal */
+    --color-dark-steel: #203A47; /* Dark steel */
+    --color-dark-blue: #15313D; /* Dark blue */
+    --color-dirty-blue: #445F66; /* Dirty blue */
+    --color-clay: #868364; /* Clay */
+
+    --color-orange: #F4932C; /* Orange */
+    --color-clementin: #FEB612; /* Clementin */
+    --color-banana: #FED756; /* Banana */
+    --color-flesh: #D88B5F; /* Flesh */
+    --color-light-brown: #CA7C4B; /* Light Brown */
+}
+
 body{
 	font-family: "proxima-nova";
 	background-color: black;
-	color:white;
+	color: white;
 	padding: 0px 0px 0px 0px;
 	background-image:url( ../img/header_background.webp );
 	background-position: center top;
@@ -19,7 +38,7 @@ body{
 }
 h1{
 	margin-bottom:45px;
-	color:#f000f0;
+	color: var(--color-orange);
 	font-size: 45px;
 	line-height: 1;
 }
@@ -51,7 +70,7 @@ h4{
 	font-size:30px;
 	line-height: 1.1;
 	margin-bottom: 20px;
-	color: #f000f0;
+    color: var(--color-orange);
 	/*color: white;*/
 }
 h4.larger{
@@ -91,7 +110,7 @@ p:last-of-type{
 
 a, a:active,a:visited{
 
-	color:#f000f0;
+	color: var(--color-orange);
 	/*color: #ac2aa3;*/
 	border-bottom: 1px solid transparent;
 	font-weight: 700;
@@ -101,8 +120,8 @@ a, a:active,a:visited{
 	transition-timing-function: ease-in-out;
 }
 a:hover{
-		color:#e390dd;
-		border-bottom: 1px solid #e390dd;
+		color: var(--color-banana);
+		border-bottom: 1px solid var(--color-banana);
 }
 
 #contact a, #contact a:active, #contact a:visited{
@@ -144,10 +163,7 @@ a.get-ticket{
 .full-row:not( .header-row ){
 	background-color: rgba(0,0,0,0.65);
 	backdrop-filter: blur(20px);
-	/*backdrop-filter: blur(20px) hue-rotate(30deg);*/
 }
-
-
 
 @media only screen and (max-width: 640px) {
 
@@ -245,8 +261,8 @@ a.get-ticket{
 	 overflow: hidden;
 	 background-position: center center;
 	 background-size: cover;
-	 box-shadow: 0px 0px 100px rgba(97, 219, 255, 0.10);
-	 border: 5px solid green;
+	 box-shadow: 0px 0px 100px var(--color-dark-steel);
+	 border: 5px solid var(--color-teal);
 
 	 transition-duration: 1.1s;
 	transition-property: all;
@@ -390,7 +406,7 @@ a.get-ticket{
 }
 
 .button{
-	background-color: #26c041;
+	background-color: var(--color-clementin);
     padding: 20px 70px 20px 90px;
     font-size: 27px;
     font-weight: 800;
@@ -401,9 +417,10 @@ a.get-ticket{
 
 
 .button:hover{
-		background-color:#d035c5;
+		background-color: var(--color-orange);
 		transition: none;
 }
+
 .button svg{
 		font-size:24px;
 		margin-left:10px;
@@ -433,7 +450,7 @@ Buy button
 	margin: 0px;
 	margin-top: 40px;
 	padding: 15px 20px 15px 20px;
-	background-color: #26c041;
+	background-color: var(--color-teal);
 	color: white;
 	text-align: center;
     font-size: 23px;
@@ -451,16 +468,17 @@ Buy button
 }
 
 
- .buy-ticket-button:hover, .buy-ticket-button:visited, .buy-ticket-button:active{
-	color: white;
-	border-bottom: 0px;
- }
- .buy-ticket-button.inactive{
-	background-color: #33ff00;
-	color: #ffffff;
-	opacity: 0.9;
-        text-decoration: line-through;
- }
+.buy-ticket-button:hover, .buy-ticket-button:visited, .buy-ticket-button:active{
+    color: white;
+    border-bottom: 0px;
+}
+
+.buy-ticket-button.inactive{
+    background-color: var(--color-dirty-blue);
+    color: #ffffff;
+    opacity: 0.9;
+    text-decoration: line-through;
+}
 
 
 /*mobile buy tickets cta */
@@ -482,6 +500,7 @@ Buy button
 	border-color : #26c041;
 	margin-left: 5px;
 }
+
 .on-red #buy-tickets-cta-mobile-only a .arrow{
 	border-color : red;
 }
@@ -506,7 +525,7 @@ Buy button
  }
 
  .speaker-container .speaker-link:hover  h1{
-	 color: #24c3f2;
+	 color: var(--color-teal);
  }
 
 .speaker-image{
@@ -569,6 +588,18 @@ Buy button
 	.speaker-container.grid-margin-x > .large-2 {
 	    width: calc(14% - 1.875rem);
 	}
+}
+
+@media print, screen and (min-width: 1211px) {
+    .hide-for-large.custom {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 1210px) {
+    .show-for-large.custom {
+        display: none !important;
+    }
 }
 
 /*-------------------------
@@ -660,11 +691,9 @@ strong{
  sideline
  -----------------------*/
 div.sideline{
-	border-left: 2px solid #26c041;
+	border-left: 2px solid var(--color-dark-steel);
 	padding-left: 35px !important;
 }
-
-
 
 .group:before,
 .group:after {
@@ -743,31 +772,23 @@ div.sideline{
 	margin-top: 50px;
   }
 
-
-  .green{
-	  color: #26c041;
-  }
-  .pink{
-	color: #f000f0;
+#orange-accent-left{
+  position: absolute;
+  bottom: 15%;
+  left: 0px;
+  z-index: -1;
+  opacity: 0.5;
 }
 
-
-  #pink-accent-left{
-	  position: absolute;
-	  bottom: 15%;
-	  left: 0px;
-	  z-index: -1;
-	  opacity: 0.5;
-  }
-
-  #pink-accent-right{
-	position: absolute;
-	top: 5%;
-	right: 0px;
-	z-index: -1;
-	opacity: 0.5;
+#orange-accent-right{
+    position: absolute;
+    top: 5%;
+    right: 0px;
+    z-index: -1;
+    opacity: 0.5;
 }
-#pink-accent-right-2{
+
+#orange-accent-right-2{
 	position: absolute;
 	bottom: 5%;
 	right: -150px;
@@ -777,17 +798,17 @@ div.sideline{
 }
 
 @media screen and (max-width: 640px){
-	#pink-accent-left{
+	#orange-accent-left{
 		bottom: 5%;
 		opacity: 0.7;
 		left: -50px;
 	}
 
-	#pink-accent-right-2{
+	#orange-accent-right-2{
 		display: none;
 	}
 
-	#pink-accent-right{
+	#orange-accent-right{
 		top:8%;
 		transform: scale( 0.95 );
 		right: -20px;

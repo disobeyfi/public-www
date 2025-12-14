@@ -1,8 +1,8 @@
 <div class='full-row header-row clearfix  transparent-bg' >
 
-<img src='<?php echo $baseurl; ?>img/pink_accent_left.png' id='pink-accent-left'> <!-- Only for frontpage -->
-<img src='<?php echo $baseurl; ?>img/pink_accent_right.png' id='pink-accent-right'> <!-- Only for frontpage -->
-<img src='<?php echo $baseurl; ?>img/pink_accent_right.png' id='pink-accent-right-2'> <!-- Only for frontpage -->
+<img src='<?php echo $baseurl; ?>img/orange_accent_left.png' id='orange-accent-left'> <!-- Only for frontpage -->
+<img src='<?php echo $baseurl; ?>img/orange_accent_right.png' id='orange-accent-right'> <!-- Only for frontpage -->
+<img src='<?php echo $baseurl; ?>img/orange_accent_right.png' id='orange-accent-right-2'> <!-- Only for frontpage -->
 
 <?php
 /*

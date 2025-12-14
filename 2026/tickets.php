@@ -73,6 +73,8 @@
 
 		</div><!-- row end -->
 
+        <div class='full-row clearfix divider'>&nbsp;</div>
+
 		<div class='full-row clearfix lazyload translucent' >
 			<section class="grid-container cell grid-y cell location" id='puzzle' >
 				<div class="cell">

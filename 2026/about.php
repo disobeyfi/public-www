@@ -30,6 +30,8 @@
 					</div>
 				</section>
 		</div>
+
+        <div class='full-row clearfix divider'>&nbsp;</div>
 		
 		<!-- Theme -->
 		<div class='full-row clearfix lazyload translucent'  >
@@ -52,6 +54,8 @@
 				</section>
 		</div>
 
+        <div class='full-row clearfix divider'>&nbsp;</div>
+
 		<!-- ETHICS ETC -->
 		<!-- <div class='full-row clearfix divider'>&nbsp;</div> -->
 		<?php include "inc/etchics.inc.php";	?>
@@ -59,7 +63,7 @@
 		<div class='full-row clearfix divider'>&nbsp;</div>
 		<!-- History & what to expect -->
 		<!-- ETHICS ETC -->
-		<div class='full-row clearfix lazyload center-bg' data-src='img/lock_darker.jpg' style='background-image:url( "" );' >
+		<div class='full-row clearfix lazyload center-bg' data-src='img/lock_dark_blur.webp' style='background-image:url("");'>
 				<section class="grid-container cell grid-y cell location" id='about' >
 					<div class="cell">
 
@@ -107,7 +111,7 @@
 
 		<div class='full-row clearfix divider'>&nbsp;</div>
 		<!-- Credits-->
-		<div class='full-row clearfix lazyload center-bg' data-src='img/lock_darker.jpg' style='background-image:url( "" );' >
+		<div class='full-row clearfix lazyload center-bg' data-src='img/people_dark_blur.webp' style='background-image:url("");' >
 				<section class="grid-container cell grid-y location" id='credits' >
 					<div class="cell">
 						<h4 class="text-center">Credits</h4>

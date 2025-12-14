@@ -13,7 +13,7 @@ error_reporting(E_ALL);
 	  	<source src="" type="video/mp4">
 		</video>
 	</div>
-	<div id='loader-container' class='hidden'><div class='loader hidden'><img onload="startLoader()" src='<?php echo $baseurl; ?>img/just_logo_red.png' alt="loader"></div></div>
+	<div id='loader-container' class='hidden'><div class='loader hidden'><img onload="startLoader()" src='<?php echo $baseurl; ?>img/just_logo.png' alt="loader"></div></div>
 
 	<script> var current_navi_item="" </script>
 	<?php include "inc/navigation.inc.php"; ?>
@@ -25,8 +25,6 @@ error_reporting(E_ALL);
               $is_frontpage = true;
               include "inc/header.inc.php";
             ?>
-
-			<div class='full-row clearfix divider'>&nbsp;</div>
 
 	<div class='full-row clearfix divider'>&nbsp;</div>
 
@@ -41,7 +39,9 @@ error_reporting(E_ALL);
 			</div>
 		</section>
 	</div>
-		
+
+    <div class='full-row clearfix divider'>&nbsp;</div>
+
 	<!--- Programme -->
 	<div class='full-row clearfix lazyload'>
 		<section class="grid-container cell grid-y cell location" id='cfp' >
@@ -72,7 +72,6 @@ error_reporting(E_ALL);
 					var req = new XMLHttpRequest();
 					req.responseType = 'blob';
 					req.open('GET', 'video/etusivu_2025.mp4', true);
-
 
 					req.onload = function() {
 					 // Onload is triggered even on 404

@@ -21,7 +21,7 @@
 		<meta property="og:type"               content="website" />
 		<meta property="og:title"              content="Disobey <?php echo $some_title; ?>" />
 		<meta property="og:description"        content="Disobey - The Nordic Security Event" />
-		<meta property="og:image"              content="https://disobey.fi/2026/img/disobey_facebook.jpg" />
+		<meta property="og:image"              content="https://disobey.fi/2026/img/disobey_saturated.jpg" />
 
 		<!--- STYLES -->
 		<style>@import url("https://use.typekit.net/nfb1rio.css");</style>
@@ -32,13 +32,13 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.5.3/css/foundation.css" integrity="sha256-Ed7kL1p/BVuHCwGSEpUib2v9K7JtkCQlX4CweQEimJo=" crossorigin="anonymous" />
 
 		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/loader.css?v=17">
-		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/main.css?v=33">
-		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/lists.css?v=18">
-		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/navigation.css?v=8">
-		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/header.css?v=18">
+		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/main.css?v=34">
+		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/lists.css?v=19">
+		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/navigation.css?v=9">
+		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/header.css?v=19">
 		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/tables.css?v=18">
 		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/profiles.css?v=17">
-		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/timetable.css?v=17">
+		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/timetable.css?v=18">
 		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/videos.css?v=17">
 		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/community_program.css?v=17">
 

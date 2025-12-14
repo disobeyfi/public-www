@@ -6,7 +6,7 @@
 	 Navigation
 	 -----------------------*/
 	$navigation = "<section id='navigation' class='text-center hidden navigation-bar'>
-	<a id='navi-frontpage'    href='{$baseurl}./'><img src='{$baseurl}img/just_logo.png' id='navigation-home-symbol' class='show-for-large'><span class='hide-for-large'>Home</span></a>
+	<a id='navi-frontpage'    href='{$baseurl}./'><img src='{$baseurl}img/just_logo.png' id='navigation-home-symbol' class='show-for-large custom'><span class='hide-for-large custom'>Home</span></a>
 	<a id='navi-hackerpuzzle' href='{$baseurl}HackerPuzzle{$suffix}'>Hacker Puzzle</a>
 	<a id='navi-program'      href='{$baseurl}program{$suffix}'>Program</a>
 	<a id='navi-tickets'      href='{$baseurl}tickets{$suffix}'><i class='far fa-ticket show-for-medium' aria-hidden='true'></i> Get Tickets!</a>
@@ -26,9 +26,12 @@
 <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
 	<?php echo $navigation; ?>
 </div>
-<div id="hamburger"  class="hide-for-large" data-toggle="offCanvas"><a href='#'><i class="fas fa-bars"></i></a></div>
 
-<div class='show-for-large'>
+<div class='hide-for-large custom'>
+    <div id="hamburger" data-toggle="offCanvas"><a href='#'><i class="fas fa-bars"></i></a></div>
+</div>
+
+<div class='show-for-large custom'>
 	<?php echo $navigation; ?>
 </div>
 
