@@ -26,8 +26,6 @@ error_reporting(E_ALL);
               include "inc/header.inc.php";
             ?>
 
-	<div class='full-row clearfix divider'>&nbsp;</div>
-
 	<!--- Tickets -->
 	<div class='full-row clearfix lazyload'>
 		<section class="grid-container cell grid-y cell location" id='cfp' >
