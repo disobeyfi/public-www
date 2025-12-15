@@ -3,6 +3,13 @@
 	backdrop-filter: blur(10px);
 }
 
+/* Sticky desktop navigation */
+.show-for-large.custom {
+	position: sticky;
+	top: 0;
+	z-index: 1000;
+}
+
 .navigation-bar a{
 	color: white;
 	font-size: 19px;
