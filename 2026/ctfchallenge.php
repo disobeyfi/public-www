@@ -38,12 +38,15 @@
 
                             </div>
 
+					</div>
+				</section>
+		</div>
 
 		<div class='full-row clearfix divider'>&nbsp;</div>
 
-		</section>
-
 		<?php include "inc/contact.inc.php"; ?>
+
+	</section>
 
 
 		<?php include "inc/footer.inc.php"; ?>
