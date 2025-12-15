@@ -128,6 +128,19 @@
 								<h6 class="small-text-center large-text-left">Site design</h6>
 								<p>Janne Ahvo, Email: janne.ahvo@ddrhelsinki.fi</p>
 							</div>
+
+							<div class='cell medium-12'>
+								<h6 class="small-text-center large-text-left">Site development</h6>
+								<p>
+									<a href="https://github.com/disobeyfi/public-www" target="_blank"><i class="fab fa-github"></i> GitHub Repository</a><br>
+									Contributors:
+									<a href="https://github.com/delic" target="_blank">@delic</a>,
+									<a href="https://github.com/jpa1999" target="_blank">@jpa1999</a>,
+									<a href="https://github.com/pervila" target="_blank">@pervila</a>,
+									<a href="https://github.com/lopiitti" target="_blank">@lopiitti</a>,
+									<a href="https://github.com/laveez" target="_blank">@laveez</a>
+								</p>
+							</div>
 						</div>
 						<!-- grid ends -->
 					</div>
