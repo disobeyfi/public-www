@@ -10,7 +10,7 @@
 .cell-header span{ font-size: 16px; color: rgba( 255,255,255,0.7); font-weight: 500; }
 .height-1 .cell-header span{ }
 
-.timetable-column h2{ font-size: 18px; font-weight: 500; text-transform:none; }
+.timetable-column h2{ font-size: 16px; font-weight: 500; text-transform:none; }
 .timetable-column .timetable-cell.height-1 h2{ display:inline-block; margin-right:3px; margin-bottom: 0px; }
 .timetable-column .timetable-cell.height-2 h2{ margin-bottom: 1px; }
 
@@ -44,7 +44,12 @@
 .mobile-date{ display: none; }
 .mobile-day-label{ display: none; }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 790px) {
+	/* Override Foundation grid to stack columns at 790px instead of 640px */
+	.grid-x > .timetable-column.cell[class*="medium-"] {
+		width: 100%;
+		flex: 0 0 100%;
+	}
 	.empty{ display: none; }
 	.has-content{ height: auto !important; min-height: 100px; display: flex;}
 	.time-column{ display: none; }
@@ -53,9 +58,9 @@
 	.mobile-day-label{ display: block; position: absolute; top:-6px; left:-9px; font-size: 12px; z-index: 1; color:rgba( 255,255,255,0.5); background-color: var(--color-teal); border-radius: 50%; padding: 3px 5px;}
 }
 
-.height-1{ height: 50px; 	}
-.height-2{ height: 100px; 	}
-.height-3{ height: 150px; 	}
+.height-1{ height: 50px; }
+.height-2{ height: 100px; }
+.height-3{ height: 150px; }
 .height-4{ height: 200px; }
 .height-5{ height: 250px; }
 .height-6{ height: 300px; }
@@ -70,3 +75,28 @@
 .height-15{ height: 750px; }
 .height-16{ height: 800px; }
 .height-28{ height: 1400px; }
+
+@media only screen and (max-width: 1300px) {
+    .empty{ height: 75px; }
+    .time-label-slot{ height: 75px; }
+
+    .timetable-column h2{ font-size: 14px; }
+
+    .height-1{ height: 75px; }
+    .height-2{ height: 150px; }
+    .height-3{ height: 225px; }
+    .height-4{ height: 300px; }
+    .height-5{ height: 375px; }
+    .height-6{ height: 450px; }
+    .height-7{ height: 525px; }
+    .height-8{ height: 600px; }
+    .height-9{ height: 675px; }
+    .height-10{ height: 750px; }
+    .height-11{ height: 825px; }
+    .height-12{ height: 900px; }
+    .height-13{ height: 975px; }
+    .height-14{ height: 1050px; }
+    .height-15{ height: 1125px; }
+    .height-16{ height: 1200px; }
+    .height-28{ height: 2100px; }
+}

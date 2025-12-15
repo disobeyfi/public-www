@@ -115,7 +115,7 @@ tr{
 		margin-bottom:50px;
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 790px) {
 	td.header {
 	   padding: 25px 10px 25px 10px;
 		 font-size: 13px;

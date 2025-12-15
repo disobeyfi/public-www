@@ -36,9 +36,9 @@
 		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/lists.css?v=19">
 		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/navigation.css?v=9">
 		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/header.css?v=19">
-		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/tables.css?v=18">
+		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/tables.css?v=19">
 		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/profiles.css?v=17">
-		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/timetable.css?v=18">
+		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/timetable.css?v=19">
 		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/videos.css?v=17">
 		<link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/community_program.css?v=17">
 
