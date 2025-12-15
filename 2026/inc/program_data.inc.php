@@ -1,5 +1,5 @@
 <?php
-include('./inc/schedule_data.php');
+include __DIR__ . '/schedule_data.php';
 
 /*-------------------------
  Timetable data

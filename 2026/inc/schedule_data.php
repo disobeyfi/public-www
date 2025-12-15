@@ -1,7 +1,7 @@
 <?php
 // cat exported-schedule.json | jq 'del(.schedule.conference.days[].rooms[][] | .answers, .description)' > inc/schedule.json
 
-$schedule_data = json_decode(file_get_contents("./inc/schedule.json"), true)["schedule"]["conference"];
+$schedule_data = json_decode(file_get_contents(__DIR__ . "/schedule.json"), true)["schedule"]["conference"];
 
 function get_timetable_data($roomname, $dayindex) {
     print("<!-- fetching data for ".$roomname.", day ".$dayindex." -->\n");
