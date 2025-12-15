@@ -40,13 +40,12 @@
 									
 									<p>The 2nd competition will be announced later, but will be software related!</p>
 
-							<div class='cell large-6'>
 							</div>
 
-			</div>
-	
-		</section>
-					
+					</div>
+				</section>
+		</div>
+
 		<div class='full-row clearfix divider'>&nbsp;</div>
 
 		<?php include "inc/contact.inc.php"; ?>
