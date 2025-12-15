@@ -31,7 +31,7 @@ if (preg_match("#^/$year/(css|js|img|fonts|webfonts|videos)(/.*)?$#", $path)) {
 
 // Page rewrites for pretty URLs
 $pages = [
-    'tickets', 'about', 'practical', 'ctf', 'faq', 'contact',
+    'tickets', 'about', 'practical', 'ctf', 'ctfchallenge', 'faq', 'contact',
     'program', 'privacy', 'communityvillage', 'competitions', 'venue', 'HackerPuzzle'
 ];
 

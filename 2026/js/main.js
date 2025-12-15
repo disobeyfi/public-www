@@ -65,7 +65,7 @@ var changeColor = function(){
 
 		// Only update src if it's different to avoid constant reloading
 		var mainMobileLogo = $("#main-mobile-logo");
-		var naviFrontpageLogo = $("#navi-frontpage img");
+		var naviFrontpageLogo = $("a[data-nav='frontpage'] img");
 		var mainLogo = $("#main-logo");
 
 		if(mainMobileLogo.attr("src") !== BASEURL + "img/logo_mobile.webp") {

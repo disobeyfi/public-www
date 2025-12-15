@@ -52,19 +52,19 @@
     max-height: 25px;
 }
 
-.navigation-bar  #navi-tickets{
+.navigation-bar  a[data-nav='tickets']{
 	/*background-color: #f000f0;
 	color: white*/
 }
-/*.on-red #navi-tickets{
+/*.on-red a[data-nav='tickets']{
 	background-color: #d90404;
 }*/
 
-.navigation-bar a#navi-tickets{
+.navigation-bar a[data-nav='tickets']{
 	color: white;
 	text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
 }
-.navigation-bar #navi-tickets svg{
+.navigation-bar a[data-nav='tickets'] svg{
 	margin-right:5px;
 	transform: rotate(-45deg);
 	color: white;

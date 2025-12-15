@@ -8,7 +8,7 @@
 ?>
 <body class='text-center hide-background subpage'>
 
-	<script> var current_navi_item="ctfchallenge" </script>
+	<script> var current_navi_item="cfc" </script>
 	<?php include "inc/navigation.inc.php"; ?>
 	<?php include "inc/header.inc.php";	?>
 

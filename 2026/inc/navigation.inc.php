@@ -5,15 +5,15 @@
 	/*-------------------------
 	 Navigation
 	 -----------------------*/
-	$navigation = "<section id='navigation' class='text-center hidden navigation-bar'>
-	<a id='navi-frontpage'    href='{$baseurl}./'><img src='{$baseurl}img/just_logo.png' id='navigation-home-symbol' class='show-for-large custom'><span class='hide-for-large custom'>Home</span></a>
-	<a id='navi-hackerpuzzle' href='{$baseurl}HackerPuzzle{$suffix}'>Hacker Puzzle</a>
-	<a id='navi-program'      href='{$baseurl}program{$suffix}'>Program</a>
-	<a id='navi-tickets'      href='{$baseurl}tickets{$suffix}'><i class='far fa-ticket show-for-medium' aria-hidden='true'></i> Get Tickets!</a>
-	<a id='navi-competitions'  href='{$baseurl}competitions{$suffix}'>Competitions</a>
-	<a id='navi-cfc'          href='{$baseurl}ctfchallenge{$suffix}'>Call for challenges</a>
-	<a id='navi-practical'  href='{$baseurl}practical{$suffix}'>Practical</a>
-	<a id='navi-about'        href='{$baseurl}about{$suffix}'>About</a>
+	$navigation = "<section class='text-center hidden navigation-bar'>
+	<a data-nav='frontpage'    href='{$baseurl}./'><img src='{$baseurl}img/just_logo.png' id='navigation-home-symbol' class='show-for-large custom'><span class='hide-for-large custom'>Home</span></a>
+	<a data-nav='hackerpuzzle' href='{$baseurl}HackerPuzzle{$suffix}'>Hacker Puzzle</a>
+	<a data-nav='program'      href='{$baseurl}program{$suffix}'>Program</a>
+	<a data-nav='tickets'      href='{$baseurl}tickets{$suffix}'><i class='far fa-ticket show-for-medium' aria-hidden='true'></i> Get Tickets!</a>
+	<a data-nav='competitions'  href='{$baseurl}competitions{$suffix}'>Competitions</a>
+	<a data-nav='cfc'          href='{$baseurl}ctfchallenge{$suffix}'>Call for challenges</a>
+	<a data-nav='practical'  href='{$baseurl}practical{$suffix}'>Practical</a>
+	<a data-nav='about'        href='{$baseurl}about{$suffix}'>About</a>
 	</section>";
 	/*
 
@@ -36,6 +36,8 @@
 </div>
 
 <script>
-	$("#navigation a").removeClass("current")
-	$("#navigation a#navi-" + current_navi_item ).addClass("current")
+$(document).ready(function(){
+	$(".navigation-bar a").removeClass("current")
+	$(".navigation-bar a[data-nav='" + current_navi_item + "']").addClass("current")
+});
 </script>
