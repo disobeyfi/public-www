@@ -42,7 +42,7 @@
 				</div>
 			</section>
 			<section class="grid-x grid-padding-x grid-margin-x datetime text-center show-for-small-only">
-				<div class='cell large-12 large-text-right'id='header-logo-mobile-section'>
+                <div class='cell large-12 large-text-right'id='header-logo-mobile-section'>
 					<img id="main-mobile-logo" src='<?php echo $baseurl; ?>img/logo_mobile.webp'>
 				</div>
 			</section>

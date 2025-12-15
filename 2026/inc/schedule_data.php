@@ -3,8 +3,9 @@
 
 $schedule_data = json_decode(file_get_contents(__DIR__ . "/schedule.json"), true)["schedule"]["conference"];
 
-function get_timetable_data($roomname, $dayindex) {
-    print("<!-- fetching data for ".$roomname.", day ".$dayindex." -->\n");
+function get_timetable_data($roomname, $dayindex)
+{
+    print("<!-- fetching data for " . $roomname . ", day " . $dayindex . " -->\n");
     global $filenames, $schedule_data;
     $timetable = array();
 
@@ -22,16 +23,18 @@ function get_timetable_data($roomname, $dayindex) {
                 $entry = array();
                 $entry["time"] = $event["start"];
                 $entry["header"] = $event["title"];
-                $entry["name"] = join(", ", array_map(function($a) { return $a["public_name"]; }, $event["persons"]));
+                $entry["name"] = join(", ", array_map(function ($a) {
+                    return $a["public_name"];
+                }, $event["persons"]));
                 $entry["url"] = $event["slug"];
                 // length
                 list($hour, $minute) = explode(':', $event["duration"]);
-                $entry["length"] = floor($hour*4 + ($minute / 15));
+                $entry["length"] = floor($hour * 4 + ($minute / 15));
                 array_push($timetable, $entry);
             }
         }
     }
-    return($timetable);
+    return ($timetable);
 }
 
 // test code below

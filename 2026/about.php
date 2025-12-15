@@ -2,157 +2,175 @@
 <html lang="en">
 
 <?php
-	$slug 		= "about";
-	$pagename = "About";
-	include "inc/head.inc.php";
+$slug = "about";
+$pagename = "About";
+include "inc/head.inc.php";
 ?>
 <body class='text-center hide-background subpage'>
 
-	<script> var current_navi_item="about" </script>
-	<?php include "inc/navigation.inc.php"; ?>
-	<?php include "inc/header.inc.php";	?>
+<script> var current_navi_item = "about" </script>
+<?php include "inc/navigation.inc.php"; ?>
+<?php include "inc/header.inc.php"; ?>
 
-	<section class='container hidden'>
+<section class='container hidden'>
 
-		<!-- About -->
-		<div class='full-row clearfix lazyload translucent'  >
-				<section class="grid-container cell grid-y cell location" id='about' >
-					<div class="cell">
-						<h1 class="red">Disobey - organising hacker culture events since 2015</h1>
-					</div>
-					<div class='cell'>
+    <!-- About -->
+    <div class='full-row clearfix lazyload translucent'>
+        <section class="grid-container cell grid-y cell location" id='about'>
+            <div class="cell">
+                <h1 class="red">Disobey - organising hacker culture events since 2015</h1>
+            </div>
+            <div class='cell'>
 
-						<div class=''>
-							<p>We here at Disobey wish to encourage hacker culture and bring together like-minded individuals at a gathering to share information and to train the skills our adversaries use against us. Our goal is to foster a vibrant community of creators, makers and breakers.</p>
+                <div class=''>
+                    <p>We here at Disobey wish to encourage hacker culture and bring together like-minded individuals at
+                        a gathering to share information and to train the skills our adversaries use against us. Our
+                        goal is to foster a vibrant community of creators, makers and breakers.</p>
 
-							<p>We value encouragement, creativity and sharing and believe everyone can teach us something about the world.</p>
-						</div>
-					</div>
-				</section>
-		</div>
+                    <p>We value encouragement, creativity and sharing and believe everyone can teach us something about
+                        the world.</p>
+                </div>
+            </div>
+        </section>
+    </div>
 
-        <div class='full-row clearfix divider'>&nbsp;</div>
-		
-		<!-- Theme -->
-		<div class='full-row clearfix lazyload translucent'  >
-				<section class="grid-container cell grid-y cell location" id='theme' >
-					<div class="cell">
-						<h4 class="red">Theme 2026 - First Principles</h4>
-					</div>
-					<div class='cell'>
+    <div class='full-row clearfix divider'>&nbsp;</div>
 
-						<div class=''>
-							<p>Question what you know. Build what you need. Break things down. Revisit the fundamentals - to understand what still holds. Not to resist change, but to shape it.</p>
+    <!-- Theme -->
+    <div class='full-row clearfix lazyload translucent'>
+        <section class="grid-container cell grid-y cell location" id='theme'>
+            <div class="cell">
+                <h4 class="red">Theme 2026 - First Principles</h4>
+            </div>
+            <div class='cell'>
 
-							<p>A return to basics, or a leap into the unknown. A keynote, a workshop, a spark that starts a conversation.</p>
+                <div class=''>
+                    <p>Question what you know. Build what you need. Break things down. Revisit the fundamentals - to
+                        understand what still holds. Not to resist change, but to shape it.</p>
 
-							<p>This year’s theme is an open invitation: explore what drives you, and share it with others who care. Revisit what you know. Share what you’ve learned. Build something new. Where it goes is up to you.</p>
+                    <p>A return to basics, or a leap into the unknown. A keynote, a workshop, a spark that starts a
+                        conversation.</p>
 
-							<p>United by curiosity, united by Disobey.</p>
-						</div>
-					</div>
-				</section>
-		</div>
+                    <p>This year’s theme is an open invitation: explore what drives you, and share it with others who
+                        care. Revisit what you know. Share what you’ve learned. Build something new. Where it goes is up
+                        to you.</p>
 
-        <div class='full-row clearfix divider'>&nbsp;</div>
+                    <p>United by curiosity, united by Disobey.</p>
+                </div>
+            </div>
+        </section>
+    </div>
 
-		<!-- ETHICS ETC -->
-		<!-- <div class='full-row clearfix divider'>&nbsp;</div> -->
-		<?php include "inc/etchics.inc.php";	?>
+    <div class='full-row clearfix divider'>&nbsp;</div>
 
-		<div class='full-row clearfix divider'>&nbsp;</div>
-		<!-- History & what to expect -->
-		<!-- ETHICS ETC -->
-		<div class='full-row clearfix lazyload center-bg' data-src='img/lock_dark_blur.webp' style='background-image:url("");'>
-				<section class="grid-container cell grid-y cell location" id='about' >
-					<div class="cell">
+    <!-- ETHICS ETC -->
+    <!-- <div class='full-row clearfix divider'>&nbsp;</div> -->
+    <?php include "inc/etchics.inc.php"; ?>
 
-						<!-- grid -->
-						<div class='grid-x grid-padding-x grid-margin-x grid-padding-y grid-margin-y text-left'>
-							<div class='cell medium-6 '>
-								<h4  class="red">What to expect</h4>
-								<p>Disobey gathers the brightest minds around the hardest problems. As with most things in life, even here you get what you put in. Everyone will have a different experience, but together we can make sure it'll be a good one.</p>
+    <div class='full-row clearfix divider'>&nbsp;</div>
+    <!-- History & what to expect -->
+    <!-- ETHICS ETC -->
+    <div class='full-row clearfix lazyload center-bg' data-src='img/lock_dark_blur.webp'
+         style='background-image:url("");'>
+        <section class="grid-container cell grid-y cell location" id='about'>
+            <div class="cell">
 
-								<p>We operate under the <a href="https://en.wikipedia.org/wiki/Chatham_House_Rule">Chatham House Rule</a>:</p>
+                <!-- grid -->
+                <div class='grid-x grid-padding-x grid-margin-x grid-padding-y grid-margin-y text-left'>
+                    <div class='cell medium-6 '>
+                        <h4 class="red">What to expect</h4>
+                        <p>Disobey gathers the brightest minds around the hardest problems. As with most things in life,
+                            even here you get what you put in. Everyone will have a different experience, but together
+                            we can make sure it'll be a good one.</p>
 
-								<p>&quot;When a meeting, or part thereof, is held under the Chatham House Rule, participants are free to use the information received, but neither the identity nor the affiliation of the speaker(s), nor that of any other participant, may be revealed.&quot;</p>
-			</div>
+                        <p>We operate under the <a href="https://en.wikipedia.org/wiki/Chatham_House_Rule">Chatham House
+                                Rule</a>:</p>
 
-							<div class='cell medium-6 '>
-								<h4 class="red">History</h4>
+                        <p>&quot;When a meeting, or part thereof, is held under the Chatham House Rule, participants are
+                            free to use the information received, but neither the identity nor the affiliation of the
+                            speaker(s), nor that of any other participant, may be revealed.&quot;</p>
+                    </div>
 
-								<ul class='undecorated'>
-									<li>Previous events:</li>
-									<li><a target="_blank" href='https://web.archive.org/web/20150926111835/http://disobey.fi/'>Disobey 2016 (archive.org)</a></li>
-									<li><a target="_blank" href='http://2017.disobey.fi/'>Disobey 2017</a></li>
-									<li><a target="_blank" href='http://2018.disobey.fi/'>Disobey 2018</a></li>
-									<li><a target="_blank" href='https://disobey.fi/2019/'>Disobey 2019</a></li>
-									<li><a target="_blank" href='https://disobey.fi/2020/'>Disobey 2020</a></li>
-									<li><a target="_blank" href='https://disobey.fi/2021/'>Disobey 2021 (cancelled)</a></li>
-									<li><a target="_blank" href='https://disobey.fi/2022/'>Disobey 2022 (cancelled)</a></li>
-									<li><a target="_blank" href='https://disobey.fi/2023/'>Disobey 2023</a></li>
-									<li><a target="_blank" href='https://disobey.fi/2024/'>Disobey 2024</a></li>
-									<li><a target="_blank" href='https://disobey.fi/2025/'>Disobey 2025</a></li>
-								</ul>
+                    <div class='cell medium-6 '>
+                        <h4 class="red">History</h4>
 
-								<p>
-									<ul class='undecorated'>
-										<li><a target="_blank" href='https://docs.google.com/document/d/1iXD6CmQFG0cRkjgJOao2EeDeizEiMf-JJCjMMVv0CIc/edit'>Hacker ticket 2018 walkthrough</a></li>
-									</ul>
-								</p>
-							</div>
-						</div>
-						<!-- grid ends -->
+                        <ul class='undecorated'>
+                            <li>Previous events:</li>
+                            <li><a target="_blank" href='https://web.archive.org/web/20150926111835/http://disobey.fi/'>Disobey
+                                    2016 (archive.org)</a></li>
+                            <li><a target="_blank" href='http://2017.disobey.fi/'>Disobey 2017</a></li>
+                            <li><a target="_blank" href='http://2018.disobey.fi/'>Disobey 2018</a></li>
+                            <li><a target="_blank" href='https://disobey.fi/2019/'>Disobey 2019</a></li>
+                            <li><a target="_blank" href='https://disobey.fi/2020/'>Disobey 2020</a></li>
+                            <li><a target="_blank" href='https://disobey.fi/2021/'>Disobey 2021 (cancelled)</a></li>
+                            <li><a target="_blank" href='https://disobey.fi/2022/'>Disobey 2022 (cancelled)</a></li>
+                            <li><a target="_blank" href='https://disobey.fi/2023/'>Disobey 2023</a></li>
+                            <li><a target="_blank" href='https://disobey.fi/2024/'>Disobey 2024</a></li>
+                            <li><a target="_blank" href='https://disobey.fi/2025/'>Disobey 2025</a></li>
+                        </ul>
 
-
-					</div>
-				</section>
-		</div>
-
-		<div class='full-row clearfix divider'>&nbsp;</div>
-		<!-- Credits-->
-		<div class='full-row clearfix lazyload center-bg' data-src='img/people_dark_blur.webp' style='background-image:url("");' >
-				<section class="grid-container cell grid-y location" id='credits' >
-					<div class="cell">
-						<h4 class="text-center">Credits</h4>
-						<!-- grid -->
-						<div class='grid-x grid-padding-x grid-margin-x grid-padding-y grid-margin-y text-left'>
-							<div class='cell medium-6 '>
-
-
-								<h6 class='small-text-center large-text-left'>Photographer info</h6>
-								<p>Mikael Peltomaa, Email: mikael.peltomaa@gmail.com</p>
-							</div>
-
-							<div class='cell medium-6 '>
-								<h6 class="small-text-center large-text-left">Site design</h6>
-								<p>Janne Ahvo, Email: janne.ahvo@ddrhelsinki.fi</p>
-							</div>
-
-							<div class='cell medium-12'>
-								<h6 class="small-text-center large-text-left">Site development</h6>
-								<p>
-									<a href="https://github.com/disobeyfi/public-www" target="_blank"><i class="fab fa-github"></i> GitHub Repository</a><br>
-									Contributors:
-									<a href="https://github.com/delic" target="_blank">@delic</a>,
-									<a href="https://github.com/jpa1999" target="_blank">@jpa1999</a>,
-									<a href="https://github.com/pervila" target="_blank">@pervila</a>,
-									<a href="https://github.com/lopiitti" target="_blank">@lopiitti</a>,
-									<a href="https://github.com/laveez" target="_blank">@laveez</a>
-								</p>
-							</div>
-						</div>
-						<!-- grid ends -->
-					</div>
-				</section>
-		</div>
+                        <p>
+                        <ul class='undecorated'>
+                            <li><a target="_blank"
+                                   href='https://docs.google.com/document/d/1iXD6CmQFG0cRkjgJOao2EeDeizEiMf-JJCjMMVv0CIc/edit'>Hacker
+                                    ticket 2018 walkthrough</a></li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <!-- grid ends -->
 
 
-		<div class='full-row clearfix divider'>&nbsp;</div>
-		<?php include "inc/contact.inc.php"; ?>
+            </div>
+        </section>
+    </div>
 
-	</section>
+    <div class='full-row clearfix divider'>&nbsp;</div>
+    <!-- Credits-->
+    <div class='full-row clearfix lazyload center-bg' data-src='img/people_dark_blur.webp'
+         style='background-image:url("");'>
+        <section class="grid-container cell grid-y location" id='credits'>
+            <div class="cell">
+                <h4 class="text-center">Credits</h4>
+                <!-- grid -->
+                <div class='grid-x grid-padding-x grid-margin-x grid-padding-y grid-margin-y text-left'>
+                    <div class='cell medium-6 '>
 
-	<?php include "inc/footer.inc.php"; ?>
+
+                        <h6 class='small-text-center large-text-left'>Photographer info</h6>
+                        <p>Mikael Peltomaa, Email: mikael.peltomaa@gmail.com</p>
+                    </div>
+
+                    <div class='cell medium-6 '>
+                        <h6 class="small-text-center large-text-left">Site design</h6>
+                        <p>Janne Ahvo, Email: janne.ahvo@ddrhelsinki.fi</p>
+                    </div>
+
+                    <div class='cell medium-12'>
+                        <h6 class="small-text-center large-text-left">Site development</h6>
+                        <p>
+                            <a href="https://github.com/disobeyfi/public-www" target="_blank"><i
+                                        class="fab fa-github"></i> GitHub Repository</a><br>
+                            Contributors:
+                            <a href="https://github.com/delic" target="_blank">@delic</a>,
+                            <a href="https://github.com/jpa1999" target="_blank">@jpa1999</a>,
+                            <a href="https://github.com/pervila" target="_blank">@pervila</a>,
+                            <a href="https://github.com/lopiitti" target="_blank">@lopiitti</a>,
+                            <a href="https://github.com/laveez" target="_blank">@laveez</a>
+                        </p>
+                    </div>
+                </div>
+                <!-- grid ends -->
+            </div>
+        </section>
+    </div>
+
+
+    <div class='full-row clearfix divider'>&nbsp;</div>
+    <?php include "inc/contact.inc.php"; ?>
+
+</section>
+
+<?php include "inc/footer.inc.php"; ?>
 </body>
 </html>

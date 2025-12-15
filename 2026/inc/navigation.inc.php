@@ -1,11 +1,11 @@
 <?php
-	$baseurl = ( $_SERVER['SERVER_NAME'] == "ddr.fi" )? "/disobey_2026/" : "/2026/";
-	$suffix = ( $_SERVER['SERVER_NAME'] == "ddr.fi" )? ".php" : "";
+$baseurl = ($_SERVER['SERVER_NAME'] == "ddr.fi") ? "/disobey_2026/" : "/2026/";
+$suffix = ($_SERVER['SERVER_NAME'] == "ddr.fi") ? ".php" : "";
 
-	/*-------------------------
-	 Navigation
-	 -----------------------*/
-	$navigation = "<section class='text-center hidden navigation-bar'>
+/*-------------------------
+ Navigation
+ -----------------------*/
+$navigation = "<section class='text-center hidden navigation-bar'>
 	<a data-nav='frontpage'    href='{$baseurl}./'><img src='{$baseurl}img/just_logo.png' id='navigation-home-symbol' class='show-for-large custom'><span class='hide-for-large custom'>Home</span></a>
 	<a data-nav='hackerpuzzle' href='{$baseurl}HackerPuzzle{$suffix}'>Hacker Puzzle</a>
 	<a data-nav='program'      href='{$baseurl}program{$suffix}'>Program</a>
@@ -15,16 +15,16 @@
 	<a data-nav='practical'  href='{$baseurl}practical{$suffix}'>Practical</a>
 	<a data-nav='about'        href='{$baseurl}about{$suffix}'>About</a>
 	</section>";
-	/*
+/*
 
-	<a id='navi-venue'  href='{$baseurl}venue{$suffix}'>Venue</a>
-	<a id='navi-contact'  			href='{$baseurl}contact{$suffix}'>Contact</a>
-	*/
+<a id='navi-venue'  href='{$baseurl}venue{$suffix}'>Venue</a>
+<a id='navi-contact'  			href='{$baseurl}contact{$suffix}'>Contact</a>
+*/
 
 ?>
 
 <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
-	<?php echo $navigation; ?>
+    <?php echo $navigation; ?>
 </div>
 
 <div class='hide-for-large custom'>
@@ -32,12 +32,12 @@
 </div>
 
 <div class='show-for-large custom'>
-	<?php echo $navigation; ?>
+    <?php echo $navigation; ?>
 </div>
 
 <script>
-$(document).ready(function(){
-	$(".navigation-bar a").removeClass("current")
-	$(".navigation-bar a[data-nav='" + current_navi_item + "']").addClass("current")
-});
+  $(document).ready(function () {
+    $(".navigation-bar a").removeClass("current")
+    $(".navigation-bar a[data-nav='" + current_navi_item + "']").addClass("current")
+  });
 </script>

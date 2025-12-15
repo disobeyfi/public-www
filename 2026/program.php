@@ -2,22 +2,22 @@
 <html lang="en">
 
 <?php
-	$slug 		= "program";
-	$pagename = "Program";
-	include "inc/head.inc.php";
+$slug = "program";
+$pagename = "Program";
+include "inc/head.inc.php";
 ?>
 <body class='text-center hide-background subpage program-page'>
 
 <div class="off-canvas-content" data-off-canvas-content>
 
-	<script> var current_navi_item="program" </script>
-	<?php include "inc/navigation.inc.php"; ?>
-	<?php include "inc/header.inc.php";	?>
+    <script> var current_navi_item = "program" </script>
+    <?php include "inc/navigation.inc.php"; ?>
+    <?php include "inc/header.inc.php"; ?>
 
-	<section class='container hidden'>
+    <section class='container hidden'>
 
-		<!-- Program  -->
-		<?php /*
+        <!-- Program  -->
+        <?php /*
 		<div class='full-row clearfix lazyload extra-padding translucent'  >
 			<section class="grid-container cell grid-y cell location" id='about' >
 				<div class="cell">
@@ -33,16 +33,16 @@
 		</div>
 		*/ ?>
 
-		<!-- Program table -->
-		<?php	include "inc/program.inc.php"; ?>
+        <!-- Program table -->
+        <?php include "inc/program.inc.php"; ?>
 
-		<div class='full-row clearfix divider'>&nbsp;</div>
-		<?php include "inc/contact.inc.php"; ?>
+        <div class='full-row clearfix divider'>&nbsp;</div>
+        <?php include "inc/contact.inc.php"; ?>
 
 
-		<?php include "inc/footer.inc.php"; ?>
+        <?php include "inc/footer.inc.php"; ?>
 
-	</section>
+    </section>
 
 </div>
 </body>

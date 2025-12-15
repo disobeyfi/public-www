@@ -1,130 +1,135 @@
-.navigation-bar{
-	background-color:rgba(0,0,0,0.5);
-	backdrop-filter: blur(10px);
+.navigation-bar {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
 }
 
 /* Sticky desktop navigation */
 .show-for-large.custom {
-	position: sticky;
-	top: 0;
-	z-index: 1000;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-.navigation-bar a{
-	color: white;
-	font-size: 19px;
-	padding: 20px 30px 20px 30px ;
-	display: inline-block;
-	font-weight: 500;
-	letter-spacing: 0.05em;
-	text-transform: uppercase;
-	border: 0px;
+.navigation-bar a {
+    color: white;
+    font-size: 19px;
+    padding: 20px 30px 20px 30px;
+    display: inline-block;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border: 0px;
 }
 
 @media only screen and (max-width: 1210px) {
-	.navigation-bar{
-		background-color:black;
-		background-image: none;
-	}
-	.navigation-bar a{
-		display: block;
-		text-align: center;
-	}
+    .navigation-bar {
+        background-color: black;
+        background-image: none;
+    }
+
+    .navigation-bar a {
+        display: block;
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 1211px) {
-	.navigation-bar{
-		display: flex;
-    	justify-content: center;
-    	align-items: center;
-	}
+    .navigation-bar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
-.navigation-bar a.current{
-	background-color: var(--color-orange);
-	border-color: var(--color-orange);
-	border: 0px;
+.navigation-bar a.current {
+    background-color: var(--color-orange);
+    border-color: var(--color-orange);
+    border: 0px;
 }
 
-.navigation-bar a:hover{
-	color:white;
-	border-color: transparent;
+.navigation-bar a:hover {
+    color: white;
+    border-color: transparent;
 }
 
 #navigation-home-symbol {
-	width: 25px !important;
-	height: 25px !important;
+    width: 25px !important;
+    height: 25px !important;
     max-width: 25px;
     max-height: 25px;
 }
 
-.navigation-bar  a[data-nav='tickets']{
-	/*background-color: #f000f0;
-	color: white*/
+.navigation-bar a[data-nav='tickets'] {
+    /*background-color: #f000f0;
+    color: white*/
 }
+
 /*.on-red a[data-nav='tickets']{
 	background-color: #d90404;
 }*/
 
-.navigation-bar a[data-nav='tickets']{
-	color: white;
-	text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+.navigation-bar a[data-nav='tickets'] {
+    color: white;
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
 }
-.navigation-bar a[data-nav='tickets'] svg{
-	margin-right:5px;
-	transform: rotate(-45deg);
-	color: white;
-	text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+
+.navigation-bar a[data-nav='tickets'] svg {
+    margin-right: 5px;
+    transform: rotate(-45deg);
+    color: white;
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
 }
 
 /*-----------------------
  Hamburger
  -----------------------*/
-#hamburger{
-	position: fixed;
-	z-index: 9999;
-	right: 10px;
-	top: 10px;
-	width: 70px;
-	height: 70px;
-}
-#hamburger svg{
-	width: 35px;
-	height: 35px;
-	float: right;
-	color: white;
+#hamburger {
+    position: fixed;
+    z-index: 9999;
+    right: 10px;
+    top: 10px;
+    width: 70px;
+    height: 70px;
 }
 
-.on-red #hamburger svg{
-	color:red;
+#hamburger svg {
+    width: 35px;
+    height: 35px;
+    float: right;
+    color: white;
+}
+
+.on-red #hamburger svg {
+    color: red;
 }
 
 /* Override Foundation's hide-for-large and keep hamburger container visible up to 1210px */
 @media only screen and (min-width: 64em) and (max-width: 1210px) {
-	.hide-for-large.custom {
-		display: block !important;
-	}
+    .hide-for-large.custom {
+        display: block !important;
+    }
 }
 
 /* Ensure hamburger is visible up to 1210px */
 @media only screen and (max-width: 1210px) {
-	#hamburger {
-		display: block !important;
-	}
+    #hamburger {
+        display: block !important;
+    }
 }
 
 /* Hide hamburger and its container from 1211px onwards */
 @media only screen and (min-width: 1211px) {
-	.hide-for-large.custom {
-		display: none !important;
-	}
-	#hamburger {
-		display: none !important;
-	}
+    .hide-for-large.custom {
+        display: none !important;
+    }
+
+    #hamburger {
+        display: none !important;
+    }
 }
 
-#offCanvas{
-	background-color: black;
-	z-index: 500;
+#offCanvas {
+    background-color: black;
+    z-index: 500;
 }
