@@ -19,11 +19,15 @@
           margin-left: auto;
           margin-right: auto;
           width: 50%;
+          margin-bottom: -80px;
+          clip-path: inset(0px 0px 80px 0px);
+          padding-bottom: 20px;
       }
       .stagename {
           text-align: center;
-          font-size: 2em;
+          font-size: 3em;
           margin-top: 0;
+          text-transform: uppercase;
       }
       .schedule {
           display: flex;
@@ -37,7 +41,7 @@
           display: flex;
           flex-direction: row;
           width: min(900px, 85%);
-          background: rgba(0,0,0,0.12);
+          background: rgba(0,0,0,0.35);
           border-radius: 6px;
           align-items: center;
       }
@@ -51,15 +55,17 @@
           flex: 1 1 auto;
           font-size: 1.2em;
           text-align: left;
+          font-weight: bold;
       }
       .schedule-item.past .time,
       .schedule-item.past .title {
           color: #a0a0a0;
       }
       .schedule-item.current {
-          background: rgba(255,255,255,0.15);
+          background: rgba(50, 50, 50, 0.85);
           border: 2px solid rgba(255,255,255,0.4);
           box-shadow: 0 0 15px rgba(255,255,255,0.3);
+          width: min(1000px, 95%);
       }
       .schedule-item.current .title {
           font-weight: bold;
