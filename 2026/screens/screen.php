@@ -68,28 +68,15 @@
   </head>
   <body>
     <?php
-      // $day is 1 on 2026-02-13 and before that. on 2025-02-14 and after that it's 2
-      /*
-      $current_date = new DateTime("now", new DateTimeZone('Europe/Helsinki'));
-      $cutoff_date = new DateTime("2026-02-14", new DateTimeZone('Europe/Helsinki'));
-      if ($current_date < $cutoff_date) {
-          $day = 1;
-      } else {
-          $day = 2;
-      }
-      */
       switch ($_GET['stage']) {
           case 'terminal':
               $stage_name = "Terminal Stage";
-              $timetable_data = get_timetable_data($stage_name, $day);
               break;
           case 'forum':
               $stage_name = "Security Forum";
-              $timetable_data = get_timetable_data($stage_name, $day);
               break;
           case 'theater':
               $stage_name = "Security Theater";
-              $timetable_data = get_timetable_data($stage_name, $day);
               break;
           default:
               exit;
@@ -106,14 +93,6 @@
       </div>
     </div>
     <?php
-    /*echo "<div class='schedule'>";
-    foreach ($timetable_data as $item) {
-        echo "<div class='schedule-item'>";
-        echo "<div class='time'>" . htmlspecialchars($item['time']) . "</div>";
-        echo "<div class='title'>" . htmlspecialchars($item['header']) . "</div>";
-        echo "</div>";
-    }
-    echo "</div>";*/
     ?>
     <script>
       const { createApp, ref, onMounted } = Vue;
