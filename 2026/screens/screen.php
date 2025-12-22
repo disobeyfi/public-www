@@ -121,7 +121,7 @@
                   if (day["index"] != dayIndex) return;
                   for (const [roomName, roomData] of Object.entries(day["rooms"])) {
                     // console.log(roomName, roomData)
-                    if (roomName != room.value) return;
+                    if (roomName != room.value) continue;
                     // console.log("We got so far")
                     roomData.forEach(event => {
                       // console.log(event)
