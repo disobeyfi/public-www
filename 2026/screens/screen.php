@@ -10,7 +10,7 @@
       html {
           background: #741010ff;
           background-image: url('MainStage_Red.jpg');
-          background-size: contain;
+          background-size: cover;
           background-repeat: no-repeat;
           color: white;
       }
