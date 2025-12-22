@@ -19,8 +19,6 @@
           margin-left: auto;
           margin-right: auto;
           width: 50%;
-          margin-bottom: -80px;
-          clip-path: inset(0px 0px 80px 0px);
           padding-bottom: 20px;
       }
       .stagename {
@@ -88,7 +86,7 @@
               exit;
       }
       ?>
-    <img src="../img/logo.webp" alt="Disobey Logo" width="100%" class="logo"/>
+    <img src="logo.webp" alt="Disobey Logo" width="100%" class="logo"/>
     <div id="app">
       <h1 class='stagename'>{{ room }}</h1>
       <div class="schedule">
