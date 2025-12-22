@@ -18,13 +18,14 @@
           display: block;
           margin-left: auto;
           margin-right: auto;
-          width: 50%;
+          width: 40%;
           padding-bottom: 20px;
       }
       .stagename {
           text-align: center;
-          font-size: 3em;
+          font-size: 8vh;
           margin-top: 0;
+          margin-bottom: 0;
           text-transform: uppercase;
       }
       .schedule {
@@ -33,19 +34,19 @@
           align-items: center;
           gap: 8px;
           margin-top: 10px;
+          font-size: 2.8vh;
       }
       .schedule-item {
           padding: 10px;
           display: flex;
           flex-direction: row;
-          width: min(900px, 85%);
+          width: 50%;
           background: rgba(0,0,0,0.35);
           border-radius: 6px;
           align-items: center;
       }
       .time {
-          width: 140px;
-          flex: 0 0 140px;
+          width: 15%;
           font-weight: bold;
           text-align: left;
       }
@@ -54,6 +55,7 @@
           font-size: 1.2em;
           text-align: left;
           font-weight: bold;
+          width: inherit;
       }
       .schedule-item.past .time,
       .schedule-item.past .title {
@@ -63,7 +65,7 @@
           background: rgba(50, 50, 50, 0.85);
           border: 2px solid rgba(255,255,255,0.4);
           box-shadow: 0 0 15px rgba(255,255,255,0.3);
-          width: min(1000px, 95%);
+          width: 55%;
       }
       .schedule-item.current .title {
           font-weight: bold;
