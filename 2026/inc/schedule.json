@@ -6,7 +6,7 @@
   },
   "schedule": {
     "url": "https://cfp.disobey.fi/disobey-2026/schedule/",
-    "version": "0.3",
+    "version": "0.4",
     "base_url": "https://cfp.disobey.fi",
     "conference": {
       "acronym": "disobey-2026",
@@ -114,7 +114,7 @@
                 "attachments": []
               },
               {
-                "url": "",
+                "url": "https://cfp.disobey.fi/disobey-2026/talk/CCWQU3/",
                 "id": 482,
                 "guid": "0c5a20ed-7d31-5eed-bc9b-48f29e09d2b6",
                 "date": "2026-02-13T14:00:00+02:00",
@@ -122,16 +122,26 @@
                 "logo": null,
                 "duration": "00:45",
                 "room": "Terminal Stage",
-                "slug": "",
-                "title": "KEYNOTE (TBA)",
+                "slug": "disobey-2026-482-a-lifetime-of-disobedience",
+                "title": "A Lifetime of Disobedience",
                 "subtitle": "",
                 "track": null,
                 "type": "Talk 45min",
                 "language": "en",
-                "abstract": "KEYNOTE (TBA)",
+                "abstract": "Without disobedience, there would be no hacking. Without hacking, there would be no Joe Grand. Inspired by Disobey's theme of First Principles, Joe reflects on his lifetime of disobedience and how it has forever shaped his path.",
                 "recording_license": "",
                 "do_not_record": false,
-                "persons": [],
+                "persons": [
+                  {
+                    "guid": "a41d19a3-7be7-5c17-9f6d-8e8cb0682154",
+                    "id": 422,
+                    "code": "X3DGSF",
+                    "public_name": "Joe Grand",
+                    "avatar": null,
+                    "biography": "Joe Grand, also known as Kingpin, is a computer engineer, hardware hacker, occasional YouTuber, creator of the first electronic badges for DEFCON, member of L0pht Heavy Industries, and former technological juvenile delinquent.",
+                    "answers": []
+                  }
+                ],
                 "links": [],
                 "attachments": []
               },
