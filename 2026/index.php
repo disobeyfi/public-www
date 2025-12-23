@@ -29,6 +29,37 @@ error_reporting(E_ALL);
     include "inc/header.inc.php";
     ?>
 
+    <!-- KEYNOTES -->
+
+    <div class='full-row clearfix lazyload translucent' data-src='img/lock_darker.jpg' style='background-image:url( "" );' >
+		<section class="grid-container cell grid-y cell location text-center" id='keynotes' >
+			<div class="cell">
+				<h1 class="red">Keynote speakers</h1>
+				<!-- <h4 style='color:white;'>To be announced</h4> -->
+			</div>
+			<div class="cell grid-x grid-padding-x grid-margin-x">
+				<!-- keynote 1 -->
+				<div class='cell large-6 medium-text-left'>
+					<div class='illustration illustration-keynote lazyload first ' title='' data-alignment="center" data-src='img/bios/bio_X3DGSF.jpg' style='background-image:url("");'></div>
+					<h4 class='text-center red' >Joe Grand</h4>
+					<label>Kingpin</label>
+					<p>
+					Joe Grand, also known as Kingpin, is a computer engineer, hardware hacker, occasional YouTuber, creator of the first electronic badges for DEFCON, member of L0pht Heavy Industries, and former technological juvenile delinquent. 							
+					</p>
+				</div>
+				<!-- keynote 12 -->
+				<div class='cell large-6 medium-text-left'>
+					<div class='illustration  illustration-keynote lazyload' title='' data-alignment="center" data-src='img/bios/default.png' style='background-image:url("");'></div>
+					<h4 class='text-center'>Keynote Speaker #2</h4>
+					<label>TBA</label>
+					<p> 
+					To be announced.
+					</p>
+				</div>
+			</div>
+		</section>
+	</div>
+    
     <!--- Tickets -->
     <div class='full-row clearfix lazyload'>
         <section class="grid-container cell grid-y cell location" id='cfp'>
