@@ -26,6 +26,8 @@ include "inc/head.inc.php";
 
                 <h4>TICKET SALES RAFFLE</h4>
 
+                <p>UPDATE: The ticket raffle winners have been contacted, and they have until Dec 29th to buy their tickets. After that, remaining tickets are raffled to new winners!</p>
+              
                 <p>Yes, tickets were sold out in record time. But do not worry! We have a bunch of standard tickets we
                     will be selling via a raffle - so this will not be a speed contest.</p>
 
