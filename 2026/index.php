@@ -42,7 +42,6 @@ error_reporting(E_ALL);
 				<div class='cell large-6 medium-text-left'>
 					<div class='illustration illustration-keynote lazyload first ' title='' data-alignment="center" data-src='img/bios/bio_X3DGSF.jpg' style='background-image:url("");'></div>
 					<h4 class='text-center red' >Joe Grand</h4>
-					<label>Kingpin</label>
 					<p>
 					Joe Grand, also known as Kingpin, is a computer engineer, hardware hacker, occasional YouTuber, creator of the first electronic badges for DEFCON, member of L0pht Heavy Industries, and former technological juvenile delinquent. 							
 					</p>
@@ -51,7 +50,6 @@ error_reporting(E_ALL);
 				<div class='cell large-6 medium-text-left'>
 					<div class='illustration  illustration-keynote lazyload' title='' data-alignment="center" data-src='img/bios/default.png' style='background-image:url("");'></div>
 					<h4 class='text-center'>Keynote Speaker #2</h4>
-					<label>TBA</label>
 					<p> 
 					To be announced.
 					</p>
