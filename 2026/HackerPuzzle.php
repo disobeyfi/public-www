@@ -23,6 +23,7 @@ include "inc/head.inc.php";
             <div class='cell text-left grid-container grid-x grid-padding-x grid-margin-x grid-padding-y grid-margin-y'>
 
                 <div class='cell large-12 text-center'>
+                    <p> UPDATE: All hacker tickets have now been sold! You are free to post your walkthroughs!</p>
                     <p>The KCCP Cyber Division has identified a suspicious file linked to recent activity targeting key
                         companies in Kouvostoliitto, including Kouvoston Makkara. We suspect a ransomware group may be
                         involved, but their true motives remain unclear.</p>
