@@ -57,6 +57,8 @@ error_reporting(E_ALL);
 			</div>
 		</section>
 	</div>
+
+    <div class='full-row clearfix divider'>&nbsp;</div>
     
     <!--- Tickets -->
     <div class='full-row clearfix lazyload'>
