@@ -31,7 +31,7 @@ error_reporting(E_ALL);
 
     <!-- KEYNOTES -->
 
-    <div class='full-row clearfix lazyload translucent' data-src='img/lock_darker.jpg' style='background-image:url( "" );' >
+        <div class='full-row clearfix lazyload'>
 		<section class="grid-container cell grid-y cell location text-center" id='keynotes' >
 			<div class="cell">
 				<h1 class="red">Keynote speakers</h1>
