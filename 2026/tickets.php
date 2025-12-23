@@ -43,9 +43,7 @@ include "inc/head.inc.php";
                         that can be bought separately when buying the tickets - as long as there are badges left to
                         sell. See more below. </b></p>
 
-                <p>Enter the raffle here: <a href="https://forms.gle/hvZeJbJ4yGxWCrxM8"> Disobey 2026 Ticket Raffle</a>
-                </p>
-
+ 
             </div>
 
             <div class='cell large-6 flex-column text-center medium-text-left sideline'>
