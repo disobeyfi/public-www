@@ -64,12 +64,10 @@ error_reporting(E_ALL);
     <div class='full-row clearfix lazyload'>
         <section class="grid-container cell grid-y cell location" id='cfp'>
             <div class="cell">
-                <h1 class="red">Extra Tickets Sales Raffle</h1>
+                <h1 class="red">Extra Tickets Sales Raffle Ended</h1>
             </div>
             <div class='cell'>
-                <p>Didn't get a ticket? We have a bunch of User Tickets available Dec 10-15 via a ticket sales raffle
-                    via our <a href="Tickets">Tickets page</a>. Join the raffle and get the chance to join us at the
-                    event!</p>
+                <p>Our extra ticket sales raffle has now ended and winners have been contacted! Winners have exactly one week to buy their ticket (by Dec 29th) before the tickets go to new winners - so if you got one, buy it now!</p>
             </div>
         </section>
     </div>
