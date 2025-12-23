@@ -32,7 +32,7 @@ error_reporting(E_ALL);
     <!-- KEYNOTES -->
 
         <div class='full-row clearfix lazyload'>
-		<section class="grid-container cell grid-y cell location text-center" id='keynotes' >
+        <section class="grid-container cell grid-y cell location" id='cfp'>
 			<div class="cell">
 				<h1 class="red">Keynote speakers</h1>
 				<!-- <h4 style='color:white;'>To be announced</h4> -->
