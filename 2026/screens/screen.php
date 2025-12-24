@@ -15,7 +15,10 @@
           background-position: center;
           background-size: cover;
           background-repeat: no-repeat;
+          background-attachment: fixed;
           color: white;
+          width: 100%;
+          height: 100%;
       }
       body {
           width: 100vw;
@@ -91,6 +94,10 @@
 
       /* Portrait Mode - Screen Size Agnostic */
       body.portrait {
+          background-image: url('portrait_bg.png');
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
           display: flex;
           flex-direction: column;
           align-items: center;
