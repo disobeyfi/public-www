@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-  <?php include "../inc/schedule_data.php"; ?>
+  <?php
+    $is_portrait = isset($_GET['portrait']) && $_GET['portrait'] === 'true';
+  ?>
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,6 +21,13 @@
           width: 100vw;
           height: 100vh;
           margin: 0;
+          display: flex;
+          flex-direction: column;
+      }
+      #app {
+          display: flex;
+          flex-direction: column;
+          flex: 1;
       }
       .logo {
           display: block;
@@ -39,9 +48,11 @@
           display: flex;
           flex-direction: column;
           align-items: center;
+          justify-content: center;
           gap: 8px;
           margin-top: 10px;
           font-size: 2.8vh;
+          flex: 1;
       }
       .schedule-item {
           padding: 10px;
@@ -77,9 +88,83 @@
       .schedule-item.current .title {
           font-weight: bold;
       }
+
+      /* Portrait Mode - Screen Size Agnostic */
+      body.portrait {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          transform: rotate(-90deg);
+          transform-origin: center center;
+          width: 100vh;
+          height: 100vw;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          margin-left: -50vh;
+          margin-top: -50vw;
+          overflow: hidden;
+      }
+
+      body.portrait .logo {
+          height: 14vh;
+          padding-bottom: 0.5vh;
+          margin-bottom: 0;
+          padding-top: 20vh;
+      }
+
+      body.portrait #app {
+          margin-top: 0;
+          padding-top: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+          flex: 1;
+      }
+
+      body.portrait .stagename {
+          font-size: 7vh;
+          margin: 0 0 1vh 0;
+          padding-top: 2vh;
+          padding-bottom: 2vh;
+      }
+
+      body.portrait .schedule {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 1vh;
+          margin-top: 0;
+          font-size: 2.2vh;
+          overflow-y: auto;
+      }
+
+      body.portrait .schedule-item {
+          width: 80%;
+          padding: 1.5vh 2vw;
+          flex-direction: row;
+          gap: 0.5vh;
+      }
+
+      body.portrait .time {
+          font-size: 0.9em;
+          margin-bottom: 0.5vh;
+      }
+
+      body.portrait .title {
+          width: 100%;
+          font-size: 1.1em;
+      }
+
+      body.portrait .schedule-item.current {
+          width: 85%;
+          border-width: 3px;
+      }
     </style>
   </head>
-  <body>
+  <body<?php if ($is_portrait) echo ' class="portrait"'; ?>>
     <?php
       switch ($_GET['stage']) {
           case 'terminal':
