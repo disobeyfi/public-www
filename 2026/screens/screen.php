@@ -10,16 +10,23 @@
       html {
           background: #741010ff;
           background-image: url('MainStage_Red.jpg');
+          background-position: center;
           background-size: cover;
           background-repeat: no-repeat;
           color: white;
+      }
+      body {
+          width: 100vw;
+          height: 100vh;
+          margin: 0;
       }
       .logo {
           display: block;
           margin-left: auto;
           margin-right: auto;
-          width: 40%;
-          padding-bottom: 20px;
+          padding-bottom: 1vh;
+          height: 18vh;
+          width: auto;
       }
       .stagename {
           text-align: center;
@@ -43,7 +50,6 @@
           width: 50%;
           background: rgba(0,0,0,0.35);
           border-radius: 6px;
-          align-items: center;
       }
       .time {
           width: 15%;
@@ -56,6 +62,7 @@
           text-align: left;
           font-weight: bold;
           width: inherit;
+          font-family: Georgia, serif;
       }
       .schedule-item.past .time,
       .schedule-item.past .title {
