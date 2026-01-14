@@ -6,7 +6,7 @@
   },
   "schedule": {
     "url": "https://cfp.disobey.fi/disobey-2026/schedule/",
-    "version": "0.4",
+    "version": "0.6",
     "base_url": "https://cfp.disobey.fi",
     "conference": {
       "acronym": "disobey-2026",
@@ -122,8 +122,8 @@
                 "logo": null,
                 "duration": "00:45",
                 "room": "Terminal Stage",
-                "slug": "disobey-2026-482-a-lifetime-of-disobedience",
-                "title": "A Lifetime of Disobedience",
+                "slug": "disobey-2026-482-keynote-a-lifetime-of-disobedience",
+                "title": "KEYNOTE : A Lifetime of Disobedience",
                 "subtitle": "",
                 "track": null,
                 "type": "Talk 45min",
@@ -197,7 +197,7 @@
                 "do_not_record": false,
                 "persons": [
                   {
-                    "guid": "8690e27a-4526-530e-bb99-bacf0a411e3a",
+                    "guid": "e38e4505-c0af-5853-9cbf-bb75480549a4",
                     "id": 140,
                     "code": "LX98UU",
                     "public_name": "Jarkko Vesiluoma",
@@ -258,7 +258,7 @@
                 "language": "en",
                 "abstract": "We explore the process of analyzing an Android mobile game within the scope of bug bounty research. We demonstrate how to bypass common anti-debugging and anti-instrumentation mechanisms, and how we apply hooking techniques to uncover vulnerabilities in the client-to-server communication.\r\n\r\nAfter outlining the tools and methodology used to approach the target, we present a selection of our successful findings and provide a deeper discussion of their technical details and security impact.",
                 "recording_license": "",
-                "do_not_record": false,
+                "do_not_record": true,
                 "persons": [
                   {
                     "guid": "22287805-e187-5dbc-8274-f4a41a90d56f",
@@ -682,7 +682,7 @@
                     "code": "RTYCNN",
                     "public_name": "Patrik Jokela",
                     "avatar": null,
-                    "biography": "With over half a decade in the art of exploitation, Patrik's cybersecurity prowess is well-established. His research focus spans from cutting-edge malware development, to comprehensive IT and Web3 bug bounty hunting, uncovering numerous critical vulnerabilities and securing a CVE. As a constant learner, he approaches every day as an opportunity to acquire new knowledge and push the boundaries of cybersecurity. In 2024, he was recognized as the top hacker on HackerOne in Finland.",
+                    "biography": "With over half a decade in the art of exploitation, Patrik's cybersecurity prowess is well-established. His research focus spans from cutting-edge malware development, to comprehensive IT and Web3 bug bounty hunting, uncovering numerous critical vulnerabilities. As a constant learner, he approaches every day as an opportunity to acquire new knowledge and push the boundaries of cybersecurity. In 2024, he was recognized as the top hacker on HackerOne in Finland.",
                     "answers": []
                   }
                 ],
@@ -754,7 +754,7 @@
                 "attachments": []
               },
               {
-                "url": "",
+                "url": "https://cfp.disobey.fi/disobey-2026/talk/H89QAF/",
                 "id": 483,
                 "guid": "e940743f-319f-5e4f-9868-ab3b2c973eee",
                 "date": "2026-02-14T13:00:00+02:00",
@@ -762,16 +762,26 @@
                 "logo": null,
                 "duration": "00:45",
                 "room": "Terminal Stage",
-                "slug": "",
-                "title": "KEYNOTE (TBA)",
+                "slug": "disobey-2026-483-keynote-this-conference-was-not-built-for-you",
+                "title": "KEYNOTE : This conference was not built for you",
                 "subtitle": "",
                 "track": null,
                 "type": "Talk 45min",
                 "language": "en",
-                "abstract": "KEYNOTE (TBA)",
+                "abstract": "Cybersecurity conferences often claim to value diversity, yet their websites, language, and imagery tell a different story: white, male, and exclusionary. Gender diversity is shaped long before the CFP opens, by who is centred, what expertise is valued, and whether organisers confront their own blind spots. From my position as a white woman in IT and cybersecurity, I focus on gender as the “easy” diversity topic we still routinely fail. Drawing on experience as a speaker, organiser, and reviewer, this talk examines performative diversity, structural gatekeeping, and why inclusion is a security-relevant issue.",
                 "recording_license": "",
                 "do_not_record": false,
-                "persons": [],
+                "persons": [
+                  {
+                    "guid": "e94a600e-2945-533b-b18a-1d2d1aacb3b6",
+                    "id": 423,
+                    "code": "FB8EHY",
+                    "public_name": "Chantal Stekelenburg",
+                    "avatar": null,
+                    "biography": "Chantal is a cybersecurity professional focused on ethical hacking, community building, and inclusivity, organising conferences like WICCON, speaking internationally, and working at the intersection of security, collaboration, and impact.",
+                    "answers": []
+                  }
+                ],
                 "links": [],
                 "attachments": []
               },
