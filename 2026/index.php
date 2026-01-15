@@ -48,10 +48,10 @@ error_reporting(E_ALL);
 				</div>
 				<!-- keynote 12 -->
 				<div class='cell large-6 medium-text-left'>
-					<div class='illustration  illustration-keynote lazyload' title='' data-alignment="center" data-src='img/bios/default.png' style='background-image:url("");'></div>
-					<h4 class='text-center'>Keynote Speaker #2</h4>
+					<div class='illustration illustration-keynote lazyload' title='' data-alignment="center" data-src='img/bios/bio_FB8EHY.jpg' style='background-image:url("");'></div>
+					<h4 class='text-center'>Chantal Stekelenburg</h4>
 					<p> 
-					To be announced.
+					Chantal Stekelenburg is a cybersecurity professional focused on ethical hacking, community building, and inclusivity, organising conferences like WICCON, speaking internationally, and working at the intersection of security, collaboration, and impact.
 					</p>
 				</div>
 			</div>
