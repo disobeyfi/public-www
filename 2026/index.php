@@ -71,9 +71,6 @@ error_reporting(E_ALL);
     <div class='full-row clearfix divider'>&nbsp;</div>
 
     <?php include "inc/contact.inc.php"; ?>
-    
-
-    <?php include "inc/contact.inc.php"; ?>
 
 </section>
 
