@@ -60,16 +60,7 @@ error_reporting(E_ALL);
 
     <div class='full-row clearfix divider'>&nbsp;</div>
     
-			<!--- SPEAKERS -->
-			<a name='speakers' id='speakers'></a>
-			<div class='full-row clearfix divider'>&nbsp;</div>
-
-			<?php include "inc/speakers.inc.php";	?>
-
-
-		<div class='full-row clearfix divider'>&nbsp;</div>
-
-    <div class='full-row clearfix divider'>&nbsp;</div>
+'full-row clearfix divider'>&nbsp;</div>
 
     <?php include "inc/contact.inc.php"; ?>
 
