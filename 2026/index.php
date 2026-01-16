@@ -60,34 +60,14 @@ error_reporting(E_ALL);
 
     <div class='full-row clearfix divider'>&nbsp;</div>
     
-    <!--- Tickets -->
-    <div class='full-row clearfix lazyload'>
-        <section class="grid-container cell grid-y cell location" id='cfp'>
-            <div class="cell">
-                <h1 class="red">Extra Tickets Sales Raffle Ended</h1>
-            </div>
-            <div class='cell'>
-                <p>Our extra ticket sales raffle has now ended and winners have been contacted! Winners have exactly one week to buy their ticket (by Dec 29th) before the tickets go to new winners - so if you got one, buy it now!</p>
-            </div>
-        </section>
-    </div>
+			<!--- SPEAKERS -->
+			<a name='speakers' id='speakers'></a>
+			<div class='full-row clearfix divider'>&nbsp;</div>
 
-    <div class='full-row clearfix divider'>&nbsp;</div>
+			<?php include "inc/speakers.inc.php";	?>
 
-    <!--- Programme -->
-    <div class='full-row clearfix lazyload'>
-        <section class="grid-container cell grid-y cell location" id='cfp'>
-            <div class="cell">
-                <h1 class="red">Programme published</h1>
-            </div>
-            <div class='cell'>
-                <p>We have published the programme for Disobey 2026! Visit <a href="Program">our Programme page</a> to
-                    see all the awesome talks, panels, and workshops at the event!</p>
-                <p>But wait, that's not all! We will announce our keynote speakers soon, and the programme for our
-                    Community Village will be revealed shortly - so stay tuned!</p>
-            </div>
-        </section>
-    </div>
+
+		<div class='full-row clearfix divider'>&nbsp;</div>
 
     <div class='full-row clearfix divider'>&nbsp;</div>
 
