@@ -56,6 +56,15 @@ include "inc/head.inc.php";
                     <p>Wanting to start but unsure about something? Join the badge channel in <a href="https://discord.gg/S7eMF3TQCj">our Discord</a> and we'll talk stuff through with you!</p>
 
                 </div>
+                <div class='cell large-6'>
+					<h4>UNAUTHORIZED ACCESS COMPETITION</h4>
+
+					<p>Find NotMyNick inside the venue without authorised access credentials. If you already have a badge, you will be disqualified.</p>
+                    <p>The first to hack themselves into the event wins an official badge and entry to the event. And only the first one will be awarded &ndash; any later ones will be firmly but politely escorted out. </p>
+                    <p>Please note that this competition may lead to physical harm, removal from the venue, and depending on techniques used, having the authorities called on you. </p>
+                    <p>Don’t get caught. </p>
+
+				</div>
 
             </div>
         </section>
