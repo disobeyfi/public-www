@@ -34,7 +34,7 @@ include "inc/head.inc.php";
 
                     <p>Let's do a new thing with the badge! We are announcing badge competitions for hardware and software. The first badge competition is "Best hardware mod for the badge." You know what to do!</p>
 
-                    <p>The badge's source available in <a
+                    <p>The badge's source available <a
                                 href="https://github.com/disobeyfi/disobey-badge-2025-game-firmware"> in this
                             repository</a>.</p>
 
@@ -50,7 +50,7 @@ include "inc/head.inc.php";
                     <h4>BADGE COMPETITION 2: BEST (MINI)APP</h4>
 
                     <p>For the second badge competition, we challenge you to develop a game or application for the badge.</p> 
-                    <p>Your app/game can be bundled in the game firmware (<a href="https://github.com/disobeyfi/disobey-badge-2025-game-firmware">https://github.com/disobeyfi/disobey-badge-2025-game-firmware</a>) 
+                    <p>Your app/game can be bundled <a href="https://github.com/disobeyfi/disobey-badge-2025-game-firmware">in the game firmware</a>
                         or it can be totally standalone. The only rule is that the custom code you write has to run in the badge.</p>
              
                     <p>Wanting to start but unsure about something? Join the badge channel in our Discord and we'll talk stuff through with you!</p>
