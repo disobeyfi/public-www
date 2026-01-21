@@ -30,9 +30,11 @@ include "inc/head.inc.php";
                 </div>
 
                 <div class='cell large-6'>
-                    <h4>BADGE COMPETITIONS!</h4>
+                    <h4>BADGE COMPETITION 1: BEST HARDWARE MOD</h4>
 
-                    <p>Let's do a new thing with the badge! The badge's source available in <a
+                    <p>Let's do a new thing with the badge! We are announcing badge competitions for hardware and software. The first badge competition is "Best hardware mod for the badge." You know what to do!</p>
+
+                    <p>The badge's source available in <a
                                 href="https://github.com/disobeyfi/disobey-badge-2025-game-firmware"> in this
                             repository</a>.</p>
 
@@ -40,12 +42,18 @@ include "inc/head.inc.php";
                                 href="https://github.com/disobeyfi/disobey-badge-2025-game-firmware/blob/main/HARDWARE.md#badge-design-files">
                             here</a>.</p>
 
-                    <p>Don't know what to do? Get to our Discord and in the badge channel and we will help you
-                        onwards!</p>
+                    <p>Don't know what to do? Join the badge channel in our Discord and we will help you onwards!</p>
 
-                    <p>The 1st competition is "Best hardware mod for the badge." You know what to do!</p>
+                </div>
 
-                    <p>The 2nd competition will be announced later, but will be software related!</p>
+                <div class='cell large-6'>
+                    <h4>BADGE COMPETITION 2: BEST (MINI)APP</h4>
+
+                    <p>For the second badge competition, we challenge you to develop a game or application for the badge.</p> 
+                    <p>Your app/game can be bundled in the game firmware (<a href="https://github.com/disobeyfi/disobey-badge-2025-game-firmware">https://github.com/disobeyfi/disobey-badge-2025-game-firmware</a>) 
+                        or it can be totally standalone. The only rule is that the custom code you write has to run in the badge.</p>
+             
+                    <p>Wanting to start but unsure about something? Join the badge channel in our Discord and we'll talk stuff through with you!</p>
 
                 </div>
 
