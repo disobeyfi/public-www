@@ -42,7 +42,7 @@ include "inc/head.inc.php";
                                 href="https://github.com/disobeyfi/disobey-badge-2025-game-firmware/blob/main/HARDWARE.md#badge-design-files">
                             here</a>.</p>
 
-                    <p>Don't know what to do? Join the badge channel in our Discord and we will help you onwards!</p>
+                    <p>Don't know what to do? Join the badge channel in <a href="https://discord.gg/S7eMF3TQCj">our Discord</a> and we will help you onwards!</p>
 
                 </div>
 
@@ -53,7 +53,7 @@ include "inc/head.inc.php";
                     <p>Your app/game can be bundled <a href="https://github.com/disobeyfi/disobey-badge-2025-game-firmware">in the game firmware</a>
                         or it can be totally standalone. The only rule is that the custom code you write has to run in the badge.</p>
              
-                    <p>Wanting to start but unsure about something? Join the badge channel in our Discord and we'll talk stuff through with you!</p>
+                    <p>Wanting to start but unsure about something? Join the badge channel in <a href="https://discord.gg/S7eMF3TQCj">our Discord</a> and we'll talk stuff through with you!</p>
 
                 </div>
 
