@@ -15,11 +15,29 @@ class TimeTable
     public $range = NULL;
     public $time_label_slots = NULL;
 
+    /*-------------------------
+     Calculate end time from data
+     -----------------------*/
+    function calculateEndTime($data_arrays) {
+        $latest_end = 0;
+
+        foreach ($data_arrays as $data) {
+            foreach ($data as $event) {
+                $end = strtotime($event['time']) + ($event['length'] * 15 * 60);
+                $latest_end = max($latest_end, $end);
+            }
+        }
+
+        return date("H:i", ceil($latest_end / (15 * 60)) * (15 * 60));
+    }
+
     function output($main_day_1, $w1_day_1, $w2_day_1, $w3_day_1, $day_string, $range_start)
     {
 
         date_default_timezone_set("Europe/London");
-        $this->range = range(strtotime($range_start), strtotime("23:45"), 15 * 60);
+
+        $range_end = $this->calculateEndTime([$main_day_1, $w1_day_1, $w2_day_1, $w3_day_1]);
+        $this->range = range(strtotime($range_start), strtotime($range_end), 15 * 60);
         $this->time_label_slots = array_fill(0, count($this->range), "");
 
         $output = $this->getColumn($main_day_1, 4, "Terminal Stage", "main", "Terminal", $day_string);
