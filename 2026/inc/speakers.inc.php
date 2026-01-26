@@ -3,7 +3,7 @@
 // speakers adapted from schedule_data.php
 
 
-$schedule_data = json_decode(file_get_contents("./inc/schedule.json"), true)["schedule"]["conference"];
+$schedule_data = json_decode(file_get_contents(__DIR__ . "/schedule.json"), true)["schedule"]["conference"];
 
 function checkIfNameExists( $name ){
 
@@ -23,7 +23,7 @@ function getSpeakersData( $roomname, $dayindex ){
 	foreach ($schedule_data["days"] as $day) {
 
 		if ($day["index"] != $dayindex) continue;
-	
+
 		foreach ($day["rooms"] as $room => $roomdata) {
 	
 			if ($room != $roomname) continue;
@@ -72,6 +72,7 @@ getSpeakersData("Security Theater", 2);
 				with no image at the end
 				-----------------------*/
 
+			global $baseurl;
 			$output_with_image 	= "";
 			$output_no_image 		= "";
 
@@ -83,13 +84,14 @@ getSpeakersData("Security Theater", 2);
 
 				$image_name =  ( empty( $value['image'] ) )? "default" : $value['image'];
 				$image_url 	= "img/bios/bio_{$image_name}.jpg";
+				$image_path = __DIR__ . "/../{$image_url}";
 
-				if( !file_exists($image_url) ){
+				if( !file_exists($image_path) ){
 					$image_name = "default";
-					$image_url = "img/bios/default.jpg";
+					$image_url = "img/bios/default.png";
 				}
 
-				$image 	= "<img class='speaker-image lazyload red' data-src='{$image_url}' src='img/bios/default.jpg' />";
+				$image 	= "<img class='speaker-image lazyload red' data-src='{$image_url}' src='img/bios/default.png' alt='{$value['name']}' />";
 
 
 				$ratio 	= ( $image_name != "default" )? "large-2" : "large-2"; // large-4 id for no-image

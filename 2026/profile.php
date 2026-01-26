@@ -1,6 +1,6 @@
 <?php
 
-$baseurl = ($_SERVER['SERVER_NAME'] == "ddr.fi") ? "/disobey_2025/" : "/2025/";
+$baseurl = ($_SERVER['SERVER_NAME'] == "ddr.fi") ? "/disobey_2026/" : "/2026/";
 
 function poor_mans_markdown($str)
 {
@@ -27,7 +27,7 @@ $slug = $_GET['profile'];
 if (empty($_GET['profile'])) die("<h1>404 - Specify profile name</h1>");
 if (empty($slug)) die("<h1>404 - Filenames not specified</h1>");
 
-$schedule_data = json_decode(file_get_contents("./inc/schedule.json"), true)["schedule"]["conference"]["days"];
+$schedule_data = json_decode(file_get_contents(__DIR__ . "/inc/schedule.json"), true)["schedule"]["conference"]["days"];
 $profile_data = null;
 
 // find the correct event in the data
@@ -71,11 +71,16 @@ if (!empty($profile_data["persons"])) {
         $position = (empty($value->position)) ? "" : "<span class='profile-speaker-position'>" . $value->position . "</span>";
 
         // Image or default
-        $image_url = (empty($value["code"])) ? "" : "img/bios/bio_{$value["code"]}.jpg";
+        $image_filename = (empty($value["code"])) ? "" : "bio_{$value["code"]}.jpg";
+        $image_path = __DIR__ . "/img/bios/{$image_filename}";
 
-        if (!file_exists($image_url) || empty($image_url)) $image_url = "img/bios/default.png";
+        if (!file_exists($image_path) || empty($image_filename)) {
+            $image_url = "{$baseurl}img/bios/default.png";
+        } else {
+            $image_url = "{$baseurl}img/bios/{$image_filename}";
+        }
 
-        $image = "<img class='speaker-image ' src='{$image_url}'/>";
+        $image = "<img class='speaker-image ' src='{$image_url}' alt='{$name}'/>";
 
         $speakers .= "
 			<div class='speaker {$single_css} {$columns} text-left'>

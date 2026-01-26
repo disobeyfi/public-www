@@ -2,6 +2,12 @@
 $uri = $_SERVER['REQUEST_URI'];
 $path = parse_url($uri, PHP_URL_PATH); // Remove query string
 
+// Redirect root to /2026/
+if ($path === '/' || $path === '') {
+    header('Location: /2026/');
+    exit;
+}
+
 // Serve static files directly (css, js, images, favicon, etc.)
 if (file_exists(__DIR__ . $path) && !is_dir(__DIR__ . $path)) {
     return false;
