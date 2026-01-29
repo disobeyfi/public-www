@@ -92,7 +92,7 @@ $continuous_events = array_filter($continuous_events, function($event) {
                             ?>
                         </div>
 
-                        <h3 > Saturday &ndash; Community Village</h3>
+                        <h3> Saturday &ndash; Community Village</h3>
                         <div class='community-sub-nav'>
                             <a href='#community-program'>Friday</a> |
                             <a href='#saturday'>Saturday</a> |
@@ -124,6 +124,7 @@ $continuous_events = array_filter($continuous_events, function($event) {
                             <a href='#community-program'>Friday</a> |
                             <a href='#saturday'>Saturday</a> |
                             <a href='#unscheduled'>Continuous</a>
+                            <a href='#villagers'>Meet the Villagers</a>a>
                         </div>
 
 
@@ -141,7 +142,7 @@ $continuous_events = array_filter($continuous_events, function($event) {
                 </section>
                 <section class="grid-container cell grid-y cell location" id='workshops'>
                     <div class="cell">
-                        <h3>Meet the Villagers</h3>
+                        <h3 id="villagers">Meet the Villagers</h3>
                     </div>
                     <div class='cell text-left grid-container grid-x grid-padding-x grid-margin-x grid-padding-y grid-margin-y'>
         
