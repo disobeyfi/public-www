@@ -41,7 +41,7 @@
     <link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/profiles.css?v=17">
     <link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/timetable.css?v=19">
     <link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/videos.css?v=17">
-    <link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/community_program.css?v=17">
+    <link rel="stylesheet" type="text/css" href="<?php echo $baseurl; ?>css/community_program.css?v=18">
 
     <!-- SCRIPTS -->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"
