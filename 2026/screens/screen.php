@@ -194,7 +194,7 @@
     <div id="app">
       <h1 class='stagename'>{{ room }}</h1>
       <div class="schedule">
-        <div class="schedule-item" v-for="item in schedule_data" :key="item.time" :class="{ past: isItemPast(item), current: isItemCurrent(item) }">
+        <div class="schedule-item" v-for="item in todays_schedule" :key="item.time" :class="{ past: isItemPast(item), current: isItemCurrent(item) }">
           <div class="time">{{ item.time }}</div>
           <div class="title">{{ item.header }}</div>
         </div>
@@ -208,92 +208,107 @@
       createApp({
         setup() {
           const room = ref("<?php echo htmlspecialchars($stage_name); ?>");
-          const schedule_data = ref([]);
+          const schedule_data = ref({ 0: [], 1: [] });
           const currentTime = ref(new Date());
+          const todays_schedule = ref([]);
+
+          function update_stage_data() {
+            let timetable = { 0: [], 1: [] };
+            fetch('https://disobey.fi/2026/inc/schedule.json')
+              .then(response => response.json())
+              .then(data => {
+                // console.log("fetching data for", room.value, ", day ", dayIndex);
+                let conference_data = data["schedule"]["conference"];
+                conference_data["days"].forEach(day => {
+                  // console.log("Checking", day)
+                  for (const [roomName, roomData] of Object.entries(day["rooms"])) {
+                    // console.log(roomName, roomData)
+                    if (roomName != room.value) continue;
+                    // console.log("We got so far")
+                    roomData.forEach(event => {
+                      // console.log(event)
+                      let entry = {};
+                      entry["time"] = event["start"];
+                      entry["header"] = event["title"];
+                      entry["duration"] = event["duration"];
+                      // console.log(entry)
+                      timetable[day["index"]-1].push(entry);
+                    });
+                  };
+                });
+                // console.log("Timetable:", timetable);
+              })
+            // if none of the days in timetable are empty, update schedule_data
+            if (!timetable.some(day => day.length === 0)) {
+              schedule_data.value = timetable;
+            }
+            // console.log("Schedule data:", schedule_data.value)
+          }
+
+          function update_community_data() {
+            let community_timetable = { 0: [], 1: [] };
+            let urls = [
+              'https://disobey.fi/2026/inc/cv-csvs/CV-1-Fri.json',
+              'https://disobey.fi/2026/inc/cv-csvs/CV-2-Sat.json'
+            ];
+            urls.forEach((url, dayIndex) => {
+              fetch(url)
+                .then(response => response.text())
+                .then(data => {
+                  // data is csv text with a header row
+                  let lines = data.trim().split('\n');
+                  // skip the header row
+                  lines.shift();
+                  // process each line
+                  lines.forEach(line => {
+                    let fields = line.split(';');
+                    if (fields.length < 4) return;
+                    // if any field is empty, skip this line
+                    if (fields.some(field => field.trim() === '')) return;
+
+                    let entry = {};
+                    starttime = fields[0];
+                    endtime = fields[1];
+                    // time and endtime are in HH:MM format, calculate duration
+                    let [startHours, startMinutes] = starttime.split(':').map(Number);
+                    let [endHours, endMinutes] = endtime.split(':').map(Number);
+                    let durationHours = endHours - startHours;
+                    let durationMinutes = endMinutes - startMinutes;
+                    if (durationMinutes < 0) {
+                      durationHours -= 1;
+                      durationMinutes += 60;
+                    }
+                    // format duration as HH:MM
+                    entry["duration"] = String(durationHours).padStart(2, '0') + ':' + String(durationMinutes).padStart(2, '0');
+                    entry["time"] = starttime;
+                    entry["header"] = fields[3] + " by " + fields[2];
+                    community_timetable[dayIndex].push(entry);
+                  });
+                });
+            });
+
+            // if none of the days in community_timetable are empty, update schedule_data
+            if (!community_timetable.some(day => day.length === 0)) {
+              schedule_data.value = community_timetable;
+            }
+          }
 
           function update_data() {
             if (room.value != "Community Village") {
-              console.log("Updating schedule data...");
-              fetch('https://disobey.fi/2026/inc/schedule.json')
-                .then(response => response.json())
-                .then(data => {
-                  // 2026-02-13 and before is day 1, 2026-02-14 and after is day 2
-                  let currentDate = new Date();
-                  let cutoffDate = new Date('2026-02-14T00:00:00+02:00');
-                  let dayIndex = (currentDate < cutoffDate) ? 1 : 2;
-                  // console.log("fetching data for", room.value, ", day ", dayIndex);
-                  let timetable = [];
-                  let conference_data = data["schedule"]["conference"];
-                  conference_data["days"].forEach(day => {
-                    // console.log("Checking", day)
-                    if (day["index"] != dayIndex) return;
-                    for (const [roomName, roomData] of Object.entries(day["rooms"])) {
-                      // console.log(roomName, roomData)
-                      if (roomName != room.value) continue;
-                      // console.log("We got so far")
-                      roomData.forEach(event => {
-                        // console.log(event)
-                        let entry = {};
-                        entry["time"] = event["start"];
-                        entry["header"] = event["title"];
-                        entry["duration"] = event["duration"];
-                        // console.log(entry)
-                        timetable.push(entry);
-                      });
-                    };
-                  });
-                  // console.log("Timetable:", timetable);
-                  if (timetable.length > 0) {
-                    schedule_data.value = timetable;
-                  }
-                  // console.log("Schedule data:", schedule_data.value)
-                })
+              console.log("Updating stage data...");
+              update_stage_data();
             } else {
               console.log("Updating community village data...");
-              let community_timetable = { 0: [], 1: [] };
-              urls = [
-                'https://disobey.fi/2026/inc/cv-csvs/CV-1-Fri.json',
-                'https://disobey.fi/2026/inc/cv-csvs/CV-2-Sat.json'
-              ];
-              urls.forEach((url, dayIndex) => {
-                fetch(url)
-                  .then(response => response.text())
-                  .then(data => {
-                    // data is csv text with a header row
-                    let lines = data.trim().split('\n');
-                    // skip the header row
-                    lines.shift();
-                    lines.forEach(line => {
-                      let fields = line.split(';');
-                      if (fields.length < 3) return;
-                      let entry = {};
-                      starttime = fields[0];
-                      endtime = fields[2];
-                      // time and endtime are in HH:MM format, calculate duration
-                      let [startHours, startMinutes] = starttime.split(':').map(Number);
-                      let [endHours, endMinutes] = endtime.split(':').map(Number);
-                      let durationHours = endHours - startHours;
-                      let durationMinutes = endMinutes - startMinutes;
-                      if (durationMinutes < 0) {
-                        durationHours -= 1;
-                        durationMinutes += 60;
-                      }
-                      // format duration as HH:MM
-                      entry["duration"] = String(durationHours).padStart(2, '0') + ':' + String(durationMinutes).padStart(2, '0');
-                      entry["time"] = starttime;
-                      entry["header"] = fields[3];
-                      community_timetable[dayIndex].push(entry);
-                    });
-                  });
-              });
-              // If it's the current day, update the schedule_data
-              let currentDate = new Date();
-              let cutoffDate = new Date('2026-02-14T00:00:00+02:00');
-              let currentDayIndex = (currentDate < cutoffDate) ? 0 : 1;
+              update_community_data();
+            }
 
-              if (community_timetable[currentDayIndex].length > 0) {
-                schedule_data.value = community_timetable[currentDayIndex];
-              }
+            // which day should we show?
+            let currentDate = new Date();
+            let cutoffDate = new Date('2026-02-14T00:00:00+02:00');
+            let currentDayIndex = (currentDate < cutoffDate) ? 0 : 1;
+            // if today's schedule has entries (just a precaution), update todays_schedule
+            if (schedule_data.value[currentDayIndex].length > 0) {
+              todays_schedule.value = timetable[currentDayIndex];
             }
           }
 
@@ -359,6 +374,7 @@
           return {
             room,
             schedule_data,
+            todays_schedule,
             isItemPast,
             isItemCurrent
           };
