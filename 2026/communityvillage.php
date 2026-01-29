@@ -159,7 +159,7 @@ $continuous_events = array_filter($continuous_events, function($event) {
                         </div>
                             <div class='cell large-6'>
                             <h4>Halko - Hacklab Kuopio ry</h4>
-                            <p>Halko - Hacklab Kuopio ry is a non-profit communal workspace / makerspace in Kuopio, Finland. We provide spaces, equipment and community for many kinds of projects involving both tech and art. Everyone 18+ is welcome to come visit us on our twice per week open days and check out the premises and meet people. Experience is not required, Halko is a great space to get inspiration, learn new stuff, work on projects and have fun. https://halko.fi</p>
+                            <p>Halko - Hacklab Kuopio ry is a non-profit communal workspace / makerspace in Kuopio, Finland. We provide spaces, equipment and community for many kinds of projects involving both tech and art. Everyone 18+ is welcome to come visit us on our twice per week open days and check out the premises and meet people. Experience is not required, Halko is a great space to get inspiration, learn new stuff, work on projects and have fun.</p>
                         </div>
                             <div class='cell large-6'>
                             <h4>HelSec Ry</h4>
@@ -169,15 +169,15 @@ $continuous_events = array_filter($continuous_events, function($event) {
                             <h4>H-T8 Hacking Club</h4>
                             <p>H‑T8 is a student‑driven hacking club created by students, for students. Our mission is to open the doors to the exciting world of cybersecurity and help newcomers take their first steps as ethical hackers. We organize excursions, CTF competitions and student events where members can learn practical skills and network. Whether you’re an absolute beginner or already exploring advanced topics, H‑T8 offers a supportive community where curiosity and experimentation are encouraged.</p>
 
-                            <p>For many, we are the first real connection to cybersecurity, and we take pride in making that introduction fun, inclusive, and inspiring. We offer content for all skill levels, from basic introductions to advanced activities. Our experienced members also form a competitive CTF team that participates in contests throughout the year. If you’re a student or someone who enjoys supporting students in this field, come join us and be part of the H‑T8 community! https//ht8.fi/</p>
+                            <p>For many, we are the first real connection to cybersecurity, and we take pride in making that introduction fun, inclusive, and inspiring. We offer content for all skill levels, from basic introductions to advanced activities. Our experienced members also form a competitive CTF team that participates in contests throughout the year. If you’re a student or someone who enjoys supporting students in this field, come join us and be part of the H‑T8 community! /</p>
                         </div>
                         <div class='cell large-6'>
                             <h4>KuoSec ry</h4>
-                            <p>KuoSec ry is part of the CitySec family. It is an infosec community located at Kuopio, Finland. Our purpose is to organize meetups and get-togethers focused on training and networking. Anyone interested in the Infosec field is welcome to join us, meet likeminded people and hopefully learn something new. https://kuosec.fi</p>
+                            <p>KuoSec ry is part of the CitySec family. It is an infosec community located at Kuopio, Finland. Our purpose is to organize meetups and get-togethers focused on training and networking. Anyone interested in the Infosec field is welcome to join us, meet likeminded people and hopefully learn something new. </p>
                         </div>
                         <div class='cell large-6'>
                             <h4>KymiSec ry</h4>
-                            <p>KymiSec ry is part of the CitySec family. We are an information security community based in the Kymenlaakso region of Finland. Our goal is to organize infosec-related meetups and events focused on learning and networking. KymiSec works in cooperation with Cyber Club Kotka (CCK). Anyone interested in information security and cybersecurity is welcome to join us, meet like-minded people, and develop their skills. Find us at https://kymisec.fi</p>
+                            <p>KymiSec ry is part of the CitySec family. We are an information security community based in the Kymenlaakso region of Finland. Our goal is to organize infosec-related meetups and events focused on learning and networking. KymiSec works in cooperation with Cyber Club Kotka (CCK). Anyone interested in information security and cybersecurity is welcome to join us, meet like-minded people, and develop their skills. </p>
                         </div>
                         <div class='cell large-6'>
                             <h4>LahtiSec</h4>
