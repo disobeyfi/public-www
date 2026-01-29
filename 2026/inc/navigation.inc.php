@@ -7,12 +7,12 @@ $suffix = ($_SERVER['SERVER_NAME'] == "ddr.fi") ? ".php" : "";
  -----------------------*/
 $navigation = "<section class='text-center hidden navigation-bar'>
 	<a data-nav='frontpage'    href='{$baseurl}./'><img src='{$baseurl}img/just_logo.png' id='navigation-home-symbol' class='show-for-large custom'><span class='hide-for-large custom'>Home</span></a>
-	<a data-nav='hackerpuzzle' href='{$baseurl}HackerPuzzle{$suffix}'>Hacker Puzzle</a>
+	<a data-nav='about'        href='{$baseurl}about{$suffix}'>About</a>
 	<a data-nav='program'      href='{$baseurl}program{$suffix}'>Program</a>
-	<a data-nav='tickets'      href='{$baseurl}tickets{$suffix}'><i class='far fa-ticket show-for-medium' aria-hidden='true'></i> Get Tickets!</a>
 	<a data-nav='competitions'  href='{$baseurl}competitions{$suffix}'>Competitions</a>
 	<a data-nav='practical'  href='{$baseurl}practical{$suffix}'>Practical</a>
-	<a data-nav='about'        href='{$baseurl}about{$suffix}'>About</a>
+	<a data-nav='hackerpuzzle' href='{$baseurl}HackerPuzzle{$suffix}'>Hacker Puzzle</a>
+	<a data-nav='tickets'      href='{$baseurl}tickets{$suffix}'><i class='far fa-ticket show-for-medium' aria-hidden='true'></i> Get Tickets!</a>
 	</section>";
 /*
 
