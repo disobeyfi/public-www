@@ -66,7 +66,7 @@ $continuous_events = array_filter($continuous_events, function($event) {
 
                     <div id='community-program'>
 
-                        <h3>Friday &ndash; Community Village</h3>
+                        <h2>Friday &ndash; Community Village</h2>
                         <div class='community-sub-nav'>
                             <a href='#saturday'>Saturday</a> |
                             <a href='#unscheduled'>Continuous</a> |
@@ -92,7 +92,7 @@ $continuous_events = array_filter($continuous_events, function($event) {
                             ?>
                         </div>
 
-                        <h3> Saturday &ndash; Community Village</h3>
+                        <h2> Saturday &ndash; Community Village</h2>
                         <div class='community-sub-nav'>
                             <a href='#community-program'>Friday</a> |
                             <a href='#unscheduled'>Continuous</a> |
@@ -119,7 +119,7 @@ $continuous_events = array_filter($continuous_events, function($event) {
                             ?>
                         </div>
 
-                        <h3>Ongoing Continuous Program<br> at Community VIllage</h3>
+                        <h2>Ongoing Continuous Program<br> at Community VIllage</h2>
                         <div class='community-sub-nav'>
                             <a href='#community-program'>Friday</a> |
                             <a href='#saturday'>Saturday</a> |
@@ -141,7 +141,7 @@ $continuous_events = array_filter($continuous_events, function($event) {
                 </section>
                 <section class="grid-container cell grid-y cell location" id='workshops'>
                     <div class="cell">
-                        <h3 id="villagers">Meet the Villagers</h3>
+                        <h2 id="villagers">Meet the Villagers</h2>
                             <div class='community-sub-nav'>
                                 <a href='#community-program'>Friday</a> |
                                 <a href='#saturday'>Saturday</a> |
