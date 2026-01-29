@@ -183,6 +183,9 @@
           case 'theater':
               $stage_name = "Security Theater";
               break;
+          case 'community':
+              $stage_name = "Community Village";
+              break;
           default:
               exit;
       }
@@ -209,42 +212,89 @@
           const currentTime = ref(new Date());
 
           function update_data() {
-            // Any update logic can go here
-            console.log("Updating schedule data...");
-            fetch('https://disobey.fi/2026/inc/schedule.json')
-              .then(response => response.json())
-              .then(data => {
-                // 2026-02-13 and before is day 1, 2026-02-14 and after is day 2
-                let currentDate = new Date();
-                let cutoffDate = new Date('2026-02-14T00:00:00+02:00');
-                let dayIndex = (currentDate < cutoffDate) ? 1 : 2;
-                // console.log("fetching data for", room.value, ", day ", dayIndex);
-                let timetable = [];
-                let conference_data = data["schedule"]["conference"];
-                conference_data["days"].forEach(day => {
-                  // console.log("Checking", day)
-                  if (day["index"] != dayIndex) return;
-                  for (const [roomName, roomData] of Object.entries(day["rooms"])) {
-                    // console.log(roomName, roomData)
-                    if (roomName != room.value) continue;
-                    // console.log("We got so far")
-                    roomData.forEach(event => {
-                      // console.log(event)
+            if (room.value != "Community Village") {
+              console.log("Updating schedule data...");
+              fetch('https://disobey.fi/2026/inc/schedule.json')
+                .then(response => response.json())
+                .then(data => {
+                  // 2026-02-13 and before is day 1, 2026-02-14 and after is day 2
+                  let currentDate = new Date();
+                  let cutoffDate = new Date('2026-02-14T00:00:00+02:00');
+                  let dayIndex = (currentDate < cutoffDate) ? 1 : 2;
+                  // console.log("fetching data for", room.value, ", day ", dayIndex);
+                  let timetable = [];
+                  let conference_data = data["schedule"]["conference"];
+                  conference_data["days"].forEach(day => {
+                    // console.log("Checking", day)
+                    if (day["index"] != dayIndex) return;
+                    for (const [roomName, roomData] of Object.entries(day["rooms"])) {
+                      // console.log(roomName, roomData)
+                      if (roomName != room.value) continue;
+                      // console.log("We got so far")
+                      roomData.forEach(event => {
+                        // console.log(event)
+                        let entry = {};
+                        entry["time"] = event["start"];
+                        entry["header"] = event["title"];
+                        entry["duration"] = event["duration"];
+                        // console.log(entry)
+                        timetable.push(entry);
+                      });
+                    };
+                  });
+                  // console.log("Timetable:", timetable);
+                  if (timetable.length > 0) {
+                    schedule_data.value = timetable;
+                  }
+                  // console.log("Schedule data:", schedule_data.value)
+                })
+            } else {
+              console.log("Updating community village data...");
+              let community_timetable = { 0: [], 1: [] };
+              urls = [
+                'https://disobey.fi/2026/inc/cv-csvs/CV-1-Fri.json',
+                'https://disobey.fi/2026/inc/cv-csvs/CV-2-Sat.json'
+              ];
+              urls.forEach((url, dayIndex) => {
+                fetch(url)
+                  .then(response => response.text())
+                  .then(data => {
+                    // data is csv text with a header row
+                    let lines = data.trim().split('\n');
+                    // skip the header row
+                    lines.shift();
+                    lines.forEach(line => {
+                      let fields = line.split(';');
+                      if (fields.length < 3) return;
                       let entry = {};
-                      entry["time"] = event["start"];
-                      entry["header"] = event["title"];
-                      entry["duration"] = event["duration"];
-                      // console.log(entry)
-                      timetable.push(entry);
+                      starttime = fields[0];
+                      endtime = fields[2];
+                      // time and endtime are in HH:MM format, calculate duration
+                      let [startHours, startMinutes] = starttime.split(':').map(Number);
+                      let [endHours, endMinutes] = endtime.split(':').map(Number);
+                      let durationHours = endHours - startHours;
+                      let durationMinutes = endMinutes - startMinutes;
+                      if (durationMinutes < 0) {
+                        durationHours -= 1;
+                        durationMinutes += 60;
+                      }
+                      // format duration as HH:MM
+                      entry["duration"] = String(durationHours).padStart(2, '0') + ':' + String(durationMinutes).padStart(2, '0');
+                      entry["time"] = starttime;
+                      entry["header"] = fields[3];
+                      community_timetable[dayIndex].push(entry);
                     });
-                  };
-                });
-                // console.log("Timetable:", timetable);
-                if (timetable.length > 0) {
-                  schedule_data.value = timetable;
-                }
-                // console.log("Schedule data:", schedule_data.value)
-              })
+                  });
+              });
+              // If it's the current day, update the schedule_data
+              let currentDate = new Date();
+              let cutoffDate = new Date('2026-02-14T00:00:00+02:00');
+              let currentDayIndex = (currentDate < cutoffDate) ? 0 : 1;
+
+              if (community_timetable[currentDayIndex].length > 0) {
+                schedule_data.value = community_timetable[currentDayIndex];
+              }
+            }
           }
 
           function isItemPast(item) {
