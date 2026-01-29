@@ -169,7 +169,7 @@ $continuous_events = array_filter($continuous_events, function($event) {
                             <h4>H-T8 Hacking Club</h4>
                             <p>H‑T8 is a student‑driven hacking club created by students, for students. Our mission is to open the doors to the exciting world of cybersecurity and help newcomers take their first steps as ethical hackers. We organize excursions, CTF competitions and student events where members can learn practical skills and network. Whether you’re an absolute beginner or already exploring advanced topics, H‑T8 offers a supportive community where curiosity and experimentation are encouraged.</p>
 
-                            <p>For many, we are the first real connection to cybersecurity, and we take pride in making that introduction fun, inclusive, and inspiring. We offer content for all skill levels, from basic introductions to advanced activities. Our experienced members also form a competitive CTF team that participates in contests throughout the year. If you’re a student or someone who enjoys supporting students in this field, come join us and be part of the H‑T8 community! /</p>
+                            <p>For many, we are the first real connection to cybersecurity, and we take pride in making that introduction fun, inclusive, and inspiring. We offer content for all skill levels, from basic introductions to advanced activities. Our experienced members also form a competitive CTF team that participates in contests throughout the year. If you’re a student or someone who enjoys supporting students in this field, come join us and be part of the H‑T8 community!</p>
                         </div>
                         <div class='cell large-6'>
                             <h4>KuoSec ry</h4>
