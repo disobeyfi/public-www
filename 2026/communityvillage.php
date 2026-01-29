@@ -81,6 +81,7 @@ $continuous_events = array_filter($continuous_events, function($event) {
                                         <div class='title'>{$event[2]}</div>
                                         <div class='description'>
                                             <p>{$event[3]}</p>
+                                            <p>{$event[4]}</p>
                                         </div>\n";
                                 // it this is the last event, add the saturday anchor
                                 if ($event === end($friday_events)) {
@@ -107,6 +108,7 @@ $continuous_events = array_filter($continuous_events, function($event) {
                                         <div class='title'>{$event[2]}</div>
                                         <div class='description'>
                                             <p>{$event[3]}</p>
+                                            <p>{$event[4]}</p>
                                         </div>\n";
                                 // it this is the last event, add the unscheduled anchor
                                 if ($event === end($saturday_events)) {
