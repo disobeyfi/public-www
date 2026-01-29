@@ -11,14 +11,14 @@
 // read csv file from inc/community/friday.csv and saturday.csv
 // use semicolon as delimiter, skip the first line (header)
 $friday_events = array_map(function($line) {
-    return str_getcsv($line, ';');
-}, array_slice(file('inc/cv-csvs/CV-1-Fri.csv'), 1));
+    return str_getcsv($line, ';', '"', '');
+}, array_slice(file(__DIR__ . '/inc/cv-csvs/CV-1-Fri.csv'), 1));
 $saturday_events = array_map(function($line) {
-    return str_getcsv($line, ';');
-}, array_slice(file('inc/cv-csvs/CV-2-Sat.csv'), 1));
+    return str_getcsv($line, ';', '"', '');
+}, array_slice(file(__DIR__ . '/inc/cv-csvs/CV-2-Sat.csv'), 1));
 $continuous_events = array_map(function($line) {
-    return str_getcsv($line, ';');
-}, array_slice(file('inc/cv-csvs/CV-3-Ongoing.csv'), 1));
+    return str_getcsv($line, ';', '"', '');
+}, array_slice(file(__DIR__ . '/inc/cv-csvs/CV-3-Ongoing.csv'), 1));
 
 // run all fields through htmlspecialchars to prevent XSS
 function escape_event($event) {
