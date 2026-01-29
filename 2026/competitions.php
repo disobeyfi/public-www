@@ -65,6 +65,15 @@ include "inc/head.inc.php";
                     <p>Don’t get caught. </p>
 
 				</div>
+				
+				<div class='cell large-6'>
+                    <h4>HACKER PUZZLE</h4>
+
+                    <p>The Hacker Puzzle has been finished and all hacker tickets have now been sold! You are free to post your walkthroughs!</p>
+
+                    <p>Read more on the <a href="https://disobey.fi/2026/HackerPuzzle"> Hacker Puzzle main page</a>.</p>
+
+                </div>
 
             </div>
         </section>
