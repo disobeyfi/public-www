@@ -147,12 +147,11 @@ $continuous_events = array_filter($continuous_events, function($event) {
                                 <a href='#saturday'>Saturday</a> |
                                 <a href='#unscheduled'>Continuous</a>
                             </div>
-                        </div>
                     </div>
                     <div class='cell text-left grid-container grid-x grid-padding-x grid-margin-x grid-padding-y grid-margin-y'>
         
                         <div class='cell large-12 text-center'>
-                            <p>As always, our Community Village is composed by a community of  wonderful organizations and associations. Meet them below (in alphabetical order).</p>
+                            <p>As always, our Community Village is composed by a community of wonderful organizations and associations. Meet them below (in alphabetical order).</p>
                         </div>
         
                         <div class='cell large-6'>
