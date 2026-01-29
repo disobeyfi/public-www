@@ -42,7 +42,7 @@ $continuous_events = array_filter($continuous_events, function($event) {
 
 <body class='text-center hide-background subpage'>
 
-    <script> var current_navi_item="program" </script>
+    <script> var current_navi_item="communityvillage" </script>
     <?php include "inc/navigation.inc.php"; ?>
     <?php include "inc/header.inc.php";	?>
 
