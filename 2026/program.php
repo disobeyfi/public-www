@@ -6,7 +6,7 @@ $slug = "program";
 $pagename = "Program";
 include "inc/head.inc.php";
 ?>
-<body class='text-center hide-background subpage program-page'>
+<body class='text-center hide-background subpage'>
 
 <div class="off-canvas-content" data-off-canvas-content>
 
