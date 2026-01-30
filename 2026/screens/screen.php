@@ -61,7 +61,7 @@
           padding: 10px;
           display: flex;
           flex-direction: row;
-          width: 50%;
+          width: 60%;
           background: rgba(0,0,0,0.35);
           border-radius: 6px;
       }
@@ -86,7 +86,7 @@
           background: rgba(50, 50, 50, 0.85);
           border: 2px solid rgba(255,255,255,0.4);
           box-shadow: 0 0 15px rgba(255,255,255,0.3);
-          width: 55%;
+          width: 65%;
       }
       .schedule-item.current .title {
           font-weight: bold;
@@ -212,12 +212,12 @@
           const currentTime = ref(new Date());
           const todays_schedule = ref([]);
 
-          function update_stage_data() {
-            let timetable = { 0: [], 1: [] };
-            fetch('https://disobey.fi/2026/inc/schedule.json')
+          async function update_stage_data() {
+            await fetch('https://disobey.fi/2026/inc/schedule.json')
               .then(response => response.json())
               .then(data => {
                 // console.log("fetching data for", room.value, ", day ", dayIndex);
+                let timetable = { 0: [], 1: [] };
                 let conference_data = data["schedule"]["conference"];
                 conference_data["days"].forEach(day => {
                   // console.log("Checking", day)
@@ -237,21 +237,23 @@
                   };
                 });
                 // console.log("Timetable:", timetable);
-              })
-            // if none of the days in timetable are empty, update schedule_data
-            if (!timetable.some(day => day.length === 0)) {
-              schedule_data.value = timetable;
-            }
-            // console.log("Schedule data:", schedule_data.value)
+                // if none of the days in timetable are empty, update schedule_data
+                if (!Object.values(timetable).some(day => day.length === 0)) {
+                  schedule_data.value = timetable;
+                }
+                // console.log("Schedule data:", schedule_data.value)
+              });
           }
 
-          function update_community_data() {
+          async function update_community_data() {
             let community_timetable = { 0: [], 1: [] };
             let urls = [
-              'https://disobey.fi/2026/inc/cv-csvs/CV-1-Fri.json',
-              'https://disobey.fi/2026/inc/cv-csvs/CV-2-Sat.json'
+              'https://disobey.fi/2026/inc/cv-csvs/CV-1-Fri.csv',
+              'https://disobey.fi/2026/inc/cv-csvs/CV-2-Sat.csv'
             ];
-            urls.forEach((url, dayIndex) => {
+
+            // Use Promise.all to wait for all fetches to complete
+            await Promise.all(urls.map((url, dayIndex) =>
               fetch(url)
                 .then(response => response.text())
                 .then(data => {
@@ -263,8 +265,8 @@
                   lines.forEach(line => {
                     let fields = line.split(';');
                     if (fields.length < 4) return;
-                    // if any field is empty, skip this line
-                    if (fields.some(field => field.trim() === '')) return;
+                    // if any of the first 4 fields is empty, skip this line
+                    if (fields.slice(0, 4).some(field => field.trim() === '')) return;
 
                     let entry = {};
                     starttime = fields[0];
@@ -284,22 +286,22 @@
                     entry["header"] = fields[3] + " by " + fields[2];
                     community_timetable[dayIndex].push(entry);
                   });
-                });
-            });
+                })
+            ));
 
             // if none of the days in community_timetable are empty, update schedule_data
-            if (!community_timetable.some(day => day.length === 0)) {
+            if (!Object.values(community_timetable).some(day => day.length === 0)) {
               schedule_data.value = community_timetable;
             }
           }
 
-          function update_data() {
+          async function update_data() {
             if (room.value != "Community Village") {
               console.log("Updating stage data...");
-              update_stage_data();
+              await update_stage_data();
             } else {
               console.log("Updating community village data...");
-              update_community_data();
+              await update_community_data();
             }
 
             // which day should we show?
@@ -308,7 +310,7 @@
             let currentDayIndex = (currentDate < cutoffDate) ? 0 : 1;
             // if today's schedule has entries (just a precaution), update todays_schedule
             if (schedule_data.value[currentDayIndex].length > 0) {
-              todays_schedule.value = timetable[currentDayIndex];
+              todays_schedule.value = schedule_data.value[currentDayIndex];
             }
           }
 
