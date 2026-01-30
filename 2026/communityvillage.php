@@ -202,7 +202,7 @@ $continuous_events = array_filter($continuous_events, function($event) {
                         </div>
                         <div class='cell large-6'>
                             <h4>SaimaaSec</h4>
-                            <p>Information security community from Lappeenranta. We organise meetups and community events on a regular basis. We welcome anyone interested in information security, whether you are a student, professional or just curious about infosec. Visit us at <a href="https://saimaasec.com/">https://saimaasec.com/</a> </p>
+                            <p>Information security community from Lappeenranta. We organise meetups and community events on a regular basis. We welcome anyone interested in information security, whether you are a student, professional or just curious about infosec. Visit us at <a href="https://saimaasec.fi/">https://saimaasec.fi/</a> </p>
                         </div>
                         <div class='cell large-6'>
                             <h4>Skrolli</h4>
