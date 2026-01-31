@@ -47,7 +47,6 @@
     flex-grow: 0;
     font-size: 18px;
     font-weight: 600;
-    border-right: 1px solid green;
     background-color: black;
 
 }
@@ -55,7 +54,6 @@
 @media (max-width: 768px) {
     #community-program .program-table .row div.time {
         width: 100%;
-        border-right: none;
         padding: 25px 10px 25px 10px;
         line-height: 1;
         border-top: 1px solid rgba(255, 255, 255, 0.15);
@@ -102,7 +100,6 @@
 
 /* sub header */
 #community-program h3 {
-
     margin-bottom: 30px;
     margin-top: 80px;
 }
@@ -113,8 +110,9 @@
     }
 }
 
-#community-program h3:first-of-type {
-    margin-top: 80px;
+/* First section after nav needs less top margin */
+#community-program .cv-section:first-child h3 {
+    margin-top: 30px;
 }
 
 
@@ -122,35 +120,109 @@
     text-align: left;
 }
 
-/* sub nav */
-.community-sub-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0px auto 80px auto;
-
-}
-
-@media screen and (max-width: 768px) {
-    .community-sub-nav {
-        margin: 0px auto 40px auto;
+/* Single column for continuous and villagers when hamburger is visible */
+@media screen and (max-width: 1210px) {
+    #community-program .cell.medium-6,
+    #villagers .cell.large-6 {
+        width: 100%;
+        flex: 0 0 100%;
     }
 }
 
-.community-sub-nav a {
-    font-size: 18px;
-    padding: 0px 0px 1px 0px;
-    margin: 0px 15px;
-    text-transform: uppercase;
-    display: inline-block;
-    /*border-bottom: 2px solid green;*/
-    line-height: 1;
-
+/* Intro section spacing */
+#workshops {
+    margin-bottom: 30px;
 }
 
-@media screen and (max-width: 768px) {
-    .community-sub-nav a {
-        margin: 0px 10px;
+/* Sticky tab navigation */
+.cv-tabs {
+    position: sticky;
+    top: 68px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    margin: 0 -50px 40px -50px;
+    padding: 0;
+    min-height: 55px;
+}
+
+.cv-tabs a {
+    padding: 0 30px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    color: white;
+    border: none;
+    transition: background-color 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cv-tabs a:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+
+.cv-tabs a.active {
+    color: white;
+    background-color: var(--color-orange);
+}
+
+.cv-tabs a:focus-visible {
+    outline: 2px solid white;
+    outline-offset: -2px;
+}
+
+/* Section scroll offset */
+.cv-section {
+    scroll-margin-top: 140px;
+}
+
+#villagers {
+    scroll-margin-top: 140px;
+}
+
+/* When hamburger menu is visible */
+@media screen and (max-width: 1210px) {
+    .cv-tabs {
+        top: 0;
+        margin: 0;
+        padding-right: 55px;
+        height: 55px;
+        align-items: stretch;
+        width: 100vw;
+        margin-left: calc(-50vw + 50%);
+        margin-bottom: 30px;
+    }
+
+    .cv-tabs a {
+        flex: 1;
+        padding: 0 10px;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cv-section,
+    #villagers {
+        scroll-margin-top: 75px;
+    }
+}
+
+/* Very narrow screens */
+@media screen and (max-width: 390px) {
+    .cv-tabs a {
+        padding: 0 5px;
+        font-size: 10px;
     }
 }
 

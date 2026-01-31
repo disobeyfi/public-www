@@ -82,6 +82,11 @@
     box-shadow: 0px -1px 0px rgba(255, 255, 255, 0.15);
 }
 
+.timetable-column a:focus-visible {
+    outline: 2px solid var(--color-orange);
+    outline-offset: -2px;
+}
+
 .main .has-content, .main .column-header {
     background-color: var(--color-dirty-blue);
 }
@@ -129,6 +134,10 @@
         flex: 0 0 100%;
     }
 
+    .timetable-column {
+        border-right: none;
+    }
+
     .empty {
         display: none;
     }
@@ -167,7 +176,7 @@
         left: -9px;
         font-size: 12px;
         z-index: 1;
-        color: rgba(255, 255, 255, 0.5);
+        color: var(--color-dark-blue);
         background-color: var(--color-teal);
         border-radius: 50%;
         padding: 3px 5px;
@@ -321,5 +330,82 @@
 
     .height-28 {
         height: 2100px;
+    }
+}
+
+/* Sticky program navigation */
+.program-tabs {
+    position: sticky;
+    top: 68px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    margin: 0 0 40px 0;
+    padding: 0;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    min-height: 55px;
+}
+
+.program-tabs a {
+    padding: 0 50px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    color: white;
+    border: none;
+    transition: background-color 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.program-tabs a:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+
+.program-tabs a.active {
+    color: white;
+    background-color: var(--color-orange);
+}
+
+.program-tabs a:focus-visible {
+    outline: 2px solid white;
+    outline-offset: -2px;
+}
+
+/* Section scroll offset */
+.program-section {
+    scroll-margin-top: 140px;
+}
+
+/* When hamburger menu is visible */
+@media screen and (max-width: 1210px) {
+    .program-tabs {
+        top: 0;
+        padding-right: 55px;
+        height: 55px;
+        align-items: stretch;
+    }
+
+    .program-tabs a {
+        flex: 1;
+        padding: 0 20px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .program-section {
+        scroll-margin-top: 75px;
     }
 }
