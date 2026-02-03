@@ -26,16 +26,6 @@
 								<a href='img/venue-2026.png'><img id='venue-map' class='lazyload' data-src='img/venue-2026.png' src='img/venue-2026.png'></a>
 								<div id='venue-map-open' class='medium-text-right text-center'><a href='img/venue-2026.png'>Open venue Image</a></div>
 							</div>
-						
-							<div class='cell large-12 medium-text-center'>
-								<a href='img/Venue-CV-Puristamo.png'><img id='community-map' class='lazyload' data-src='img/Venue-CV-Puristamo.png' src='img/Community-final.png'></a>
-								<div id='community-map-open' class='medium-text-right text-center'><a href='img/Venue-CV-Puristamo.png'>Open Community Village - Puristamo Image</a></div>
-							</div>
-
-							<div class='cell large-12 medium-text-center'>
-								<a href='img/Venue-CV_Valssaamo.png'><img id='community-map' class='lazyload' data-src='img/Venue-CV_Valssaamo.png' src='img/Community-final.png'></a>
-								<div id='community-map-open' class='medium-text-right text-center'><a href='img/Venue-CV_Valssaamo.png'>Open Community Village - Valssaamo Image</a></div>
-							</div>
 
 
 							<!-- gmap-->
