@@ -11,6 +11,7 @@ $navigation = "<section class='text-center hidden navigation-bar'>
 	<a data-nav='program'      href='{$baseurl}program{$suffix}'>Program</a>
 	<a data-nav='community-village'	href='{$baseurl}communityvillage{$suffix}'>Community Village</a>
 	<a data-nav='competitions'  href='{$baseurl}competitions{$suffix}'>Competitions</a>
+	<a data-nav='venue'  href='{$baseurl}venue{$suffix}'>Venue</a>
 	<a data-nav='practical'  href='{$baseurl}practical{$suffix}'>Practical</a>
 	<a data-nav='tickets'      href='{$baseurl}tickets{$suffix}'><i class='far fa-ticket show-for-medium' aria-hidden='true'></i> Get Tickets!</a>
 	</section>";
