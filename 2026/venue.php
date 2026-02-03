@@ -17,7 +17,7 @@
 		<div class='full-row clearfix lazyload translucent' >
 				<section class="grid-container cell grid-y cell location" id='workshops' >
 					<div class="cell">
-						<h1>Venue Map</h1>
+						<h1>Venue Maps</h1>
 					</div>
 					<div class='cell text-left grid-container grid-x grid-padding-x grid-margin-x grid-padding-y grid-margin-y'>
 
