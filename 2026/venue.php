@@ -17,19 +17,14 @@
 		<div class='full-row clearfix lazyload translucent' >
 				<section class="grid-container cell grid-y cell location" id='workshops' >
 					<div class="cell">
-						<h1>Venue Maps</h1>
+						<h1>Venue Map</h1>
 					</div>
 					<div class='cell text-left grid-container grid-x grid-padding-x grid-margin-x grid-padding-y grid-margin-y'>
 
 
 							<div class='cell large-12 medium-text-center'>
-								<a href='img/venue_map_2.0.png'><img id='venue-map' class='lazyload' data-src='img/venue_map_2.0.png' src='img/venue_map_2.0.png'></a>
-								<div id='venue-map-open' class='medium-text-right text-center'><a href='img/venue_map_2.0.png'>Open venue Image</a></div>
-							</div>
-
-							<div class='cell large-12 medium-text-center'>
-								<a href='img/Community-final.png'><img id='community-map' class='lazyload' data-src='img/Community-final.png' src='img/Community-final.png'></a>
-								<div id='community-map-open' class='medium-text-right text-center'><a href='img/Community-final.png'>Open Community Village Image</a></div>
+								<a href='img/venue-2026.png'><img id='venue-map' class='lazyload' data-src='img/venue-2026.png' src='img/venue-2026.png'></a>
+								<div id='venue-map-open' class='medium-text-right text-center'><a href='img/venue-2026.png'>Open venue Image</a></div>
 							</div>
 
 
