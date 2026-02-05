@@ -159,8 +159,8 @@ $continuous_events = array_filter($continuous_events, function($event) {
                             <p>Cyber Club Kotka, officially known as Kotkan Kyberturvallisuusinsinööriopiskelijat ry, is the student association for cybersecurity students at XAMK. Our goal is to help students find friends and get to know each other at the very beginning of their studies, support networking within the cybersecurity field, and offer members shared activities and events related to cybersecurity as well as activities beyond the field.</p>
                         </div>
                         <div class='cell large-6'>
-                            <h4>Hacklab</h4>
-                            <p>Do you need tools, place or community to make physical things? Local Hacklab might be your solution. At Disobey we have small electronics workbenches, some 3D printing and all kinds of projects our members have made. Visit us at <a href="https://hacklab.fi/index_en.html">https://hacklab.fi/index_en.html</a> </p>
+                            <h4>Hacklab.fi</h4>
+                            <p>Do you need tools, place or community to make physical things? Your local Hacklab might be your solution. At Disobey we have small electronics workbenches, some 3D printing and all kinds of projects our members have made. Visit us at <a href="https://hacklab.fi/index_en.html">https://hacklab.fi/index_en.html</a> </p>
                         </div>
                             <div class='cell large-6'>
                             <h4>Halko - Hacklab Kuopio ry</h4>
