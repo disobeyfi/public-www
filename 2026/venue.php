@@ -27,6 +27,12 @@
 								<div id='venue-map-open' class='medium-text-right text-center'><a href='img/venue-2026.png'>Open venue Image</a></div>
 							</div>
 
+							<div class='cell large-12 medium-text-center'>
+								<a href='img/Disobey2026-VenueMap-CommunityVillage.png'><img id='community-map' class='lazyload' data-src='img/Community-final.png' src='img/Disobey2026-VenueMap-CommunityVillage.png'></a>
+								<div id='community-map-open' class='medium-text-right text-center'><a href='img/Disobey2026-VenueMap-CommunityVillage.png'>Open Community Village Image</a></div>
+							</div>
+						
+
 
 							<!-- gmap-->
 							<div class='cell '>
