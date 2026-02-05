@@ -37,7 +37,7 @@
           margin-left: auto;
           margin-right: auto;
           padding-bottom: 1vh;
-          height: 18vh;
+          height: 10vh;
           width: auto;
       }
       .stagename {
