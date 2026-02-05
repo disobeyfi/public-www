@@ -96,6 +96,12 @@ include "inc/head.inc.php";
 
 
                 </div>
+				
+	            <!-- Limit -->
+                <div class='cell large-6'>
+                    <h4>Age limit</h4>
+                    <p>Disobey attendees must be at least 18 years old. This is due to alcohol laws; as alcohol is served / sold on the premises, the minimum age for entering the premises during the event is 18 years.</p>
+                </div>
 
                 <!-- photos -->
                 <div class='cell large-6'>
