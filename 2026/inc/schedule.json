@@ -6,7 +6,7 @@
   },
   "schedule": {
     "url": "https://cfp.disobey.fi/disobey-2026/schedule/",
-    "version": "0.6",
+    "version": "0.7",
     "base_url": "https://cfp.disobey.fi",
     "conference": {
       "acronym": "disobey-2026",
@@ -533,7 +533,7 @@
                     "code": "JMJKNL",
                     "public_name": "Jack Fitzsimons",
                     "avatar": "https://cfp.disobey.fi/media/avatars/jack_portrait_nxY2oue.jpeg",
-                    "biography": "Jack is a Security Consultant at Reversec who spends the majority of his time poking at clouds (AWS and Azure) or mainframe things - though not necessarily together.\r\n\r\nHe has previously given talks at Disobey, BSides København, BSides Aarhus, and BSides Oslo.",
+                    "biography": "Jack is a Security Consultant at DNV Cyber who spends the majority of his time poking at clouds (AWS and Azure) or mainframe things - though not necessarily together.\r\n\r\nHe has previously given talks at Disobey, BSides København, BSides Aarhus, and BSides Oslo.",
                     "answers": []
                   }
                 ],
@@ -630,7 +630,7 @@
                 "track": null,
                 "type": "Workshop 180min / 3h",
                 "language": "en",
-                "abstract": "This 3-hour workshop invites participants to act as a DFIR team, investigating an attack against a fictional organization using ChatGPT agents and a custom war game framework.\r\n\r\nIn this CTF type game, participants must return to first principles: working from raw evidence, reasoning, and collaboration to uncover what actually happened and how to react.\r\n\r\nAt the end, team reports are compared against the “ground truth” attack reconstructed by AI.",
+                "abstract": "This 2h 45 min workshop invites participants to act as a DFIR team, investigating an attack against a fictional organization using ChatGPT agents and a custom war game framework.\r\n\r\nIn this CTF type game, participants must return to first principles: working from raw evidence, reasoning, and collaboration to uncover what actually happened and how to react.\r\n\r\nAt the end, team reports are compared against the “ground truth” attack reconstructed by AI.\r\n\r\nTo take part in the workshop, please bring your own laptop and ensure you have a ChatGPT account, which is required for participation.",
                 "recording_license": "",
                 "do_not_record": false,
                 "persons": [
@@ -1334,7 +1334,7 @@
                 "track": null,
                 "type": "Workshop 240min / 4h",
                 "language": "en",
-                "abstract": "Bash isn’t just an interface to your daily laptop - it’s a weapon. In this hands-on workshop, we’ll push bash beyond its typical use, leveraging it for hacking, data processing, automation, and real-world security applications. Whether you’re crafting exploits, analyzing massive datasets, or automating reconnaissance, this session will equip you with the skills to turn bash into your ultimate hacking tool.",
+                "abstract": "Bash isn’t just an interface to your daily laptop - it’s a weapon. In this hands-on workshop, we’ll push bash beyond its typical use, leveraging it for hacking, data processing, automation, and real-world security applications. Whether you’re crafting exploits, analyzing massive datasets, or automating reconnaissance, this session will equip you with the skills to turn bash into your ultimate hacking tool.\r\n\r\nTo take part in the workshop, please bring your own laptop.",
                 "recording_license": "",
                 "do_not_record": false,
                 "persons": [
@@ -1407,7 +1407,7 @@
                 "track": null,
                 "type": "Workshop 120min /2h",
                 "language": "en",
-                "abstract": "Clue: This glorious competition pits the sharpest minds and greatest nerds of this illustrous community (or, whoever want's to participate really...) against each other in a battle of wits. Contestants show their prowess and speed in hitting buzzers as well as their knowledge about modern, ancient and archaic topics ranging from security to pop culture, while the audience revels in the geeky glory.\r\n\r\nAnswer: What is Hacker Jeopardy?",
+                "abstract": "Clue: This glorious competition pits the sharpest minds and greatest nerds of this illustrous community (or, whoever want's to participate really...) against each other in a battle of wits. Contestants show their prowess and speed in hitting buzzers as well as their knowledge about modern, ancient and archaic topics ranging from security to pop culture, while the audience revels in the geeky glory.\r\n\r\nAnswer: What is Hacker Jeopardy?\r\n\r\nPlease arrive immediately when the game begins, as the Hacker Jeopardy teams will be formed at the start on a first-come, first-served basis (we expect available slots to fill quickly). There will be three teams competing, each consisting of three players.",
                 "recording_license": "",
                 "do_not_record": true,
                 "persons": [
