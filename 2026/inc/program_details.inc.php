@@ -1,8 +1,6 @@
 <?php
 
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+// Note: Error reporting is configured in inc/config.php
 
 include("program_data.inc.php");
 
@@ -12,13 +10,13 @@ include("program_data.inc.php");
 
 class TimeTable
 {
-    public $range = NULL;
-    public $time_label_slots = NULL;
+    public array $range = [];
+    public array $time_label_slots = [];
 
     /*-------------------------
      Calculate end time from data
      -----------------------*/
-    function calculateEndTime($data_arrays) {
+    function calculateEndTime(array $data_arrays): string {
         $latest_end = 0;
 
         foreach ($data_arrays as $data) {
@@ -31,10 +29,10 @@ class TimeTable
         return date("H:i", ceil($latest_end / (15 * 60)) * (15 * 60));
     }
 
-    function output($main_day_1, $w1_day_1, $w2_day_1, $w3_day_1, $day_string, $range_start)
+    function output(array $main_day_1, array $w1_day_1, array $w2_day_1, array $w3_day_1, string $day_string, string $range_start): string
     {
 
-        date_default_timezone_set("Europe/London");
+        date_default_timezone_set("Europe/Helsinki");
 
         $range_end = $this->calculateEndTime([$main_day_1, $w1_day_1, $w2_day_1, $w3_day_1]);
         $this->range = range(strtotime($range_start), strtotime($range_end), 15 * 60);
@@ -53,7 +51,7 @@ class TimeTable
     /*-------------------------
      Time Labels
      -----------------------*/
-    function getTimeLabelsColumn()
+    function getTimeLabelsColumn(): string
     {
         $output = "";
         foreach ($this->time_label_slots as $key => $time_string) {
@@ -66,7 +64,7 @@ class TimeTable
     /*-------------------------
      Get Single Column
      -----------------------*/
-    function getColumn($data, $foundation_width, $column_header, $column_class, $column_shorthand, $day_string)
+    function getColumn(array $data, int $foundation_width, string $column_header, string $column_class, string $column_shorthand, string $day_string): string
     {
 
         $output = "";
@@ -117,7 +115,7 @@ class TimeTable
     /*-------------------------
      Get single Slot
      -----------------------*/
-    function getSlotData($time, $data)
+    function getSlotData(int $time, array $data): array|false
     {
         foreach ($data as $key => $value) {
             if ($time == strtotime($value['time'])) {

@@ -1,8 +1,8 @@
 <div class='full-row header-row clearfix  transparent-bg' >
 
-<img src='<?php echo $baseurl; ?>img/orange_accent_left.png' id='orange-accent-left'> <!-- Only for frontpage -->
-<img src='<?php echo $baseurl; ?>img/orange_accent_right.png' id='orange-accent-right'> <!-- Only for frontpage -->
-<img src='<?php echo $baseurl; ?>img/orange_accent_right.png' id='orange-accent-right-2'> <!-- Only for frontpage -->
+<img src='<?php echo $baseurl; ?>img/orange_accent_left.png' id='orange-accent-left' alt=""> <!-- Only for frontpage -->
+<img src='<?php echo $baseurl; ?>img/orange_accent_right.png' id='orange-accent-right' alt=""> <!-- Only for frontpage -->
+<img src='<?php echo $baseurl; ?>img/orange_accent_right.png' id='orange-accent-right-2' alt=""> <!-- Only for frontpage -->
 
 <?php
 /*
@@ -38,12 +38,12 @@
 			<!--- DATE -->
 			<section class="grid-x grid-padding-x grid-margin-x datetime text-center show-for-medium">
 				<div class='cell large-12 large-text-right' id='header-logo-section'>
-					<img id="main-logo" src='<?php echo $baseurl; ?>img/logo.webp'> <!-- Only for frontpage -->
+					<img id="main-logo" src='<?php echo $baseurl; ?>img/logo.webp' alt="Disobey"> <!-- Only for frontpage -->
 				</div>
 			</section>
 			<section class="grid-x grid-padding-x grid-margin-x datetime text-center show-for-small-only">
                 <div class='cell large-12 large-text-right'id='header-logo-mobile-section'>
-					<img id="main-mobile-logo" src='<?php echo $baseurl; ?>img/logo_mobile.webp'>
+					<img id="main-mobile-logo" src='<?php echo $baseurl; ?>img/logo_mobile.webp' alt="Disobey">
 				</div>
 			</section>
 			<section class="grid-x grid-padding-x grid-margin-x datetime text-center">

@@ -16,7 +16,7 @@ include "inc/head.inc.php";
   $(".header-row").append($("#tickets-page-get-ticket"))
 </script>
 
-<section class='container hidden'>
+<section class='container hidden' id='main-content'>
 
     <div class='full-row clearfix lazyload translucent'>
 

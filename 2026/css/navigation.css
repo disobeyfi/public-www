@@ -12,13 +12,13 @@
 
 .navigation-bar a {
     color: white;
-    font-size: 19px;
-    padding: 20px 30px 20px 30px;
+    font-size: 17px;
+    padding: 20px 25px;
     display: inline-block;
     font-weight: 500;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    border: 0px;
+	min-height: 68px;
 }
 
 @media only screen and (max-width: 1210px) {
@@ -53,21 +53,17 @@
     border-color: transparent;
 }
 
+.navigation-bar a:focus-visible {
+    outline: 2px solid var(--color-orange);
+    outline-offset: -2px;
+}
+
 #navigation-home-symbol {
     width: 25px !important;
     height: 25px !important;
     max-width: 25px;
     max-height: 25px;
 }
-
-.navigation-bar a[data-nav='tickets'] {
-    /*background-color: #f000f0;
-    color: white*/
-}
-
-/*.on-red a[data-nav='tickets']{
-	background-color: #d90404;
-}*/
 
 .navigation-bar a[data-nav='tickets'] {
     color: white;
@@ -91,12 +87,32 @@
     top: 10px;
     width: 70px;
     height: 70px;
+    /* Button reset for accessibility */
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    /* Position icon in top right */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+#hamburger:focus {
+    outline: none;
+}
+
+#hamburger:focus-visible {
+    outline: 2px solid var(--color-orange);
+    outline-offset: 2px;
 }
 
 #hamburger svg {
     width: 35px;
     height: 35px;
-    float: right;
     color: white;
 }
 
@@ -132,4 +148,36 @@
 #offCanvas {
     background-color: black;
     z-index: 500;
+}
+
+/* Close button in off-canvas menu */
+#offCanvas .close-button {
+    display: block;
+    width: 100%;
+    text-align: right;
+    padding: 15px 20px;
+    color: var(--color-orange);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background: transparent;
+}
+
+#offCanvas .close-button:hover {
+    color: var(--color-banana);
+}
+
+#offCanvas .close-button:focus-visible {
+    outline: 2px solid var(--color-orange);
+    outline-offset: -2px;
+}
+
+#offCanvas .close-button span {
+    font-size: 24px;
+    vertical-align: middle;
+    margin-right: 5px;
 }

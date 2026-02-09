@@ -1,31 +1,79 @@
 <?php
 
-$baseurl = ($_SERVER['SERVER_NAME'] == "ddr.fi") ? "/disobey_2026/" : "/2026/";
+include __DIR__ . '/inc/config.php';
 
-function poor_mans_markdown($str)
+function render_error_page(int $code, string $message): never
 {
+    global $baseurl, $suffix;
+    http_response_code($code);
+    $slug = "profile";
+    $pagename = "$code Error";
+    ?><!DOCTYPE html>
+<html lang="en">
+<?php include __DIR__ . "/inc/head.inc.php"; ?>
+<body class='text-center hide-background subpage profile'>
+<div class="off-canvas-content" data-off-canvas-content>
+    <script> var current_navi_item = "program" </script>
+    <?php include __DIR__ . "/inc/navigation.inc.php"; ?>
+    <?php include __DIR__ . "/inc/header.inc.php"; ?>
+    <section class='container hidden' id='main-content'>
+        <div class='full-row clearfix lazyload translucent'>
+            <section class="grid-container cell grid-y" id='profile'>
+                <div class="cell">
+                    <h1><?= $code ?></h1>
+                    <h3><?= htmlspecialchars($message, ENT_QUOTES, 'UTF-8') ?></h3>
+                    <br>
+                    <a href="<?= $baseurl ?>program<?= $suffix ?>">&laquo; Back to program</a>
+                </div>
+            </section>
+        </div>
+        <div class='full-row clearfix divider'>&nbsp;</div>
+        <?php include __DIR__ . "/inc/contact.inc.php"; ?>
+        <?php include __DIR__ . "/inc/footer.inc.php"; ?>
+    </section>
+</div>
+</body>
+</html>
+<?php
+    exit;
+}
+
+function poor_mans_markdown(string $str): string
+{
+    // First, escape HTML entities to prevent XSS
+    $str = htmlspecialchars($str, ENT_QUOTES, 'UTF-8');
+
     $patterns = array(
             '/\*\*(.*?)\*\*/',
             '/\_\_(.*?)\_\_/',
-            '/\[(.+?)\]\((.+?)\)/',
+            // Only allow http/https URLs; exclude quotes and parens from URL to prevent attribute injection
+            '/\[(.+?)\]\((https?:\/\/[^\)\s"\'<>]+)\)/',
             '/\\\r\\\n/'
     );
     $replacements = array(
             '<b>\1</b>',
             '<i>\1</i>',
-            '<a href="\2">\1</a>',
+            '<a href="\2" rel="noopener noreferrer" target="_blank">\1</a>',
             '<br/>'
     );
     return preg_replace($patterns, $replacements, $str);
 }
 
 /*-------------------------
- FILE
+ INPUT VALIDATION
  -----------------------*/
-$slug = $_GET['profile'];
+// Check if profile parameter exists
+if (!isset($_GET['profile']) || empty($_GET['profile'])) {
+    render_error_page(400, "Profile name required");
+}
 
-if (empty($_GET['profile'])) die("<h1>404 - Specify profile name</h1>");
-if (empty($slug)) die("<h1>404 - Filenames not specified</h1>");
+// Sanitize slug: only allow alphanumeric, hyphens, and underscores
+$slug = preg_replace('/[^a-zA-Z0-9_-]/', '', $_GET['profile']);
+
+// Check if sanitization removed everything (invalid input)
+if (empty($slug)) {
+    render_error_page(400, "Invalid profile name");
+}
 
 $schedule_data = json_decode(file_get_contents(__DIR__ . "/inc/schedule.json"), true)["schedule"]["conference"]["days"];
 $profile_data = null;
@@ -44,7 +92,7 @@ foreach ($schedule_data as $day) {
 }
 
 if ($profile_data == null) {
-    die("<h1>404- Erroneous slug</h1>");
+    render_error_page(404, "Profile not found");
 }
 
 /*-------------------------
@@ -80,7 +128,7 @@ if (!empty($profile_data["persons"])) {
             $image_url = "{$baseurl}img/bios/{$image_filename}";
         }
 
-        $image = "<img class='speaker-image ' src='{$image_url}' alt='{$name}'/>";
+        $image = "<img class='speaker-image' src='{$image_url}' alt='{$name}' loading='lazy'/>";
 
         $speakers .= "
 			<div class='speaker {$single_css} {$columns} text-left'>
@@ -114,7 +162,7 @@ include "inc/head.inc.php";
     <?php include "inc/navigation.inc.php"; ?>
     <?php include "inc/header.inc.php"; ?>
 
-    <section class='container hidden'>
+    <section class='container hidden' id='main-content'>
         <div class='full-row clearfix lazyload translucent'>
             <section class="grid-container cell grid-y" id='profile'>
 
@@ -139,14 +187,14 @@ include "inc/head.inc.php";
                     if (!empty($profile_data["persons"])) {
                         $bios = "<hr>\n";
                         foreach ($profile_data["persons"] as $key => $value) {
-                            $name = (empty($value["public_name"])) ? "" : $value["public_name"];
-                            $position = (empty($value->position)) ? "" : ", " . $value->position;
-                            $bio = (empty($value["biography"])) ? "" : $value["biography"];
-                            $nick = (empty($value->nick)) ? "" : "<div class='profile-nick'><span class='fieldname'>Nick:</span> {$value->nick}</div>";
+                            $name = (empty($value["public_name"])) ? "" : htmlspecialchars($value["public_name"], ENT_QUOTES, 'UTF-8');
+                            $position = (empty($value->position)) ? "" : ", " . htmlspecialchars($value->position, ENT_QUOTES, 'UTF-8');
+                            $bio = (empty($value["biography"])) ? "" : poor_mans_markdown($value["biography"]);
+                            $nick = (empty($value->nick)) ? "" : "<div class='profile-nick'><span class='fieldname'>Nick:</span> " . htmlspecialchars($value->nick, ENT_QUOTES, 'UTF-8') . "</div>";
 
                             $some = "";
                             if (!empty($value->some)) {
-                                $some = "<div class='profile-some'>{$value->some}</div>";
+                                $some = "<div class='profile-some'>" . htmlspecialchars($value->some, ENT_QUOTES, 'UTF-8') . "</div>";
                             }
 
                             $bios .= "<span class='larger'>{$name}{$position}</span>\n\n";

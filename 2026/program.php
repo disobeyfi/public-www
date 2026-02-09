@@ -14,7 +14,7 @@ include "inc/head.inc.php";
     <?php include "inc/navigation.inc.php"; ?>
     <?php include "inc/header.inc.php"; ?>
 
-    <section class='container hidden'>
+    <section class='container hidden' id='main-content'>
 
         <!-- Program  -->
         <?php /*

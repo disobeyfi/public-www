@@ -1,8 +1,7 @@
 <head>
     <?php
-
-    //Same as in navigation
-    $baseurl = ($_SERVER['SERVER_NAME'] == "ddr.fi") ? "/disobey_2026/" : "/2026/";
+    // Include centralized config (provides $baseurl, $suffix, IS_PRODUCTION)
+    include_once __DIR__ . '/config.php';
 
     $slug = (empty($slug)) ? "" : "/" . $slug;
     $some_title = (empty($pagename)) ? "" : "- " . $pagename;
@@ -46,7 +45,8 @@
     <!-- SCRIPTS -->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"
             integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"
+            integrity="sha256-S6G5lg9rzC1JCAkx3dQFqP2lefkFxwlNVn0rWCOueXA=" crossorigin="anonymous"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"
             integrity="sha256-XJuslujM3cGzRZGiSi/KNSdk58uORO/mmrEQNjVtb5k=" crossorigin="anonymous"></script>
 

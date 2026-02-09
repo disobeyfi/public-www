@@ -1,7 +1,12 @@
 <?php
-$baseurl = ($_SERVER['SERVER_NAME'] == "ddr.fi") ? "/disobey_2026/" : "/2026/";
-$suffix = ($_SERVER['SERVER_NAME'] == "ddr.fi") ? ".php" : "";
+// Include centralized config (provides $baseurl, $suffix, IS_PRODUCTION)
+include_once __DIR__ . '/config.php';
+?>
 
+<!-- Skip to main content link for keyboard accessibility -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<?php
 /*-------------------------
  Navigation
  -----------------------*/
@@ -24,11 +29,20 @@ $navigation = "<section class='text-center hidden navigation-bar'>
 ?>
 
 <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+    <button class="close-button" aria-label="Close menu" type="button" data-close>
+        <span aria-hidden="true">&times;</span> Close
+    </button>
     <?php echo $navigation; ?>
 </div>
 
 <div class='hide-for-large custom'>
-    <div id="hamburger" data-toggle="offCanvas"><a href='#'><i class="fas fa-bars"></i></a></div>
+    <button id="hamburger"
+            data-toggle="offCanvas"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="offCanvas">
+        <i class="fas fa-bars" aria-hidden="true"></i>
+    </button>
 </div>
 
 <div class='show-for-large custom'>
@@ -39,5 +53,18 @@ $navigation = "<section class='text-center hidden navigation-bar'>
   $(document).ready(function () {
     $(".navigation-bar a").removeClass("current")
     $(".navigation-bar a[data-nav='" + current_navi_item + "']").addClass("current")
+
+    // Toggle aria-expanded for accessibility
+    $('#hamburger').on('click', function() {
+      var expanded = $(this).attr('aria-expanded') === 'true';
+      $(this).attr('aria-expanded', !expanded);
+      $(this).attr('aria-label', expanded ? 'Open navigation menu' : 'Close navigation menu');
+    });
+
+    // Also update when Foundation closes the off-canvas
+    $(document).on('closed.zf.offCanvas', function() {
+      $('#hamburger').attr('aria-expanded', 'false');
+      $('#hamburger').attr('aria-label', 'Open navigation menu');
+    });
   });
 </script>

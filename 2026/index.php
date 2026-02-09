@@ -1,7 +1,5 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+include __DIR__ . '/inc/config.php';
 ?><!DOCTYPE html>
 <html lang="en">
 
@@ -20,7 +18,7 @@ error_reporting(E_ALL);
 
 <script> var current_navi_item = "" </script>
 <?php include "inc/navigation.inc.php"; ?>
-<section class='container hidden'>
+<section class='container hidden' id='main-content'>
 
     <div class='full-row top-bar'></div>
     <!--- HEADER -->

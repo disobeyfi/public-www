@@ -12,7 +12,7 @@ include "inc/head.inc.php";
 <?php include "inc/navigation.inc.php"; ?>
 <?php include "inc/header.inc.php"; ?>
 
-<section class='container hidden'>
+<section class='container hidden' id='main-content'>
 
     <!-- About -->
     <div class='full-row clearfix lazyload translucent'>

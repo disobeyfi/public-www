@@ -7,22 +7,28 @@
             </div>
             <div class='cell some'>
 
-                <a href="https://facebook.com/disobeyfi" target="_blank"><i class="fab fa-facebook-f"></i>
+                <a href="https://facebook.com/disobeyfi" target="_blank" rel="noopener noreferrer" aria-label="Disobey on Facebook">
+                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
                 </a>
 
-                <a href="https://instagram.com/disobey_fi" target="_blank"><i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.youtube.com/channel/UCOtuVFYdy-Bu0zQ0rRyhQzg" target="_blank"><i
-                            class="fab fa-youtube"></i>
+                <a href="https://instagram.com/disobey_fi" target="_blank" rel="noopener noreferrer" aria-label="Disobey on Instagram">
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
                 </a>
 
-                <a href="https://bsky.app/profile/disobeyfi.bsky.social" target="_blank"><img
-                            src="<?php echo $baseurl; ?>img/logo_bluesky.svg" alt="Bluesky" class="image-link"></a>
-
-                <a href="https://discord.gg/S7eMF3TQCj" target="_blank"><i class="fab fa-discord"></i>
+                <a href="https://www.youtube.com/channel/UCOtuVFYdy-Bu0zQ0rRyhQzg" target="_blank" rel="noopener noreferrer" aria-label="Disobey on YouTube">
+                    <i class="fab fa-youtube" aria-hidden="true"></i>
                 </a>
 
-                <a href="https://tickets.disobey.fi/" target="_blank"><i class="fas fa-shopping-cart"></i>
+                <a href="https://bsky.app/profile/disobeyfi.bsky.social" target="_blank" rel="noopener noreferrer" aria-label="Disobey on Bluesky">
+                    <img src="<?php echo $baseurl; ?>img/logo_bluesky.svg" alt="" class="image-link" aria-hidden="true" loading="lazy">
+                </a>
+
+                <a href="https://discord.gg/S7eMF3TQCj" target="_blank" rel="noopener noreferrer" aria-label="Disobey Discord server">
+                    <i class="fab fa-discord" aria-hidden="true"></i>
+                </a>
+
+                <a href="https://tickets.disobey.fi/" target="_blank" rel="noopener noreferrer" aria-label="Buy tickets">
+                    <i class="fas fa-shopping-cart" aria-hidden="true"></i>
                 </a>
 
                 <?php /*
@@ -38,8 +44,9 @@
                 contact@disobey.fi
             </div>
             <div id='powered-by' class='cell contact-row'>
-                Disobey is powered by <a class='image-link' href="https://upcloud.com/"><img
-                            src="<?php echo $baseurl; ?>img/upcloud.png" alt="Upcloud"/></a>
+                Disobey is powered by <a class='image-link' href="https://upcloud.com/" target="_blank" rel="noopener noreferrer" aria-label="UpCloud - Cloud hosting provider">
+                    <img src="<?php echo $baseurl; ?>img/upcloud.png" alt="UpCloud" loading="lazy"/>
+                </a>
             </div>
             <div class='cell contact-row'>
                 <a href='<?php echo "{$baseurl}privacy{$suffix}"; ?>' class='red'>Privacy policy</a>

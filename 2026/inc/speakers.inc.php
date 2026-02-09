@@ -5,7 +5,7 @@
 
 $schedule_data = json_decode(file_get_contents(__DIR__ . "/schedule.json"), true)["schedule"]["conference"];
 
-function checkIfNameExists( $name ){
+function checkIfNameExists( string $name ): bool {
 
 	global $speakers;
 	foreach( $speakers as $speaker ){
@@ -13,10 +13,10 @@ function checkIfNameExists( $name ){
 			return true;
 		}
 	}
-
+	return false;
 }
 
-function getSpeakersData( $roomname, $dayindex ){
+function getSpeakersData( string $roomname, int $dayindex ): void {
 
 	global $schedule_data, $speakers;
 
@@ -55,8 +55,6 @@ getSpeakersData("Terminal Stage", 2);
 getSpeakersData("Security Theater", 2);
 
 
-//print_r($speakers);
-
 ?>
 <!--- SPEAKERS -->
 <div class='full-row clearfix lazyload translucent'  data-src='img/laptop.jpg' style='background-image:url( "" );'>
@@ -91,7 +89,7 @@ getSpeakersData("Security Theater", 2);
 					$image_url = "img/bios/default.png";
 				}
 
-				$image 	= "<img class='speaker-image lazyload red' data-src='{$image_url}' src='img/bios/default.png' alt='{$value['name']}' />";
+				$image 	= "<img class='speaker-image lazyload red' data-src='{$image_url}' src='img/bios/default.png' alt='{$value['name']}' loading='lazy' />";
 
 
 				$ratio 	= ( $image_name != "default" )? "large-2" : "large-2"; // large-4 id for no-image
@@ -101,7 +99,7 @@ getSpeakersData("Security Theater", 2);
 							<div class='cell {$ratio} small-6' >
 								<a class='speaker-link' href='{$url}'>
 									{$image}
-									<h1>{$value['name']}</h1>
+									<h3 class='speaker-name'>{$value['name']}</h3>
 								</a>
 							</div>
 				";
