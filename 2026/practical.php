@@ -69,7 +69,8 @@ include "inc/head.inc.php";
                 <!-- Ticket pregrab -->
                 <div class='cell large-6'>
                     <h4>Ticket pre-exchange</h4>
-                    <p>If you want to evade the queues on Friday, you can grab your wristband in advance on Thursday! If you want to do this, please come to Lasipiha at Kaapelitehdas on Thu between 10:30-18:00. Think of your wide smile as you glide straight into the event area on Friday while others are waiting to get their wristbands.</p>
+                    <p>If you want to evade the queues on Friday, you can grab your wristband in advance on Thursday! If you want to do this, please come to Lasipiha at Kaapelitehdas on Thu between 10:30-18:00. </p>
+					<p>Just imagine your wide smile as you glide straight into the event area on Friday while others are waiting to get their wristbands!</p>
                 </div>
 				
                 <!-- Travel -->
