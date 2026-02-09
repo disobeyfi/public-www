@@ -66,6 +66,12 @@ include "inc/head.inc.php";
                             width="90%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
 
+                <!-- Ticket pregrab -->
+                <div class='cell large-6'>
+                    <h4>Ticket pre-exchange</h4>
+                    <p>If you want to evade the queues on Friday, you can grab your wristband in advance on Thursday! If you want to do this, please come to Lasipiha at Kaapelitehdas on Thu between 10:30-18:00. Think of your wide smile as you glide straight into the event area on Friday while others are waiting to get their wristbands.</p>
+                </div>
+				
                 <!-- Travel -->
                 <div class='cell large-6'>
                     <h4>Travel</h4>
