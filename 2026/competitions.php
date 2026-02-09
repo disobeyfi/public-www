@@ -56,6 +56,20 @@ include "inc/head.inc.php";
                     <p>Wanting to start but unsure about something? Join the badge channel in <a href="https://discord.gg/S7eMF3TQCj">our Discord</a> and we'll talk stuff through with you!</p>
 
                 </div>
+				<div class='cell large-6'>
+					<h4>DISOBEY CTF</h4>
+					<p>In a CTF, teams compete in solving hacker-minded challenges of varying types and skill levels. More solves, more points. Most points, victory.</p>
+					<br><br>
+					<ul style="font-family: monospace; font-size:16px;">
+                    	<li>0x0000: The maximum team size is 10 people.</li>
+    					<li>0x0027: The CTF is for event participants only, unfortunately participating outside the event won't be possible. This is due to resources and the physical nature of some challenges.</li>
+                        <li>0x006a: scoring method will be dynamic, i.e., "the more solves the challenge has, the less points it's worth".</i>.</li>
+                        <li>0x017e: A(t least a) wired network connection (1000BASE-T) will be provided, so you might want to prepare for that.</li>
+                        <li>0x02ac: The CTF starts on Friday afternoon and ends on Saturday in the evening. Details TBA.</li>
+                        <li>0xff8d: The winners are announced and objects are given at the Awards Ceremony on Saturday.</li>
+                    </ul>
+				</div>
+				
                 <div class='cell large-6'>
 					<h4>UNAUTHORIZED ACCESS COMPETITION</h4>
 
