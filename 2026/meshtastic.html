@@ -13,7 +13,8 @@
         <li>LoRa preset: SHORT_FAST</li>
         <li>Hop limit: 3</li>
         <li>All things MQTT: No</li>
-        <li>Disable telemetry and use a reasonable nodeinfo broadcast interval (e.g. 3h)</li>
+        <li>Disable telemetry (or use a large interval, e.g. 3h)</li>
+        <li>Use a reasonable nodeinfo broadcast interval (e.g. 3h)</li>
     </ul>
     <h2>Channels</h2>
     <h3>Channel 0: "Disobey"</h3>
@@ -42,7 +43,8 @@
 PORT="/dev/ttyUSB0"
 
 meshtastic -s $PORT \
-  --set device.node_info_broadcast_secs 10800
+  --set device.node_info_broadcast_secs 10800 \
+  --set telemetry.device_telemetry_enabled false
 meshtastic -s $PORT \
   --set lora.use_preset true \
   --set lora.modem_preset SHORT_FAST
