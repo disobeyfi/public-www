@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meshtastic @ Disobey 2026</title>
+</head>
+<body>
+    <h1>Meshtastic @ Disobey 2026</h1>
+    <h2>Settings</h2>
+    <ul>
+        <li>Region: EU_868</li>
+        <li>LoRa preset: SHORT_FAST</li>
+        <li>Hop limit: 3</li>
+        <li>All things MQTT: No</li>
+        <li>Disable telemetry and use a reasonable nodeinfo broadcast interval (e.g. 3h)</li>
+    </ul>
+    <h2>Channels</h2>
+    <h3>Channel 0: "Disobey"</h3>
+    General event chat
+    <ul>
+        <li>Name: Disobey</li>
+        <li>PSK (base64): ZXZlcnl0aGluZ2lzYm9yaw==</li>
+        <li>Uplink enabled: false</li>
+        <li>Downlink enabled: false</li>
+        <li>Position precision: 0 (position disabled)</li>
+    </ul>
+    <h3>Channel 1: "MeshChat"</h3>
+    Mesh-related chat, connection tests, etc.
+    <ul>
+        <li>Name: MeshChat</li>
+        <li>PSK (base64): RElTT0JFWTIwMjYtTUVTSA==</li>
+        <li>Uplink enabled: false</li>
+        <li>Downlink enabled: false</li>
+        <li>Position precision: 0 (position disabled)</li>
+    </ul>
+    <h3>Channel URL and QR code</h3>
+    Complete URL (includes all channels): https://meshtastic.org/e/#Ch0SEGV2ZXJ5dGhpbmdpc2JvcmsaB0Rpc29iZXk6AAoeEhBESVNPQkVZMjAyNi1NRVNIGghNZXNoQ2hhdDoAEhsIARAGGPoBIAsoBTgDQANIAVAbaAHABgHIBgE
+    <img src="img/meshtastic-qr.png" alt="Meshtastic QR code" width="600px">
+    <h2>Python CLI script</h2>
+    <pre>
+PORT="/dev/ttyUSB0"
+
+meshtastic -s $PORT \
+  --set device.node_info_broadcast_secs 10800
+meshtastic -s $PORT \
+  --set lora.use_preset true \
+  --set lora.modem_preset SHORT_FAST
+meshtastic -s $PORT \
+  --set lora.ignore_mqtt true \
+  --set lora.config_ok_to_mqtt false \
+  --set device.role CLIENT \
+  --set mqtt.enabled false
+
+meshtastic -s $PORT --ch-index 0 \
+  --ch-set name Disobey \
+  --ch-set psk base64:ZXZlcnl0aGluZ2lzYm9yaw==  \
+  --ch-set uplink_enabled false \
+  --ch-set downlink_enabled false \
+  --ch-set module_settings.position_precision 0
+
+meshtastic -s $PORT --ch-index 1 \
+  --ch-set name MeshChat \
+  --ch-set psk base64:RElTT0JFWTIwMjYtTUVTSA== \
+  --ch-set uplink_enabled false \
+  --ch-set downlink_enabled false \
+  --ch-set module_settings.position_precision 0
+
+    </pre>
+</body>
+</html>
