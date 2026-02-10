@@ -101,7 +101,7 @@ include "inc/head.inc.php";
                             href="https://github.com/disobeyfi/badge-2018">2018 GitHub</a>, <a
                             href="https://github.com/disobeyfi/badge-2017">2017 GitHub</a>.</p>
 
-                <p>Important: Please note that badges were mainly sold along the tickets. There may or may not be some left to sell at the event.</p>
+                <p>Important: Please note that badges were mainly sold along with the tickets. There may or may not be some left to sell at the event.</p>
             </div>
         </section>
     </div><!-- row end -->
