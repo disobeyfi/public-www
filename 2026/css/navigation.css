@@ -83,10 +83,10 @@
 #hamburger {
     position: fixed;
     z-index: 9999;
-    right: 10px;
-    top: 10px;
-    width: 70px;
-    height: 70px;
+    right: 0;
+    top: 0;
+    width: 55px;
+    height: 55px;
     /* Button reset for accessibility */
     background: none;
     border: none;
