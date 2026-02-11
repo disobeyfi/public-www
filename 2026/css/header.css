@@ -173,6 +173,10 @@ body.subpage .ident {
     }
 }
 
+#header-logo-section {
+    text-align: center;
+}
+
 /*-------------------------
  DAte and time
  -----------------------*/
