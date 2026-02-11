@@ -7,14 +7,22 @@
 </head>
 <body>
     <h1>Meshtastic @ Disobey 2026</h1>
+    Design principles, i.e. "why these settings?":
+    <ul>
+        <li>Short range, at the event or at the immediate surroundings.</li>
+        <li>As little extra traffic (e.g. telemetry) as possible to save airtime.</li>
+        <li>No position broadcast, because we're inside a building any way.</li>
+        <li>No MQTT, because this is a) kind of a test and b) an event thing, not an internet thing</li>
+    </ul>
     <h2>Settings</h2>
     <ul>
         <li>Region: EU_868</li>
         <li>LoRa preset: SHORT_FAST</li>
-        <li>Hop limit: 3</li>
+        <li>Hop limit: 3 (max)</li>
         <li>All things MQTT: No</li>
-        <li>Disable telemetry (or use a large interval, e.g. 3h)</li>
+        <li>Disable telemetry (or at least use a large interval, e.g. 3h)</li>
         <li>Use a reasonable nodeinfo broadcast interval (e.g. 3h)</li>
+        <li>Disable (at least smart) position broadcast</li>
     </ul>
     <h2>Channels</h2>
     <h3>Channel 0: "Disobey"</h3>
@@ -44,7 +52,10 @@ PORT="/dev/ttyUSB0"
 
 meshtastic -s $PORT \
   --set device.node_info_broadcast_secs 10800 \
-  --set telemetry.device_telemetry_enabled false
+  --set telemetry.device_telemetry_enabled false \
+  --set position.position_broadcast_smart_enabled false \
+  --set position.fixed_position false \
+  --remove-position
 meshtastic -s $PORT \
   --set lora.use_preset true \
   --set lora.modem_preset SHORT_FAST
@@ -67,7 +78,6 @@ meshtastic -s $PORT --ch-index 1 \
   --ch-set uplink_enabled false \
   --ch-set downlink_enabled false \
   --ch-set module_settings.position_precision 0
-
     </pre>
 </body>
 </html>
