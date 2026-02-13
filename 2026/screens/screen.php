@@ -1,6 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <?php
+    switch ($_GET['stage']) {
+        case 'terminal':
+            $stage_name = "Terminal Stage";
+            $bgimage = "terminal.png";
+            break;
+        case 'forum':
+            $stage_name = "Security Forum";
+            $bgimage = "forum.png";
+            break;
+        case 'theater':
+            $stage_name = "Security Theater";
+            $bgimage = "theater.png";
+            break;
+        case 'community':
+            $stage_name = "Community Village";
+            $bgimage = "community.png";
+            break;
+        default:
+            exit;
+    }
     $is_portrait = isset($_GET['portrait']) && $_GET['portrait'] === 'true';
   ?>
   <head>
@@ -11,7 +31,7 @@
     <style>
       html {
           background: #741010ff;
-          background-image: url('MainStage_Red.jpg');
+          background-image: url('img/<?php echo $bgimage; ?>');
           background-position: center;
           background-size: cover;
           background-repeat: no-repeat;
@@ -172,24 +192,6 @@
     </style>
   </head>
   <body<?php if ($is_portrait) echo ' class="portrait"'; ?>>
-    <?php
-      switch ($_GET['stage']) {
-          case 'terminal':
-              $stage_name = "Terminal Stage";
-              break;
-          case 'forum':
-              $stage_name = "Security Forum";
-              break;
-          case 'theater':
-              $stage_name = "Security Theater";
-              break;
-          case 'community':
-              $stage_name = "Community Village";
-              break;
-          default:
-              exit;
-      }
-      ?>
     <img src="logo.webp" alt="Disobey Logo" width="100%" class="logo"/>
     <div id="app">
       <h1 class='stagename'>{{ room }}</h1>
