@@ -309,7 +309,7 @@
             // which day should we show?
             let currentDate = new Date();
             let cutoffDate = new Date('2026-02-14T00:00:00+02:00');
-            let currentDayIndex = (currentDate < cutoffDate) ? 0 : 1;
+            let currentDayIndex = (currentDate < cutoffDate) ? 1 : 1;
             // if today's schedule has entries (just a precaution), update todays_schedule
             if (schedule_data.value[currentDayIndex].length > 0) {
               todays_schedule.value = schedule_data.value[currentDayIndex];
