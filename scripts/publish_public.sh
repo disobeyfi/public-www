@@ -91,7 +91,7 @@ git reset --hard "${PUBLIC_REMOTE}/${PUBLIC_BRANCH}" >/dev/null 2>&1
 if [[ "${PUSH_ONLY}" -eq 0 ]]; then
   echo "==> Cherry-picking ${RANGE} onto ${PUBLIC_LOCAL_BRANCH}…"
   set +e
-  git cherry-pick ${RANGE}
+  git cherry-pick --empty=drop ${RANGE}
   CHERRYPICK_STATUS=$?
   set -e
 
