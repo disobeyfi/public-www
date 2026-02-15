@@ -129,20 +129,21 @@ class TimeTable
 
 
 ?>
-<div class='schedule-list-container schedule-details text-center'>
-    <h4 class="text-center" id="top">Friday 13th</h4>
-    <!-- <div id='venue-map' class='medium-text-right text-center'><a href='practical.php'>See Venue map</a></div> -->
+
+<nav class='program-tabs' id='program-tabs'>
+    <a href='#friday' class='active'>Friday</a>
+    <a href='#saturday'>Saturday</a>
+</nav>
+
+<div id='friday' class='schedule-list-container schedule-details text-center program-section'>
+    <h4 class="text-center">Friday 13th</h4>
     <?php
     $timetable = new TimeTable();
     echo $timetable->output($main_day_1, $w1_day_1, $w2_day_1, $w3_day_1, "Fri", "11:30");
     ?>
 </div>
 
-<!-- Program day 1 -->
-
-
-<!-- Program day 2 -->
-<div class='schedule-list-container schedule-details text-center'>
+<div id='saturday' class='schedule-list-container schedule-details text-center program-section'>
     <h4 class="text-center">Saturday 14th</h4>
     <?php
     echo $timetable->output($main_day_2, $w1_day_2, $w2_day_2, $w3_day_2, "Sat", "10:00");
@@ -153,4 +154,30 @@ class TimeTable
   $("td.time").each(function () {
     $(this).html($(this).html().replace("-", "<span class='hide-for-small-only'> - </span><span class='show-for-small-only'><br></span>"))
   })
+</script>
+
+<script>
+(function() {
+    const tabs = document.querySelectorAll('.program-tabs a');
+    const sections = ['friday', 'saturday'];
+
+    function updateActiveTab() {
+        const scrollPos = window.scrollY + 150;
+
+        let current = sections[0];
+        for (const id of sections) {
+            const section = document.getElementById(id);
+            if (section && section.offsetTop <= scrollPos) {
+                current = id;
+            }
+        }
+
+        tabs.forEach(tab => {
+            tab.classList.toggle('active', tab.getAttribute('href') === '#' + current);
+        });
+    }
+
+    window.addEventListener('scroll', updateActiveTab);
+    updateActiveTab();
+})();
 </script>
