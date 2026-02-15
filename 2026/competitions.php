@@ -95,6 +95,50 @@ include "inc/head.inc.php";
 
     <div class='full-row clearfix divider'>&nbsp;</div>
 
+    <!-- CTF results -->
+    <div class='full-row clearfix lazyload translucent'>
+        <section class="grid-container cell grid-y cell location" id='theme'>
+            <div class="cell">
+                <h4 class="red">CTF Top 20</h4>
+            </div>
+            <div class='cell'>
+                <table style='width: 100%; margin: 20px auto; text-align: left;'>
+                    <thead style='color: white;'>
+                        <tr>
+                            <th style='text-align: center;'>Place</th>
+                            <th style='text-align: center;'>Team Name</th>
+                            <th style='text-align: center;'>Points</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>1</td><td style='text-align: left;'>minions, tonight we steal the moon</td><td>2653</td></tr>
+                        <tr><td>2</td><td style='text-align: left;'>Vetomiehet</td><td>2197</td></tr>
+                        <tr><td>3</td><td style='text-align: left;'>Only here for the free beer</td><td>2117</td></tr>
+                        <tr><td>4</td><td style='text-align: left;'>#east</td><td>1768</td></tr>
+                        <tr><td>5</td><td style='text-align: left;'>H-T8</td><td>1673</td></tr>
+                        <tr><td>6</td><td style='text-align: left;'>cockmasters</td><td>1412</td></tr>
+                        <tr><td>7</td><td style='text-align: left;'>2Dev4Ops</td><td>1096</td></tr>
+                        <tr><td>8</td><td style='text-align: left;'>JYVSECTEC & Friends</td><td>1029</td></tr>
+                        <tr><td>9</td><td style='text-align: left;'>monad</td><td>776</td></tr>
+                        <tr><td>10</td><td style='text-align: left;'>Hevosen Puhelinnumero</td><td>769</td></tr>
+                        <tr><td>11</td><td style='text-align: left;'>a</td><td>744</td></tr>
+                        <tr><td>12</td><td style='text-align: left;'>botanics</td><td>613</td></tr>
+                        <tr><td>13</td><td style='text-align: left;'>Roima</td><td>470</td></tr>
+                        <tr><td>14</td><td style='text-align: left;'>We_0wn_Y0u</td><td>423</td></tr>
+                        <tr><td>15</td><td style='text-align: left;'>Apinat</td><td>390</td></tr>
+                        <tr><td>16</td><td style='text-align: left;'>@salutyao</td><td>348</td></tr>
+                        <tr><td>17</td><td style='text-align: left;'>The_Hamsters_Of_Darkness</td><td>336</td></tr>
+                        <tr><td>18</td><td style='text-align: left;'>Tiimin nimi</td><td>318</td></tr>
+                        <tr><td>19</td><td style='text-align: left;'>team riippakivi</td><td>300</td></tr>
+                        <tr><td>20</td><td style='text-align: left;'>Oulun ryyppyrinki</td><td>264</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+
+    <div class='full-row clearfix divider'>&nbsp;</div>
+
     <?php include "inc/contact.inc.php"; ?>
 
     <?php include "inc/footer.inc.php"; ?>
